@@ -26,6 +26,10 @@ nav .current { text-decoration: underline; }
 
 .post-summary-hero .post-summary-content .post-summary-meta { color: #0d2340; font-size: .8em; margin-bottom: 7px; margin-top: 0; }
 
+.post-summary-hero .post-summary-content .post-summary-player { background-color: #fff; border-radius: 5px; padding: 10px; display: flex; align-items: center; margin-bottom: 20px; }
+
+.post-summary-hero .post-summary-content .post-summary-player audio { flex-grow: 1; margin: 0 10px; }
+
 .post-summary-hero .post-summary-content .post-summary-show-notes { color: #0d2340; }
 
 .post-summary .post-summary-content { display: flex; border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 20px; }
