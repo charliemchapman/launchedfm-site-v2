@@ -15,7 +15,7 @@ title: Home
         <p class="post-summary-meta">
           {{ post.date | date_to_string }} · {{ post.duration }}
         </p>
-        <img src="{{ post.imageUrl }}" />
+        <img src="{{ post.imageUrl }}" height="100"/>
         <p class="post-summary-subtitle">
           {{ post.subtitle }}
         </p>
@@ -28,7 +28,7 @@ title: Home
   {% else %}
     <div class="post-summary">
       <div class="post-summary-content">
-        <img src="{{ post.imageUrl }}" />
+        <img src="{{ post.imageUrl }}" height="100" />
         <div>
           <a href="{{ post.url }}">
             {{ post.title }}
