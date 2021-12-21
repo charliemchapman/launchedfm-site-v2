@@ -1,13 +1,39 @@
 body { margin: 0; }
 
+body a { text-decoration: none; }
+
+body a:hover { text-decoration: underline; }
+
 nav { height: 102px; background-color: #1f4373; display: flex; align-items: center; justify-content: end; }
 
-nav a { color: white; text-decoration: none; padding: 20px 20px; }
+nav a { color: white; padding: 20px 20px; }
 
-nav a:last-child { margin-right: 30px; }
-
-nav a:hover { text-decoration: underline; }
+nav a:last-of-type { margin-right: 30px; }
 
 nav .current { text-decoration: underline; }
+
+.post-summary-content { margin-left: auto; margin-right: auto; max-width: 770px; }
+
+.post-summary-hero { background-color: #2e62a6; color: white; margin-bottom: 20px; }
+
+.post-summary-hero .post-summary-content { padding-top: 20px; padding-bottom: 20px; }
+
+.post-summary-hero .post-summary-content h2 { margin-top: 0px; margin-bottom: 5px; }
+
+.post-summary-hero .post-summary-content h2 a { font-size: 2rem; color: white; }
+
+.post-summary-hero .post-summary-content img { height: 100px; margin-right: 20px; }
+
+.post-summary-hero .post-summary-content .post-summary-meta { color: #0d2340; font-size: .8em; margin-bottom: 7px; margin-top: 0; }
+
+.post-summary-hero .post-summary-content .post-summary-show-notes { color: #0d2340; }
+
+.post-summary .post-summary-content { display: flex; border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 20px; }
+
+.post-summary .post-summary-content img { height: 100px; margin-right: 20px; }
+
+.post-summary .post-summary-content a { color: #1f4373; font-size: 1.3rem; }
+
+.post-summary .post-summary-content p { font-size: .8em; margin-bottom: 7px; margin-top: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
