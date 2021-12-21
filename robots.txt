@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://v2.launchedfm.com/sitemap.xml
