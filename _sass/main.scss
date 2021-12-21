@@ -1,3 +1,29 @@
-.current {
-    color: red;
+body {
+    margin: 0;
+}
+
+nav {
+    height: 102px;
+    background-color: #1f4373;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    a:last-child {
+        margin-right: 30px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .current {
+        text-decoration: underline;
+    }
 }
