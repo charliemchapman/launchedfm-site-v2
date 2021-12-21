@@ -15,7 +15,10 @@ title: Home
         <p class="post-summary-meta">
           {{ post.date | date_to_string }} · {{ post.duration }}
         </p>
-        <img src="{{ post.imageUrl }}" height="100"/>
+        <div class="post-summary-player">
+          <img src="{{ post.imageUrl }}" height="100"/>
+          <audio src="{{ post.audioUrl }}" controls></audio>
+        </div>
         <p class="post-summary-subtitle">
           {{ post.subtitle }}
         </p>

@@ -68,6 +68,20 @@ nav {
             margin-top: 0;
         }
 
+        .post-summary-player {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            audio {
+                flex-grow: 1;
+                margin: 0 10px;
+            }
+        }
+
         .post-summary-show-notes {
             color: #0d2340;
         }
