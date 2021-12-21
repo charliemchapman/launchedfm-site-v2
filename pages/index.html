@@ -4,11 +4,43 @@ title: Home
 ---
 
 {% for post in site.posts %}
-  <div style="margin-bottom: 20px;">
-    <div style="display: flex;">
-      <img src="{{ post.imageUrl }}" height="75" />
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% if post == site.posts.first %}
+    <div class="post-summary-hero">
+      <div class="post-summary-content">
+        <h2>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        <p class="post-summary-meta">
+          {{ post.date | date_to_string }} · {{ post.duration }}
+        </p>
+        <img src="{{ post.imageUrl }}" />
+        <p class="post-summary-subtitle">
+          {{ post.subtitle }}
+        </p>
+        <p>
+        <a class="post-summary-show-notes" href="{{ post.url }}">
+          Show Notes
+        </a>
+      </div>
     </div>
-    {{ post.subtitle }}
-  </div>
+  {% else %}
+    <div class="post-summary">
+      <div class="post-summary-content">
+        <img src="{{ post.imageUrl }}" />
+        <div>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+          <p class="post-summary-meta">
+            {{ post.date | date_to_string }} · {{ post.duration }}
+          </p>
+          <p class="post-summary-subtitle">
+            {{ post.subtitle }}
+          <p>
+        </div>
+      </div>
+    </div>
+  {% endif %}
 {% endfor %}
