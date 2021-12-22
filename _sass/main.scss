@@ -97,10 +97,6 @@ nav {
             }
         }
 
-        img {
-            margin-right: 20px;
-        }
-
         .post-summary-meta {
             color: #0d2340;
             font-size: .8em;
@@ -115,6 +111,10 @@ nav {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
+
+            img {
+                margin-right: 20px;
+            }
 
             audio {
                 flex-grow: 1;
@@ -189,6 +189,35 @@ nav {
     span.next, span.previous {
         background-color: #c8daf1;
         color: #677180;
+    }
+}
+
+.post-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.post-meta {
+    font-size: .8em;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.post-player {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    img {
+        margin-right: 20px;
+    }
+
+    audio {
+        flex-grow: 1;
+        margin: 0 10px;
     }
 }
 

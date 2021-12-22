@@ -1,9 +1,9 @@
 ---
 title: "25: Dilims - Eliz Kılıç"
-subtitle: "Eliz Kılıç joins the show to talk about her wonderful timezone app Dilims."
+description: "Eliz Kılıç joins the show to talk about her wonderful timezone app Dilims."
 duration: "34:24"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/9a0d9576-bf99-430d-83b9-772075ef2e5c.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9a0d9576-bf99-430d-83b9-772075ef2e5c/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9a0d9576-bf99-430d-83b9-772075ef2e5c/cover.jpg?v=1"
 ---
 
 <p>Eliz Kılıç joins the show to talk about her wonderful timezone app Dilims.</p>

@@ -16,7 +16,7 @@ episodes.each { |episode|
     subtitle = episode.search('itunes|subtitle').text
     duration = episode.search('itunes|duration').text
     audioUrl = episode.search('enclosure').attr('url')
-    imageUrl = episode.search('itunes|image').attr('href')
+    image = episode.search('itunes|image').attr('href')
     content = episode.search('content|encoded').text.strip
 
     pubDateText = episode.search('pubDate').text
@@ -26,16 +26,16 @@ episodes.each { |episode|
     t = ''
     t += "---\n"
     t += "title: \"#{title}\"\n"
-    t += "subtitle: \"#{subtitle}\"\n"
+    t += "description: \"#{subtitle}\"\n"
     t += "duration: \"#{duration}\"\n"
     t += "audioUrl: \"#{audioUrl}\"\n"
-    t += "imageUrl: \"#{imageUrl}\"\n"
+    t += "image: \"#{image}\"\n"
     t += "---\n"
     t += "\n"
     t += content
 
-    if !Dir.exists?("temp")
-        Dir.mkdir("temp")
+    if !Dir.exists?("_posts")
+        Dir.mkdir("_posts")
     end
 
     slug = title
@@ -52,7 +52,7 @@ episodes.each { |episode|
 
     filename = "#{pubDateString}-#{slug}"
 
-    open("temp/#{filename}.md", 'w') do |f|
+    open("_posts/#{filename}.md", 'w') do |f|
         f.puts(t)
     end
 }

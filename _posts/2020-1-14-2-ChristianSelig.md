@@ -1,9 +1,9 @@
 ---
 title: "2: Christian Selig"
-subtitle: "Charlie talks to Christian Selig, the creator of the indie Reddit app Apollo."
+description: "Charlie talks to Christian Selig, the creator of the indie Reddit app Apollo."
 duration: "50:15"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/808556c7-0a79-4f23-b03c-7bd1fa928e6c.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/808556c7-0a79-4f23-b03c-7bd1fa928e6c/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/808556c7-0a79-4f23-b03c-7bd1fa928e6c/cover.jpg?v=1"
 ---
 
 <p>Charlie talks to Christian Selig, the creator of the indie Reddit app Apollo.</p>

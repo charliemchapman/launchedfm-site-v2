@@ -1,9 +1,9 @@
 ---
 title: "12: Seth Worley"
-subtitle: "Seth Worley joins the show to talk about launching his new short film Darker Colors and trying to make it in the filmmaking business."
+description: "Seth Worley joins the show to talk about launching his new short film Darker Colors and trying to make it in the filmmaking business."
 duration: "1:22:00"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d595bf72-7a1c-48cd-86d0-729e3ceb5427.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d595bf72-7a1c-48cd-86d0-729e3ceb5427/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d595bf72-7a1c-48cd-86d0-729e3ceb5427/cover.jpg?v=1"
 ---
 
 <p>Seth Worley joins the show to talk about launching his new short film Darker Colors and trying to make it in the filmmaking business.</p>

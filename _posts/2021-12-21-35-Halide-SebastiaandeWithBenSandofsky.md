@@ -1,9 +1,9 @@
 ---
 title: "35: Halide - Sebastiaan de With & Ben Sandofsky"
-subtitle: "Sebastiaan de With & Ben Sandofsky join to show to talk about building the outstanding camera app Halide."
+description: "Sebastiaan de With & Ben Sandofsky join to show to talk about building the outstanding camera app Halide."
 duration: "1:13:53"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/debe5df6-f300-40ef-ab18-e95063907166.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/debe5df6-f300-40ef-ab18-e95063907166/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/debe5df6-f300-40ef-ab18-e95063907166/cover.jpg?v=1"
 ---
 
 <p>Sebastiaan de With &amp; Ben Sandofsky join to show to talk about building the outstanding camera app Halide.</p>

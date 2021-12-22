@@ -1,9 +1,9 @@
 ---
 title: "7: LookUp - Vidit Bhargava"
-subtitle: "Vidit Bhargava talks about the design and launch of his dictionary app LookUp for iOS and macOS."
+description: "Vidit Bhargava talks about the design and launch of his dictionary app LookUp for iOS and macOS."
 duration: "39:38"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/6372c61d-6316-4cce-a842-b04fe3e2fe44.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/6/6372c61d-6316-4cce-a842-b04fe3e2fe44/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/6/6372c61d-6316-4cce-a842-b04fe3e2fe44/cover.jpg?v=1"
 ---
 
 <p>Vidit Bhargava talks about the design and launch of his dictionary app LookUp for iOS and macOS.</p>

@@ -1,9 +1,9 @@
 ---
 title: "3: Kaya Thomas"
-subtitle: "Kaya Thomas joins the show to talk about her indie app We Read Too, conference speaking, and writing."
+description: "Kaya Thomas joins the show to talk about her indie app We Read Too, conference speaking, and writing."
 duration: "36:19"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/b5511f40-1b08-492c-851e-8f527bec93f7.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b5511f40-1b08-492c-851e-8f527bec93f7/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b5511f40-1b08-492c-851e-8f527bec93f7/cover.jpg?v=1"
 ---
 
 <p>Kaya Thomas joins the show to talk about her indie app We Read Too, conference speaking, and writing.</p>

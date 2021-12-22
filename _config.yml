@@ -1,6 +1,20 @@
 url: "https://v2.launchedfm.com"
 paginate: 20
-paginate_path: "/page:num/"
+paginate_path: "/:num/"
+
+title: "Launched FM"
+description: "The stories behind your favorite apps."
+
+logo: /assets/images/launched_artwork-1024.jpg
+
+twitter:
+  username: LaunchedFM
+  card: summary
+
+social:
+  name: Launched FM
+  links:
+    - https://twitter.com/LaunchedFM
 
 collections:
   authors:
@@ -26,6 +40,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/launched_artwork-1024.jpg
 
 plugins:
   - jekyll-feed

@@ -1,9 +1,9 @@
 ---
 title: "16: Tasks - Mustafa"
-subtitle: "Mustafa joins the show to talk about the launch of his new project management app Tasks."
+description: "Mustafa joins the show to talk about the launch of his new project management app Tasks."
 duration: "1:03:40"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/a1d37f66-e481-4d1f-b53b-3e2444373b58.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a1d37f66-e481-4d1f-b53b-3e2444373b58/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a1d37f66-e481-4d1f-b53b-3e2444373b58/cover.jpg?v=1"
 ---
 
 <p>Mustafa joins the show to talk about the launch of his new project management app Tasks.</p>

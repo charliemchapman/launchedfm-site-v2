@@ -1,9 +1,9 @@
 ---
 title: "17: Say Their Names - Franck Ndame"
-subtitle: "Franck Ndame joins the show to talk about starting the Say Their Names open source project."
+description: "Franck Ndame joins the show to talk about starting the Say Their Names open source project."
 duration: "42:23"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/a8f0e747-60c0-4d04-9829-a8069ec7af4c.mp3"
-imageUrl: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a8f0e747-60c0-4d04-9829-a8069ec7af4c/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a8f0e747-60c0-4d04-9829-a8069ec7af4c/cover.jpg?v=1"
 ---
 
 <p>Franck Ndame joins the show to talk about starting the Say Their Names open source project.</p>
