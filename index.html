@@ -20,7 +20,7 @@ title: "Launched"
           {{ post.date | date_to_string }} · {{ post.duration }}
         </p>
         <div class="post-summary-player">
-          <img src="{{ post.image }}" height="100"/>
+          <img src="{{ post.image }}"/>
           <audio src="{{ post.audioUrl }}" controls></audio>
         </div>
         <p class="post-summary-description">
@@ -35,7 +35,7 @@ title: "Launched"
   {% else %}
     <div class="post-summary">
       <div class="post-summary-content">
-        <img src="{{ post.image }}" height="100" />
+        <img src="{{ post.image }}"/>
         <div>
           <a href="{{ post.url }}">
             {{ post.title }}
