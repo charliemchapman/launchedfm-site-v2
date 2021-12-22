@@ -1,10 +1,14 @@
+.spacer-vertical-40 { height: 60px; }
+
 body { margin: 0; font-family: trade-gothic-next, sans-serif; background-color: #1f4373; }
 
 body a { text-decoration: none; }
 
 body a:hover { text-decoration: underline; }
 
-body .content { background-color: white; padding-top: 60px; }
+body .content { background-color: white; }
+
+body .content .content-centered { padding-top: 60px; margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; }
 
 nav { height: 102px; background-color: #1f4373; display: flex; align-items: start; justify-content: end; }
 
@@ -20,7 +24,7 @@ nav .links .current { text-decoration: underline; }
 
 .post-summary-content { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 20px; padding-right: 20px; }
 
-.post-summary-hero { background-color: #2e62a6; color: white; margin-top: -60px; }
+.post-summary-hero { background-color: #2e62a6; color: white; }
 
 .post-summary-hero .post-summary-content { padding-top: 60px; padding-bottom: 20px; }
 
