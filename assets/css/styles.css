@@ -1,22 +1,28 @@
-body { margin: 0; font-family: trade-gothic-next, sans-serif; }
+body { margin: 0; font-family: trade-gothic-next, sans-serif; background-color: #1f4373; }
 
 body a { text-decoration: none; }
 
 body a:hover { text-decoration: underline; }
 
-nav { height: 102px; background-color: #1f4373; display: flex; align-items: center; justify-content: end; }
+body .content { background-color: white; padding-top: 60px; }
 
-nav a { color: white; padding: 20px 20px; }
+nav { height: 102px; background-color: #1f4373; display: flex; align-items: start; justify-content: end; }
 
-nav a:last-of-type { margin-right: 30px; }
+nav .logo { margin-left: 40px; }
 
-nav .current { text-decoration: underline; }
+nav .logo img { border-radius: 10px; }
 
-.post-summary-content { margin-left: auto; margin-right: auto; max-width: 770px; }
+nav .links { display: flex; flex-wrap: wrap-reverse; flex-direction: row-reverse; align-items: center; justify-content: flex-start; flex-grow: 1; padding-left: 20px; overflow: hidden; height: 100px; margin-right: 30px; }
 
-.post-summary-hero { background-color: #2e62a6; color: white; }
+nav .links a { color: white; padding-left: 20px; padding-right: 20px; height: 100px; display: flex; align-items: center; }
 
-.post-summary-hero .post-summary-content { padding-top: 20px; padding-bottom: 20px; }
+nav .links .current { text-decoration: underline; }
+
+.post-summary-content { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 20px; padding-right: 20px; }
+
+.post-summary-hero { background-color: #2e62a6; color: white; margin-top: -60px; }
+
+.post-summary-hero .post-summary-content { padding-top: 60px; padding-bottom: 20px; }
 
 .post-summary-hero .post-summary-content h2 { margin-top: 0px; margin-bottom: 5px; }
 
@@ -42,7 +48,7 @@ nav .current { text-decoration: underline; }
 
 .post-summary .post-summary-content:first-of-type { margin-top: 20px; }
 
-.pagination { margin-left: auto; margin-right: auto; max-width: 770px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.pagination { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 40px; padding-right: 40px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
 
 .pagination .page_number { padding-left: 10px; padding-right: 10px; }
 
