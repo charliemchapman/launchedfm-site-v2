@@ -22,11 +22,11 @@ nav .links a { color: white; padding-left: 20px; padding-right: 20px; height: 10
 
 nav .links .current { text-decoration: underline; }
 
-.post-summary-content { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 20px; padding-right: 20px; }
+.post-summary-content { max-width: 770px; margin-left: 20px; margin-right: 20px; }
 
-.post-summary-hero { background-color: #2e62a6; color: white; }
+.post-summary-hero { background-color: #2e62a6; color: white; display: flex; justify-content: center; }
 
-.post-summary-hero .post-summary-content { padding-top: 60px; padding-bottom: 20px; }
+.post-summary-hero .post-summary-content { flex-grow: 1; padding-top: 60px; padding-bottom: 20px; }
 
 .post-summary-hero .post-summary-content h2 { margin-top: 0px; margin-bottom: 5px; }
 
@@ -44,7 +44,9 @@ nav .links .current { text-decoration: underline; }
 
 .post-summary-hero .post-summary-content .post-summary-show-notes { color: #0d2340; }
 
-.post-summary .post-summary-content { display: flex; border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 20px; }
+.post-summary { display: flex; justify-content: center; }
+
+.post-summary .post-summary-content { flex-grow: 1; display: flex; border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 20px; }
 
 .post-summary .post-summary-content img { margin-right: 20px; width: 90px; height: 90px; max-width: 100%; }
 
@@ -54,11 +56,11 @@ nav .links .current { text-decoration: underline; }
 
 .post-summary .post-summary-content:first-of-type { margin-top: 20px; }
 
-.pagination { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 40px; padding-right: 40px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
+.pagination { margin-left: auto; margin-right: auto; max-width: 770px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
 
 .pagination .page_number { padding-left: 10px; padding-right: 10px; }
 
-.pagination .next, .pagination .previous { min-width: 100px; padding-top: 8px; padding-bottom: 10px; text-align: center; margin: 0 20px; font-size: 0.9rem; }
+.pagination .next, .pagination .previous { min-width: 70px; padding-top: 8px; padding-bottom: 10px; text-align: center; font-size: 0.7rem; }
 
 .pagination a.next, .pagination a.previous { background-color: #2e62a6; color: white; }
 
