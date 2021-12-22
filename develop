@@ -1,0 +1,4 @@
+#!/bin/bash
+# starts jekyll dev server
+
+bundle exec jekyll serve
