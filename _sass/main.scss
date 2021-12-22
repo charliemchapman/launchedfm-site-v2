@@ -73,18 +73,19 @@ nav {
 }
 
 .post-summary-content {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 770px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .post-summary-hero {
     background-color: #2e62a6;
     color: white;
+    display: flex;
+    justify-content: center;
 
     .post-summary-content {
+        flex-grow: 1;
         padding-top: 60px;
         padding-bottom: 20px;
 
@@ -114,6 +115,7 @@ nav {
 
             img {
                 margin-right: 20px;
+                max-width: 100%;
                 width: 90px;
                 height: 90px;
                 @media (max-width: 400px) {
@@ -136,7 +138,11 @@ nav {
 }
 
 .post-summary {
+    display: flex;
+    justify-content: center;
+
     .post-summary-content {
+        flex-grow: 1;
         display: flex;
         border-bottom: 1px solid #ddd;
         padding-bottom: 20px;
@@ -146,6 +152,7 @@ nav {
             margin-right: 20px;
             width: 90px;
             height: 90px;
+            max-width: 100%;
         }
 
         a {
@@ -169,8 +176,8 @@ nav {
     margin-left: auto;
     margin-right: auto;
     max-width: 770px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -182,12 +189,11 @@ nav {
     }
 
     .next, .previous {
-        min-width: 100px;
+        min-width: 70px;
         padding-top: 8px;
         padding-bottom: 10px;
         text-align: center;
-        margin: 0 20px;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     a.next, a.previous {
@@ -221,6 +227,7 @@ nav {
     margin-bottom: 20px;
 
     img {
+        max-width: 100%;
         margin-right: 20px;
     }
 
