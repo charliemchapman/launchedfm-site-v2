@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% if post == site.posts.first %}
     <div class="post-summary-hero">
       <div class="post-summary-content">
@@ -47,3 +47,5 @@ title: Home
     </div>
   {% endif %}
 {% endfor %}
+
+{% include paginationLinks.html %}

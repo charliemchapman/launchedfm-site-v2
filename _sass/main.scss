@@ -42,7 +42,6 @@ nav {
 .post-summary-hero {
     background-color: #2e62a6;
     color: white;
-    margin-bottom: 20px;
 
     .post-summary-content {
         padding-top: 20px;
@@ -109,5 +108,70 @@ nav {
             margin-bottom: 7px;
             margin-top: 5px;
         }
+    }
+
+    .post-summary-content:first-of-type {
+        margin-top: 20px;
+    }
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .page_number {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .next, .previous {
+        min-width: 100px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin: 0 20px;
+        font-size: 0.9rem;
+    }
+
+    a.next, a.previous {
+        background-color: #2e62a6;
+        color: white;
+    }
+
+    span.next, span.previous {
+        background-color: #c8daf1;
+        color: #677180;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #1f4373;
+    color: #FFFFFF77;
+
+    .links {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+        a {
+            color: white;
+            padding: 0 10px;
+        }
+    }
+
+    p {
+        font-size: 0.7rem;
+        text-align: center;
     }
 }
