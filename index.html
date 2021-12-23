@@ -17,7 +17,7 @@ title: "Launched"
           </a>
         </h2>
         <p class="post-summary-meta">
-          {{ post.date | date_to_string }} · {{ post.duration }}
+          {{ post.date | date: "%B %-d, %Y" }} · {{ post.duration }}
         </p>
         <div class="post-summary-player">
           <img src="{{ post.image }}"/>
@@ -37,11 +37,13 @@ title: "Launched"
       <div class="post-summary-content">
         <img src="{{ post.image }}"/>
         <div>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
           <p class="post-summary-meta">
-            {{ post.date | date_to_string }} · {{ post.duration }}
+            {{ post.date | date: "%B %-d, %Y" }} · {{ post.duration }}
           </p>
           <p class="post-summary-description">
             {{ post.description }}
