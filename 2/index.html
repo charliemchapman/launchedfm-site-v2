@@ -45,22 +45,56 @@
   </head>
   <body>
     <nav>
-  <a class="logo" href="/">
-    <img src="/assets/images/launched_artwork-1024.jpg" height="140" width="140" />
-  </a>
-  <div class="links">
-    
-      <a href="/subscribe.html" >Subscribe</a>
-    
-      <a href="/about.html" >About</a>
-    
-      <a href="https://cottonbureau.com/products/launched-podcast" >Store</a>
-    
-      <a href="/contact.html" >Contact</a>
-    
-      <a href="/" >Home</a>
-    
+    <div class="main-nav">
+    <a class="logo" href="/">
+      <img src="/assets/images/launched_artwork-1024.jpg" height="140" width="140" />
+    </a>
+    <div class="links">
+      
+        <a href="/subscribe.html" >Subscribe</a>
+      
+        <a href="/about.html" >About</a>
+      
+        <a href="https://cottonbureau.com/products/launched-podcast" >Store</a>
+      
+        <a href="/contact.html" >Contact</a>
+      
+        <a href="/" >Home</a>
+      
+    </div>
+    <div class="expand-links-container">
+      <button class="expand-links" onclick="expandLinks()">
+        <img src="/assets/images/hamburger.png" height="12"/>
+      </button>
+    </div>
   </div>
+  <div id="sub-nav" class="sub-nav closed">
+    <div class="links">
+      
+          <a href="/subscribe.html" >Subscribe</a>
+      
+          <a href="/about.html" >About</a>
+      
+          <a href="https://cottonbureau.com/products/launched-podcast" >Store</a>
+      
+          <a href="/contact.html" >Contact</a>
+      
+          <a href="/" >Home</a>
+      
+    </div>
+  </div>
+  <script>
+    function expandLinks() {
+      var subNav = document.getElementById("sub-nav");
+      if (subNav.classList.contains('opened')) {
+        subNav.classList.remove("opened")
+        subNav.classList.add("closed")
+      } else {
+        subNav.classList.add("opened")
+        subNav.classList.remove("closed")
+      }
+    }
+  </script>
 </nav>
       <div class="content">
         
