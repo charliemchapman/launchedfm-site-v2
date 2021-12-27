@@ -48,7 +48,7 @@ body {
     }
 }
 
-nav {
+.main-nav {
     height: 102px;
     background-color: #1f4373;
     display: flex;
@@ -73,7 +73,6 @@ nav {
         padding-left: 20px;
         overflow: hidden;
         height: 100px;
-        margin-right: 30px;
 
         a {
             color: white;
@@ -82,11 +81,67 @@ nav {
             height: 100px;
             display: flex;
             align-items: center;
+
+            @media (max-width: 760px) {
+                padding-left: 13px;
+                padding-right: 13px;
+            }
         }
     
         .current {
             text-decoration: underline;
         }
+    }
+
+    .expand-links-container {
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expand-links {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .expand-links:hover {
+        background: #ffffff11;
+    }
+}
+
+.sub-nav {
+    overflow: hidden;
+
+    &.opened, &.closed {
+        max-height: 0px;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    &.opened {
+        max-height: 200px;
+    }
+
+    .links {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    a {
+        color: white;
     }
 }
 
