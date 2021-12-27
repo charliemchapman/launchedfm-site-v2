@@ -1,0 +1,4 @@
+#!/bin/bash
+# generates episode .md files
+
+ruby generate-episodes.rb

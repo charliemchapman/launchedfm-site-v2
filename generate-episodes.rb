@@ -23,10 +23,12 @@ episodes.each { |episode|
     pubDate = Date.parse(pubDateText)
     pubDateString = "#{pubDate.year}-#{pubDate.month}-#{pubDate.day}"
 
+    cleanDescription = subtitle.gsub('"', '\"')
+
     t = ''
     t += "---\n"
     t += "title: \"#{title}\"\n"
-    t += "description: \"#{subtitle}\"\n"
+    t += "description: \"#{cleanDescription}\"\n"
     t += "duration: \"#{duration}\"\n"
     t += "audioUrl: \"#{audioUrl}\"\n"
     t += "image: \"#{image}\"\n"
