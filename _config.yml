@@ -1,4 +1,4 @@
-url: "https://v2.launchedfm.com"
+url: "https://launchedfm.com"
 paginate: 20
 paginate_path: "/:num/"
 
