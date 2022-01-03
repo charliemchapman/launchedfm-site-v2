@@ -12,7 +12,7 @@ image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632a
 
 <ul>
 <li><a href="https://twitter.com/kthomas901?ref_src=twsrc%5Eappleosx%7Ctwcamp%5Esafari%7Ctwgr%5Esearch" rel="nofollow">Kaya on Twitter - @kthomas901</a></li>
-<li><a href="https://wereadtoo.launchaco.com" rel="nofollow">We Read Too</a></li>
+<li><a href="https://www.wereadtoo.com" rel="nofollow">We Read Too</a></li>
 <li><a href="http://www.bet.com/news/national/2014/09/10/looking-for-childrens-books-with-black-characters-there-s-an-app-for-that.html" rel="nofollow">BET Feature</a></li>
 <li><a href="https://www.silive.com/entertainment/2015/04/young_stapletonite_shares_stag.html" rel="nofollow">BET Award</a></li>
 <li><a href="https://apps.apple.com/us/story/id1349496987" rel="nofollow">Apple Developer Feature</a></li>
