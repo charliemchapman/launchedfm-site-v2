@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://launchedfm.com/authors/jill.html</loc>
-<lastmod>2022-01-11T08:06:10-06:00</lastmod>
+<lastmod>2022-01-25T08:09:03-06:00</lastmod>
 </url>
 <url>
 <loc>https://launchedfm.com/authors/ted.html</loc>
-<lastmod>2022-01-11T08:06:10-06:00</lastmod>
+<lastmod>2022-01-25T08:09:03-06:00</lastmod>
 </url>
 <url>
 <loc>https://launchedfm.com/episodes/Introducing-Launched</loc>
@@ -171,6 +171,10 @@
 <url>
 <loc>https://launchedfm.com/episodes/37-Orbit-MalinSundbergKaiDombrowski</loc>
 <lastmod>2022-01-11T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://launchedfm.com/episodes/38-Camo-AidanFitzpatrick</loc>
+<lastmod>2022-01-25T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://launchedfm.com/about.html</loc>
