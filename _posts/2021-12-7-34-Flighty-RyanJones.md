@@ -3,7 +3,7 @@ title: "34: Flighty - Ryan Jones"
 description: "Ryan Jones joins the show to talk about becoming an iOS app entrepreneur and founding the fantastic flight tracking app Flighty."
 duration: "1:08:15"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/ed78d0df-ad5b-48a4-b43d-d2b9bd73dcaa.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed78d0df-ad5b-48a4-b43d-d2b9bd73dcaa/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed78d0df-ad5b-48a4-b43d-d2b9bd73dcaa/cover.jpg"
 ---
 
 <p>Ryan Jones joins the show to talk about becoming an iOS app entrepreneur and founding the fantastic flight tracking app Flighty.</p>

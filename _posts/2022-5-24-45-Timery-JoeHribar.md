@@ -3,7 +3,7 @@ title: "45: Timery - Joe Hribar"
 description: "Joe Hribar joins the show to talk about his fascinating career building touchscreen graphics for live television broadcasts and creating the beloved iOS time tracking app Timery."
 duration: "1:08:45"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/5ab9fcd1-b0cc-470f-8ace-60e224ba051f.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg"
 ---
 
 <p>Joe Hribar joins the show to talk about his fascinating career building touchscreen graphics for live television broadcasts and creating the beloved iOS time tracking app Timery.</p>

@@ -3,7 +3,7 @@ title: "29: Blackbox - Ryan McLeod"
 description: "Ryan McLeod joins the show to talk about creating the Apple Design Award winning iOS game Blackbox."
 duration: "51:34"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/ba2d7fe2-7bb6-48b6-a0c5-8c5fbc3a7baa.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/ba2d7fe2-7bb6-48b6-a0c5-8c5fbc3a7baa/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/ba2d7fe2-7bb6-48b6-a0c5-8c5fbc3a7baa/cover.jpg"
 ---
 
 <p>Ryan McLeod joins the show to talk about creating the Apple Design Award winning iOS game Blackbox.</p>

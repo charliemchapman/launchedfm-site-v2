@@ -3,7 +3,7 @@ title: "20: CARROT Weather - Brian Mueller"
 description: "Brian Mueller joins the show to talk about CARROT Weather and his suite of other apps sharing the maniacal AI."
 duration: "1:25:18"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/f3e9b1ed-4be2-4f8f-9c6d-595a40229d87.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/f/f3e9b1ed-4be2-4f8f-9c6d-595a40229d87/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/f/f3e9b1ed-4be2-4f8f-9c6d-595a40229d87/cover.jpg"
 ---
 
 <p>Brian Mueller joins the show to talk about CARROT Weather and his suite of other apps sharing the maniacal AI.</p>

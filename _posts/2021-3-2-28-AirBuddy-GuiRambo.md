@@ -3,7 +3,7 @@ title: "28: AirBuddy - Gui Rambo"
 description: "Gui Rambo joins the show to talk about his awesome Mac app AirBuddy and his journey as a software spelunker to 9to5Mac writer."
 duration: "1:10:07"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/4db76488-9970-4e5d-b572-29c889abd23f.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/4db76488-9970-4e5d-b572-29c889abd23f/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/4db76488-9970-4e5d-b572-29c889abd23f/cover.jpg"
 ---
 
 <p>Gui Rambo joins the show to talk about his awesome Mac app AirBuddy and his journey as a software spelunker to 9to5Mac writer.</p>

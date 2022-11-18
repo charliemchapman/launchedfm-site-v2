@@ -3,7 +3,7 @@ title: "22: Castro - Oisín Prendiville"
 description: "Oisín Prendiville joins the show to talk about launching and growing the fantastic podcast app Castro."
 duration: "55:24"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/9e53bd03-0424-49e4-b738-2aaf58f31d30.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9e53bd03-0424-49e4-b738-2aaf58f31d30/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9e53bd03-0424-49e4-b738-2aaf58f31d30/cover.jpg"
 ---
 
 <p>Oisín Prendiville joins the show to talk about launching and growing the fantastic podcast app Castro.</p>

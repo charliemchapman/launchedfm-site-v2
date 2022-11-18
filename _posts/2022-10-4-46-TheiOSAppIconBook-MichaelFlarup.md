@@ -3,7 +3,7 @@ title: "46: The iOS App Icon Book - Michael Flarup"
 description: "Michael Flarup joins the show to talk about his multifaceted design career and the creation and launch of the amazing book celebrating the art form of iOS app icons."
 duration: "1:32:16"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/8de4e209-828c-4793-996f-b174db78b14d.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8de4e209-828c-4793-996f-b174db78b14d/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8de4e209-828c-4793-996f-b174db78b14d/cover.jpg"
 ---
 
 <p>Michael Flarup joins the show to talk about his multifaceted design career and the creation and launch of the amazing book celebrating the art form of iOS app icons.</p>

@@ -3,7 +3,7 @@ title: "47: Pestle - Will Bishop"
 description: "Will Bishop joins the show to talk about his cooking app Pestle."
 duration: "51:36"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/b084f980-caf6-4bcd-8420-bee44f4a238d.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b084f980-caf6-4bcd-8420-bee44f4a238d/cover_medium.jpg?ver=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b084f980-caf6-4bcd-8420-bee44f4a238d/cover.jpg"
 ---
 
 <p>Will Bishop joins the show to talk about his cooking app Pestle.</p>

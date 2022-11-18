@@ -3,7 +3,7 @@ title: "42: MaskerAid - Casey Liss"
 description: "Casey Liss joins the show to discuss his new app MaskerAid along with his career in software development and podcasting."
 duration: "1:25:51"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/75498603-6c2c-467c-ab25-088cf88d2780.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/7/75498603-6c2c-467c-ab25-088cf88d2780/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/7/75498603-6c2c-467c-ab25-088cf88d2780/cover.jpg"
 ---
 
 <p>Casey Liss joins the show to discuss his new app MaskerAid along with his career in software development and podcasting.</p>

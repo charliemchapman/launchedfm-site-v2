@@ -3,7 +3,7 @@ title: "19: Pennant - Tyler Hillsman"
 description: "Tyler Hillsman joins the show to talk about his sports standings app Pennant."
 duration: "1:10:18"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/8aab538a-7535-4624-aaf2-f57dbe02f7e7.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8aab538a-7535-4624-aaf2-f57dbe02f7e7/cover.jpg?v=1"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8aab538a-7535-4624-aaf2-f57dbe02f7e7/cover.jpg"
 ---
 
 <p>Tyler Hillsman joins the show to talk about his sports standings app Pennant.</p>
