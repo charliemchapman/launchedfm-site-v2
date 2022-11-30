@@ -23,7 +23,6 @@ image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632a
 <li><a href="https://twitter.com/danielmgauthier/status/1416038880898396160?s=20&t=q5FnfoB5cRuLplpkAxHdgQ" rel="nofollow">Daniel&#39;s Up Ahead announcement tweet</a></li>
 <li><a href="https://twitter.com/BrianMueller333" rel="nofollow">Brian Mueller (creator of CARROT Weather</a></li>
 <li><a href="https://twitter.com/mufasaYC" rel="nofollow">Mustafa (creator of Tasks)</a></li>
-<li><a href="" rel="nofollow"></a></li>
 </ul>
 
 <h3>More Launched</h3>
