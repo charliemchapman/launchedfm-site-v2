@@ -1,10 +1,12 @@
 - name: Home
   link: /
 - name: Contact
-  link: /contact.html
+  link: /contact
 - name: Store
   link: https://cottonbureau.com/products/launched-podcast
-- name: About
-  link: /about.html
+- name: Sponsors
+  link: /sponsors
+- name: Membership
+  link: http://membership.launchedfm.com/
 - name: Subscribe
-  link: /subscribe.html
+  link: /subscribe

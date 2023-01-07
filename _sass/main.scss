@@ -44,6 +44,10 @@ body {
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 20px;
+
+            img {
+                max-width: 100%;
+            }
         }
     }
 }
@@ -128,7 +132,7 @@ body {
     }
 
     &.opened {
-        max-height: 200px;
+        max-height: 260px;
     }
 
     .links {
