@@ -114,4 +114,10 @@ body .content .content-centered img { max-width: 100%; }
 
 .page-not-found { text-align: center; padding-bottom: 20px; }
 
+.membership-button { margin-top: 20px; margin-bottom: 40px; }
+
+.membership-button a { background-color: #ff424d; color: #FFFFFF; cursor: pointer; padding: 8px 16px; border-radius: 8px; transition: 0.5s; }
+
+.membership-button a:hover { text-decoration: none; background-color: #db262f; }
+
 /*# sourceMappingURL=styles.css.map */
