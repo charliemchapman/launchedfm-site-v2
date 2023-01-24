@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2023-01-11T20:09:25-06:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">53: AI Profile Pic - Rony Fadel</title><link href="https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel" rel="alternate" type="text/html" title="53: AI Profile Pic - Rony Fadel" /><published>2023-01-10T00:00:00-06:00</published><updated>2023-01-10T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel</id><content type="html" xml:base="https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel">&lt;p&gt;Rony Fadel joins the show to talk about building AI Profile Pic and riding the generative AI wave.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2023-01-24T08:23:45-06:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">54: Sofa - Shawn Hickman</title><link href="https://launchedfm.com/episodes/54-Sofa-ShawnHickman" rel="alternate" type="text/html" title="54: Sofa - Shawn Hickman" /><published>2023-01-24T00:00:00-06:00</published><updated>2023-01-24T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/54-Sofa-ShawnHickman</id><content type="html" xml:base="https://launchedfm.com/episodes/54-Sofa-ShawnHickman">&lt;p&gt;Shawn Hickman joins the show to talk about building the downtime organizer app Sofa.&lt;/p&gt;
+
+&lt;h4&gt;Edited by&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.online/@refactoredd&quot; rel=&quot;nofollow&quot;&gt;Jonathan Ruiz&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Episode Sponsors&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://impresskit.net/&quot; rel=&quot;nofollow&quot;&gt;ImpressKit&lt;/a&gt;&lt;/strong&gt; - Use offer code LAUNCHED at checkout for 25% off your first year.&lt;/p&gt;
+
+&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/poohbers&quot; rel=&quot;nofollow&quot;&gt;Shawn&amp;#39;s Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sofahq.social/@shawn&quot; rel=&quot;nofollow&quot;&gt;Shawn on Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sofahq.com/&quot; rel=&quot;nofollow&quot;&gt;Sofa Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@SofaHQ&quot; rel=&quot;nofollow&quot;&gt;Sofa Youtube Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apolloapp.io/&quot; rel=&quot;nofollow&quot;&gt;Apollo (app)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Ik79IGfqGfw&quot; rel=&quot;nofollow&quot;&gt;Shawn&amp;#39;s video about making Sofa&amp;#39;s PressKit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://searchads.apple.com/&quot; rel=&quot;nofollow&quot;&gt;Apple Search Ads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://subclub.com/&quot; rel=&quot;nofollow&quot;&gt;Sub Club Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://opfeffer.com/&quot; rel=&quot;nofollow&quot;&gt;Oliver Pfeffer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/mengto&quot; rel=&quot;nofollow&quot;&gt;Meng To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://designcode.io/&quot; rel=&quot;nofollow&quot;&gt;Design+Code (Meng To&amp;#39;s website)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/bigmtnstudio&quot; rel=&quot;nofollow&quot;&gt;Mark Moeykens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UChH6WbyYeX0INJjrK2-6WSg&quot; rel=&quot;nofollow&quot;&gt;Big Mountain Studios (Mark&amp;#39;s Youtube Channel)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/seanallen_dev&quot; rel=&quot;nofollow&quot;&gt;Sean Allen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/SeanAllen&quot; rel=&quot;nofollow&quot;&gt;Sean Allen (Youtube Channel)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/twostraws&quot; rel=&quot;nofollow&quot;&gt;Paul Hudson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/&quot; rel=&quot;nofollow&quot;&gt;Hacking with Swift (Paul&amp;#39;s website)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Support Launched&lt;/h3&gt;
+
+&lt;p&gt;⭐️ &lt;a href=&quot;http://membership.launchedfm.com/&quot; rel=&quot;nofollow&quot;&gt;Become a member&lt;/a&gt; to support the show and get ad-free episodes!&lt;/p&gt;
+
+&lt;h3&gt;More Launched&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Shawn Hickman joins the show to talk about building the downtime organizer app Sofa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/86becdad-3950-4a5a-a8f3-c4c635a4775f/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/86becdad-3950-4a5a-a8f3-c4c635a4775f/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">53: AI Profile Pic - Rony Fadel</title><link href="https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel" rel="alternate" type="text/html" title="53: AI Profile Pic - Rony Fadel" /><published>2023-01-10T00:00:00-06:00</published><updated>2023-01-10T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel</id><content type="html" xml:base="https://launchedfm.com/episodes/53-AIProfilePic-RonyFadel">&lt;p&gt;Rony Fadel joins the show to talk about building AI Profile Pic and riding the generative AI wave.&lt;/p&gt;
 
 &lt;p&gt;Edited by &lt;a href=&quot;https://mastodon.online/@refactoredd&quot; rel=&quot;nofollow&quot;&gt;Jonathan Ruiz&lt;/a&gt;&lt;/p&gt;
 
@@ -220,21 +263,4 @@
 &lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Reddit - &lt;a href=&quot;https://www.reddit.com/r/LaunchedFM/&quot; rel=&quot;nofollow&quot;&gt;/r/LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Joe Hribar joins the show to talk about his fascinating career building touchscreen graphics for live television broadcasts and creating the beloved iOS time tracking app Timery.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">44: Drafts - Greg Pierce</title><link href="https://launchedfm.com/episodes/44-Drafts-GregPierce" rel="alternate" type="text/html" title="44: Drafts - Greg Pierce" /><published>2022-05-10T00:00:00-05:00</published><updated>2022-05-10T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/44-Drafts-GregPierce</id><content type="html" xml:base="https://launchedfm.com/episodes/44-Drafts-GregPierce">&lt;p&gt;Greg Pierce joins the show to talk about his career and the 10 year journey of the amazing notes app Drafts.&lt;/p&gt;
-
-&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/agiletortoise&quot; rel=&quot;nofollow&quot;&gt;Greg&amp;#39;s Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://getdrafts.com&quot; rel=&quot;nofollow&quot;&gt;Drafts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://agiletortoise.com&quot; rel=&quot;nofollow&quot;&gt;Agile Tortoise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mike_Doughty&quot; rel=&quot;nofollow&quot;&gt;Mike Doughty&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;More Launched&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reddit - &lt;a href=&quot;https://www.reddit.com/r/LaunchedFM/&quot; rel=&quot;nofollow&quot;&gt;/r/LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Greg Pierce joins the show to talk about his career and the 10 year journey of the amazing notes app Drafts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/29b8e2f4-31ec-4cfa-b53e-7bd233904460/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/29b8e2f4-31ec-4cfa-b53e-7bd233904460/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Joe Hribar joins the show to talk about his fascinating career building touchscreen graphics for live television broadcasts and creating the beloved iOS time tracking app Timery.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5ab9fcd1-b0cc-470f-8ace-60e224ba051f/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
