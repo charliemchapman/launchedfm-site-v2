@@ -11,3 +11,4 @@ Become a Launched member to support the show and you'll get an **ad-free** versi
 ## ✈ Paper Airplane Patrons  
 Huge thanks to our patrons who go above and beyond to support the show!
 * Vidit Bhargava
+* Jay Wilson
