@@ -120,4 +120,12 @@ body .content .content-centered img { max-width: 100%; }
 
 .membership-button a:hover { text-decoration: none; background-color: #db262f; }
 
+.transcript-container h2 { margin-bottom: 6px; }
+
+.transcript-container h5 { margin-top: 0; }
+
+.transcript-container .time-stamp { font-size: 0.7em; opacity: 0.5; margin: 0; }
+
+.transcript-container .transcript-line { margin-top: 0; margin-bottom: 8px; }
+
 /*# sourceMappingURL=styles.css.map */
