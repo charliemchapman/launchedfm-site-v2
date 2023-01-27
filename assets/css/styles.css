@@ -56,6 +56,8 @@ body .content .content-centered img { max-width: 100%; }
 
 .post-summary-hero .post-summary-content .post-summary-meta { color: #0d2340; font-size: .8em; margin-bottom: 7px; margin-top: 0; }
 
+.post-summary-hero .post-summary-content .post-summary-meta a { color: #FFFFFF99; }
+
 .post-summary-hero .post-summary-content .post-summary-description { font-size: 1; }
 
 .post-summary-hero .post-summary-content .post-summary-player { background-color: #fff; border-radius: 5px; padding: 10px; display: flex; align-items: center; margin-bottom: 20px; }
@@ -81,6 +83,8 @@ body .content .content-centered img { max-width: 100%; }
 .post-summary .post-summary-content p { color: #000000cc; margin: 0; }
 
 .post-summary .post-summary-content .post-summary-meta { color: #0d2340; font-size: .8em; margin-top: 0; margin-bottom: 5px; }
+
+.post-summary .post-summary-content .post-summary-meta a { font-size: 1em; color: #397ed9; }
 
 .pagination { max-width: 730px; margin-left: auto; margin-right: auto; margin-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
 
