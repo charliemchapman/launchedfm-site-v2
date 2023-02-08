@@ -4,6 +4,7 @@ description: "Malin & Kai join the show to talk about their careers and building
 duration: "1:24:20"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/e5407d54-8af7-4f9b-bc34-ea5ec29c8f60.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e5407d54-8af7-4f9b-bc34-ea5ec29c8f60/cover.jpg"
+slug: "37-Orbit-MalinSundbergKaiDombrowski"
 ---
 
 <p>Malin &amp; Kai join the show to talk about their careers and building their excellent time based invoicing app Orbit for Mac and iOS!</p>

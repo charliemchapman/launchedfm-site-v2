@@ -4,6 +4,7 @@ description: "Greg Pierce joins the show to talk about his career and the 10 yea
 duration: "56:33"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/29b8e2f4-31ec-4cfa-b53e-7bd233904460.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/29b8e2f4-31ec-4cfa-b53e-7bd233904460/cover.jpg"
+slug: "44-Drafts-GregPierce"
 ---
 
 <p>Greg Pierce joins the show to talk about his career and the 10 year journey of the amazing notes app Drafts.</p>

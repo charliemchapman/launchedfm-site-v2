@@ -4,6 +4,7 @@ description: "For the the 1st (annual?) Launched Christmas Special 🎄 Jordan M
 duration: "1:22:36"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/09d8d94f-062c-4f9f-9a4a-99f04b85e66b.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/09d8d94f-062c-4f9f-9a4a-99f04b85e66b/cover.jpg"
+slug: "36-ChristmasSpecialwithJordanMorgan"
 ---
 
 <p>For the the 1st (annual?) Launched Christmas Special 🎄 Jordan Morgan joins the show to talk about the launch of his &quot;Best-in-Class iOS App Book Series&quot; his experiments with marketing.</p>

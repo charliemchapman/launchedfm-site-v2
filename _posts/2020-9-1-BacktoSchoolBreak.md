@@ -4,6 +4,7 @@ description: "I'm taking a short break from Launched this month as my kids and w
 duration: "1:50"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/492fedc3-b326-497d-8ade-78aadf520c3b.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/492fedc3-b326-497d-8ade-78aadf520c3b/cover.jpg"
+slug: "BacktoSchoolBreak"
 ---
 
 <p>I&#39;m taking a short break from Launched this month as my kids and wife start up the school year.</p>

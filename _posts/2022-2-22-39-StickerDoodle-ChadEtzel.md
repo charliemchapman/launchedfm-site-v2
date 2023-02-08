@@ -4,6 +4,7 @@ description: "Chad Etzel joins the show to talk about his career, time at Apple,
 duration: "1:32:26"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/1549b886-89b5-44c9-9f58-900c6626c75f.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1549b886-89b5-44c9-9f58-900c6626c75f/cover.jpg"
+slug: "39-StickerDoodle-ChadEtzel"
 ---
 
 <p>Chad Etzel joins the show to talk about his career, time at Apple, and creation of the iMessage sticker app Sticker Doodle.</p>

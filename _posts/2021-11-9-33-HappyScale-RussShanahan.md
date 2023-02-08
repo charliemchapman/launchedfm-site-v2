@@ -4,6 +4,7 @@ description: "Launched is back! Russ Shanahan joins the show to talk about his i
 duration: "53:49"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/958a6943-d0f8-4a4a-8706-cc27e9a40573.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/958a6943-d0f8-4a4a-8706-cc27e9a40573/cover.jpg"
+slug: "33-HappyScale-RussShanahan"
 ---
 
 <p>Launched is back! Russ Shanahan joins the show to talk about his iOS app health tracking app Happy Scale.</p>

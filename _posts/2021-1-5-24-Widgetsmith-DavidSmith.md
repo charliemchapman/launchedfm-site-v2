@@ -4,6 +4,7 @@ description: "David Smith joins the show to talk the wildly popular Widgetsmith 
 duration: "1:27:29"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/1d2d17e0-ca9c-4b76-b374-71513630e929.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1d2d17e0-ca9c-4b76-b374-71513630e929/cover.jpg"
+slug: "24-Widgetsmith-DavidSmith"
 ---
 
 <p>David Smith joins the show to talk the wildly popular Widgetsmith and his career as an indie developer.</p>

@@ -4,6 +4,7 @@ description: "Ryan Ashcraft joins the show to talk about his fantastic food trac
 duration: "47:22"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/4f6f8fcb-fa5e-4a94-bcc9-b9d640fa28d6.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/4f6f8fcb-fa5e-4a94-bcc9-b9d640fa28d6/cover.jpg"
+slug: "48-FoodNoms-RyanAshcraft"
 ---
 
 <p>Ryan Ashcraft joins the show to talk about his fantastic food tracking app FoodNoms.</p>

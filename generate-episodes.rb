@@ -25,27 +25,13 @@ episodes.each { |episode|
 
     cleanDescription = subtitle.gsub('"', '\"')
 
-    t = ''
-    t += "---\n"
-    t += "title: \"#{title}\"\n"
-    t += "description: \"#{cleanDescription}\"\n"
-    t += "duration: \"#{duration}\"\n"
-    t += "audioUrl: \"#{audioUrl}\"\n"
-    t += "image: \"#{image}\"\n"
-    t += "---\n"
-    t += "\n"
-    t += content
-
-    if !Dir.exists?("_posts")
-        Dir.mkdir("_posts")
-    end
-
     slug = title
-            .gsub(":", "-")
-            .gsub('ñ', "n")
-            .gsub("í", "i")
-            .gsub("ı", "i")
-            .gsub("ç", "c")
+        .gsub(":", "-")
+        .gsub('ñ', "n")
+        .gsub("í", "i")
+        .gsub("ı", "i")
+        .gsub("ç", "c")
+
 
     charactersToRemove = ['’', '', '.', '(', ')', '?', '&', ' ']
     charactersToRemove.each { |c|
@@ -53,6 +39,22 @@ episodes.each { |episode|
     }
 
     filename = "#{pubDateString}-#{slug}"
+
+    t = ''
+    t += "---\n"
+    t += "title: \"#{title}\"\n"
+    t += "description: \"#{cleanDescription}\"\n"
+    t += "duration: \"#{duration}\"\n"
+    t += "audioUrl: \"#{audioUrl}\"\n"
+    t += "image: \"#{image}\"\n"
+    t += "slug: \"#{slug}\"\n"
+    t += "---\n"
+    t += "\n"
+    t += content
+
+    if !Dir.exists?("_posts")
+        Dir.mkdir("_posts")
+    end
 
     open("_posts/#{filename}.md", 'w') do |f|
         f.puts(t)

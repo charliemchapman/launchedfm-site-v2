@@ -180,6 +180,10 @@ body {
             font-size: .8em;
             margin-bottom: 7px;
             margin-top: 0;
+
+            a {
+                color: #FFFFFF99;
+            }
         }
 
         .post-summary-description {
@@ -256,6 +260,11 @@ body {
             font-size: .8em;
             margin-top: 0;
             margin-bottom: 5px;
+
+            a {
+                font-size: 1em;
+                color: #397ed9;
+            }
         }
     }
 
@@ -385,5 +394,26 @@ body {
     a:hover {
         text-decoration: none;
         background-color: #db262f;
+    }
+}
+
+.transcript-container {
+    h2 {
+        margin-bottom: 6px;
+    }
+
+    h5 {
+        margin-top: 0;
+    }
+
+    .time-stamp {
+        font-size: 0.7em;
+        opacity: 0.5;
+        margin: 0;
+    }
+
+    .transcript-line {
+        margin-top: 0;
+        margin-bottom: 8px;
     }
 }

@@ -4,6 +4,7 @@ description: "Ben McCarthy joins the show to talk about building the outstanding
 duration: "1:03:39"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/678d33a1-a1ff-42e1-843b-a7ca9a568d9b.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/6/678d33a1-a1ff-42e1-843b-a7ca9a568d9b/cover.jpg"
+slug: "43-Obscura-BenMcCarthy"
 ---
 
 <p>Ben McCarthy joins the show to talk about building the outstanding pro camera app Obscura.</p>

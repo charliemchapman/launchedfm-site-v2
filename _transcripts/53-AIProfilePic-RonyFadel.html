@@ -1,0 +1,3617 @@
+---
+layout: transcript
+title: "53: AI Profile Pic - Rony Fadel"
+description: "Rony Fadel joins the show to talk about building AI Profile Pic and riding the generative AI wave."
+duration: "1:03:06"
+audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d72b626d-5c0d-4564-97d8-60cc9e4743b4.mp3"
+image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d72b626d-5c0d-4564-97d8-60cc9e4743b4/cover.jpg"
+slug: "53-AIProfilePic-RonyFadel"
+---
+
+<p class="time-stamp">00:00:00.000 --> 00:00:06.920</p>
+<p class="transcript-line">Welcome to Launched. I'm Charlie Chapman, and today I'm excited to bring you the developer</p>
+
+
+<p class="time-stamp">00:00:06.920 --> 00:00:19.520</p>
+<p class="transcript-line">behind the AI profile pick app, Ronnie Fidel.</p>
+
+
+<p class="time-stamp">00:00:19.520 --> 00:00:25.680</p>
+<p class="transcript-line">Ronnie, welcome to the show.</p>
+
+
+<p class="time-stamp">00:00:25.680 --> 00:00:27.760</p>
+<p class="transcript-line">Hi, Charlie. Thank you for having me.</p>
+
+
+<p class="time-stamp">00:00:27.760 --> 00:00:28.760</p>
+<p class="transcript-line">Thanks for coming on.</p>
+
+
+<p class="time-stamp">00:00:28.760 --> 00:00:32.940</p>
+<p class="transcript-line">This is a we actually we talked a month or so ago when we were talking about doing the</p>
+
+
+<p class="time-stamp">00:00:32.940 --> 00:00:37.420</p>
+<p class="transcript-line">show but scheduling wise a little peek behind the curtain.</p>
+
+
+<p class="time-stamp">00:00:37.420 --> 00:00:41.120</p>
+<p class="transcript-line">We're like sort of dancing around holidays and vacations and stuff.</p>
+
+
+<p class="time-stamp">00:00:41.120 --> 00:00:44.580</p>
+<p class="transcript-line">This AI category is that what you call it?</p>
+
+
+<p class="time-stamp">00:00:44.580 --> 00:00:48.660</p>
+<p class="transcript-line">Like you know the chat GBT as well as all the stable diffusion stuff.</p>
+
+
+<p class="time-stamp">00:00:48.660 --> 00:00:49.660</p>
+<p class="transcript-line">Do you just call that AI?</p>
+
+
+<p class="time-stamp">00:00:49.660 --> 00:00:51.020</p>
+<p class="transcript-line">Is there a name for this?</p>
+
+
+<p class="time-stamp">00:00:51.020 --> 00:00:53.900</p>
+<p class="transcript-line">I guess you'd want to call it maybe generative AI.</p>
+
+
+<p class="time-stamp">00:00:53.900 --> 00:00:54.900</p>
+<p class="transcript-line">Generative.</p>
+
+
+<p class="time-stamp">00:00:54.900 --> 00:01:00.020</p>
+<p class="transcript-line">AI is like, it feels like an older and more broad category than these things.</p>
+
+
+<p class="time-stamp">00:01:00.020 --> 00:01:01.620</p>
+<p class="transcript-line">Mm-hmm. Yeah.</p>
+
+
+<p class="time-stamp">00:01:01.620 --> 00:01:07.540</p>
+<p class="transcript-line">But like this space is moving so ridiculously fast that I didn't want to record early like</p>
+
+
+<p class="time-stamp">00:01:07.540 --> 00:01:11.140</p>
+<p class="transcript-line">I often do for this show. So, we're kind of, this is the first one after break.</p>
+
+
+<p class="time-stamp">00:01:11.140 --> 00:01:13.380</p>
+<p class="transcript-line">So, I'm excited to have you on.</p>
+
+
+<p class="time-stamp">00:01:13.380 --> 00:01:18.180</p>
+<p class="transcript-line">Yeah, it's been wild, right? The behind the curtains thing is that we talked about this</p>
+
+
+<p class="time-stamp">00:01:18.180 --> 00:01:23.460</p>
+<p class="transcript-line">a month ago and it's still going fast. It's still changing on a weekly basis.</p>
+
+
+<p class="time-stamp">00:01:24.500 --> 00:01:30.980</p>
+<p class="transcript-line">I feel like everyone's just keeps on catching up to whatever the new thing is.</p>
+
+
+<p class="time-stamp">00:01:30.980 --> 00:01:37.060</p>
+<p class="transcript-line">Yeah, it's been wild. And I think it will continue on being wild for the foreseeable future.</p>
+
+
+<p class="time-stamp">00:01:37.060 --> 00:01:41.780</p>
+<p class="transcript-line">Before we get into that, and I have like a million questions in this area,</p>
+
+
+<p class="time-stamp">00:01:41.780 --> 00:01:45.140</p>
+<p class="transcript-line">I want everyone to get a little bit of a background on who you are. So</p>
+
+
+<p class="time-stamp">00:01:45.140 --> 00:01:50.500</p>
+<p class="transcript-line">the questions I asked to start this off is, where are you from? Do you have a formal education</p>
+
+
+<p class="time-stamp">00:01:50.500 --> 00:01:55.860</p>
+<p class="transcript-line">related to what you do? And then what was your career like that led up to this sort of generative</p>
+
+
+<p class="time-stamp">00:01:55.860 --> 00:02:01.140</p>
+<p class="transcript-line">AI space that you've been playing in? I'm from Lebanon. I'm Lebanese, born and raised.</p>
+
+
+<p class="time-stamp">00:02:01.140 --> 00:02:10.900</p>
+<p class="transcript-line">And then I went to France for higher education, right for uni. So I studied software engineering</p>
+
+
+<p class="time-stamp">00:02:10.900 --> 00:02:19.300</p>
+<p class="transcript-line">there. And right out of school, I joined Apple, first on Mac OS, and then on iOS. So I worked</p>
+
+
+<p class="time-stamp">00:02:19.300 --> 00:02:24.660</p>
+<p class="transcript-line">at Apple for about six years as part of the application frameworks team.</p>
+
+
+<p class="time-stamp">00:02:24.660 --> 00:02:33.060</p>
+<p class="transcript-line">So I worked on Spotlight, sharing iCloud, iCloud Sync and iCloud Drive,</p>
+
+
+<p class="time-stamp">00:02:33.060 --> 00:02:38.740</p>
+<p class="transcript-line">so which became the Files app. So that's kind of my career path at Apple.</p>
+
+
+<p class="time-stamp">00:02:38.740 --> 00:02:44.180</p>
+<p class="transcript-line">And at some point, I was like, it would be great to, you know, explore the world</p>
+
+
+<p class="time-stamp">00:02:45.060 --> 00:02:52.180</p>
+<p class="transcript-line">and kind of switch it up career-wise. I knew that I wanted to leave the corporate space</p>
+
+
+<p class="time-stamp">00:02:52.180 --> 00:02:57.300</p>
+<p class="transcript-line">for a little while just to kind of experiment with my own things, develop my own products,</p>
+
+
+<p class="time-stamp">00:02:57.300 --> 00:03:04.500</p>
+<p class="transcript-line">really own a product from A to Z, be it development, design, marketing, and just</p>
+
+
+<p class="time-stamp">00:03:04.500 --> 00:03:12.580</p>
+<p class="transcript-line">learn as much as possible. That's what I had done. I left Paris in 2019, so that was three,</p>
+
+
+<p class="time-stamp">00:03:12.580 --> 00:03:21.300</p>
+<p class="transcript-line">three and a half years ago and set out to just kind of YOLO, like, you know, figure it out,</p>
+
+
+<p class="time-stamp">00:03:21.300 --> 00:03:28.900</p>
+<p class="transcript-line">right? And I started developing smaller apps. So there's Mission Control Plus, an app that helps</p>
+
+
+<p class="time-stamp">00:03:28.900 --> 00:03:34.980</p>
+<p class="transcript-line">you just take control of all of the windows that show up in Mission Control, being able to... so</p>
+
+
+<p class="time-stamp">00:03:34.980 --> 00:03:41.140</p>
+<p class="transcript-line">it's kind of an OS tweak. And the Batteries app, which tracks all of your device's batteries. And</p>
+
+
+<p class="time-stamp">00:03:41.140 --> 00:03:46.980</p>
+<p class="transcript-line">And these were kind of hits, even though they were kind of very small, targeted, very specific</p>
+
+
+<p class="time-stamp">00:03:46.980 --> 00:03:47.980</p>
+<p class="transcript-line">apps.</p>
+
+
+<p class="time-stamp">00:03:47.980 --> 00:03:48.980</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:03:48.980 --> 00:03:50.820</p>
+<p class="transcript-line">And on the Mac too, right?</p>
+
+
+<p class="time-stamp">00:03:50.820 --> 00:03:57.060</p>
+<p class="transcript-line">Were those in the Mac App Store or they like separately deployed or distributed?</p>
+
+
+<p class="time-stamp">00:03:57.060 --> 00:04:00.860</p>
+<p class="transcript-line">They both use private API.</p>
+
+
+<p class="time-stamp">00:04:00.860 --> 00:04:01.980</p>
+<p class="transcript-line">Ah, okay.</p>
+
+
+<p class="time-stamp">00:04:01.980 --> 00:04:04.260</p>
+<p class="transcript-line">The choice is made for you then.</p>
+
+
+<p class="time-stamp">00:04:04.260 --> 00:04:05.260</p>
+<p class="transcript-line">Choice was made for me.</p>
+
+
+<p class="time-stamp">00:04:05.260 --> 00:04:07.980</p>
+<p class="transcript-line">So I can't sell them on the App Store.</p>
+
+
+<p class="time-stamp">00:04:07.980 --> 00:04:11.260</p>
+<p class="transcript-line">So yeah, I sell them off of my own website.</p>
+
+
+<p class="time-stamp">00:04:11.260 --> 00:04:13.500</p>
+<p class="transcript-line">How did you, how did those end up being hits?</p>
+
+
+<p class="time-stamp">00:04:13.500 --> 00:04:15.820</p>
+<p class="transcript-line">They weren't through, you know, the Mac App Store.</p>
+
+
+<p class="time-stamp">00:04:15.820 --> 00:04:18.300</p>
+<p class="transcript-line">What was your sort of marketing?</p>
+
+
+<p class="time-stamp">00:04:18.300 --> 00:04:23.180</p>
+<p class="transcript-line">Even before talking about marketing, I, why did I want to create these apps?</p>
+
+
+<p class="time-stamp">00:04:23.180 --> 00:04:24.180</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:04:24.180 --> 00:04:25.660</p>
+<p class="transcript-line">It kind of started off that way.</p>
+
+
+<p class="time-stamp">00:04:25.660 --> 00:04:30.340</p>
+<p class="transcript-line">It's like it had been these two problems solved by Mission Control Plus and batteries had been</p>
+
+
+<p class="time-stamp">00:04:30.340 --> 00:04:32.540</p>
+<p class="transcript-line">nagging me for four years.</p>
+
+
+<p class="time-stamp">00:04:32.540 --> 00:04:34.220</p>
+<p class="transcript-line">And so, so they were on my list.</p>
+
+
+<p class="time-stamp">00:04:34.220 --> 00:04:37.460</p>
+<p class="transcript-line">It's like, I would love Mac OS to do this someday.</p>
+
+
+<p class="time-stamp">00:04:37.460 --> 00:04:42.820</p>
+<p class="transcript-line">And it became a nagging issue in the sense that like on almost, you know, this is annoying.</p>
+
+
+<p class="time-stamp">00:04:42.820 --> 00:04:43.820</p>
+<p class="transcript-line">I needed them.</p>
+
+
+<p class="time-stamp">00:04:43.820 --> 00:04:45.740</p>
+<p class="transcript-line">I needed them both of them.</p>
+
+
+<p class="time-stamp">00:04:45.740 --> 00:04:49.100</p>
+<p class="transcript-line">And so that's how I, you know, thought of creating them.</p>
+
+
+<p class="time-stamp">00:04:49.100 --> 00:04:50.740</p>
+<p class="transcript-line">That's how I developed them.</p>
+
+
+<p class="time-stamp">00:04:50.740 --> 00:04:55.580</p>
+<p class="transcript-line">And it just turned out that there were so many people that had these same two nagging</p>
+
+
+<p class="time-stamp">00:04:55.580 --> 00:04:56.580</p>
+<p class="transcript-line">issues.</p>
+
+
+<p class="time-stamp">00:04:56.580 --> 00:05:00.900</p>
+<p class="transcript-line">So I imagine I kind of lucked out on it in the sense that there were so many other people</p>
+
+
+<p class="time-stamp">00:05:00.900 --> 00:05:03.540</p>
+<p class="transcript-line">that had that same nagging issue.</p>
+
+
+<p class="time-stamp">00:05:03.540 --> 00:05:05.440</p>
+<p class="transcript-line">And that kind of helped marketing.</p>
+
+
+<p class="time-stamp">00:05:05.440 --> 00:05:06.900</p>
+<p class="transcript-line">It helped it quite a bit.</p>
+
+
+<p class="time-stamp">00:05:06.900 --> 00:05:12.700</p>
+<p class="transcript-line">I only launched on Product Hunt, I think, and I didn't have that many Twitter</p>
+
+
+<p class="time-stamp">00:05:12.700 --> 00:05:17.340</p>
+<p class="transcript-line">followers or Twitter audience, but it just seemed like these issues were</p>
+
+
+<p class="time-stamp">00:05:17.340 --> 00:05:20.860</p>
+<p class="transcript-line">nagging enough so that people, it clicked to people.</p>
+
+
+<p class="time-stamp">00:05:20.860 --> 00:05:21.660</p>
+<p class="transcript-line">Nice.</p>
+
+
+<p class="time-stamp">00:05:21.660 --> 00:05:22.420</p>
+<p class="transcript-line">Well, that's cool.</p>
+
+
+<p class="time-stamp">00:05:22.420 --> 00:05:25.580</p>
+<p class="transcript-line">And those are still, those are still in the store too, or not in the store, but</p>
+
+
+<p class="time-stamp">00:05:25.580 --> 00:05:27.220</p>
+<p class="transcript-line">those are still available on your website, right?</p>
+
+
+<p class="time-stamp">00:05:27.220 --> 00:05:28.580</p>
+<p class="transcript-line">They're still available.</p>
+
+
+<p class="time-stamp">00:05:28.580 --> 00:05:30.220</p>
+<p class="transcript-line">They're, they're still up to date.</p>
+
+
+<p class="time-stamp">00:05:30.220 --> 00:05:30.620</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:05:30.620 --> 00:05:31.340</p>
+<p class="transcript-line">Okay.</p>
+
+
+<p class="time-stamp">00:05:31.340 --> 00:05:35.100</p>
+<p class="transcript-line">So you have, you have some Mac utility apps.</p>
+
+
+<p class="time-stamp">00:05:35.700 --> 00:05:43.700</p>
+<p class="transcript-line">How did we get from that to not a Mac utility app, an iOS app built around this generative</p>
+
+
+<p class="time-stamp">00:05:43.700 --> 00:05:47.060</p>
+<p class="transcript-line">AI art sort of space?</p>
+
+
+<p class="time-stamp">00:05:47.060 --> 00:05:48.540</p>
+<p class="transcript-line">What's the path there?</p>
+
+
+<p class="time-stamp">00:05:48.540 --> 00:05:55.780</p>
+<p class="transcript-line">After batteries came out, I was sort of in exploratory mode and wanting to play around</p>
+
+
+<p class="time-stamp">00:05:55.780 --> 00:06:02.820</p>
+<p class="transcript-line">with different technologies, things that I hadn't touched before, doing some web dev,</p>
+
+
+<p class="time-stamp">00:06:02.820 --> 00:06:10.320</p>
+<p class="transcript-line">Electron, right, just to kind of try something new and trying to make some kind of product</p>
+
+
+<p class="time-stamp">00:06:10.320 --> 00:06:12.260</p>
+<p class="transcript-line">or business out of it.</p>
+
+
+<p class="time-stamp">00:06:12.260 --> 00:06:14.740</p>
+<p class="transcript-line">And that didn't really pan out.</p>
+
+
+<p class="time-stamp">00:06:14.740 --> 00:06:19.680</p>
+<p class="transcript-line">Quite interestingly, if you're ideating and trying to launch a new product, do stick to</p>
+
+
+<p class="time-stamp">00:06:19.680 --> 00:06:20.680</p>
+<p class="transcript-line">what you know.</p>
+
+
+<p class="time-stamp">00:06:20.680 --> 00:06:22.940</p>
+<p class="transcript-line">Do not try to learn a new technology at the same time.</p>
+
+
+<p class="time-stamp">00:06:22.940 --> 00:06:24.580</p>
+<p class="transcript-line">Like that will slow you down.</p>
+
+
+<p class="time-stamp">00:06:24.580 --> 00:06:26.540</p>
+<p class="transcript-line">And then the pandemic hit.</p>
+
+
+<p class="time-stamp">00:06:26.540 --> 00:06:33.720</p>
+<p class="transcript-line">And at that point I started contracting for Snap, Snapchat, for a while and that kind</p>
+
+
+<p class="time-stamp">00:06:33.720 --> 00:06:37.040</p>
+<p class="transcript-line">of dove me back into the iOS world.</p>
+
+
+<p class="time-stamp">00:06:37.040 --> 00:06:40.520</p>
+<p class="transcript-line">So kind of steered away from Mac OS, went back into iOS.</p>
+
+
+<p class="time-stamp">00:06:40.520 --> 00:06:42.980</p>
+<p class="transcript-line">And I did that for about one year full time.</p>
+
+
+<p class="time-stamp">00:06:42.980 --> 00:06:47.400</p>
+<p class="transcript-line">So stopped focusing on the indie side of things.</p>
+
+
+<p class="time-stamp">00:06:47.400 --> 00:06:52.680</p>
+<p class="transcript-line">After that one year I had decided, okay, like I'm going to dive back into the indie world,</p>
+
+
+<p class="time-stamp">00:06:52.680 --> 00:06:57.240</p>
+<p class="transcript-line">But this time it's going to be kind of the more straightforward, streamlined way of</p>
+
+
+<p class="time-stamp">00:06:57.240 --> 00:07:03.760</p>
+<p class="transcript-line">developing, meaning back into the App Store, focusing on developing something for iOS.</p>
+
+
+<p class="time-stamp">00:07:03.760 --> 00:07:04.880</p>
+<p class="transcript-line">Because the market is there.</p>
+
+
+<p class="time-stamp">00:07:04.880 --> 00:07:10.560</p>
+<p class="transcript-line">The Mac App Store market felt a bit smaller, and it just made more sense to develop something</p>
+
+
+<p class="time-stamp">00:07:10.560 --> 00:07:11.840</p>
+<p class="transcript-line">for iOS.</p>
+
+
+<p class="time-stamp">00:07:11.840 --> 00:07:18.140</p>
+<p class="transcript-line">And so I set out to develop a kind of a small portfolio of apps, of editing apps.</p>
+
+
+<p class="time-stamp">00:07:18.140 --> 00:07:28.340</p>
+<p class="transcript-line">So a interactive audio editor where, so PodBuddy is this app that transforms your audio content,</p>
+
+
+<p class="time-stamp">00:07:28.340 --> 00:07:34.220</p>
+<p class="transcript-line">let's say a podcast clip or a music clip, into kind of an Instagram story-like UI that</p>
+
+
+<p class="time-stamp">00:07:34.220 --> 00:07:39.380</p>
+<p class="transcript-line">you can share on a video that you can share on social media.</p>
+
+
+<p class="time-stamp">00:07:39.380 --> 00:07:44.980</p>
+<p class="transcript-line">And after that, I developed VidCap, which is a captioning app for videos.</p>
+
+
+<p class="time-stamp">00:07:44.980 --> 00:07:50.580</p>
+<p class="transcript-line">I had set out to develop these because I had always been interested in designing and making</p>
+
+
+<p class="time-stamp">00:07:50.580 --> 00:07:58.980</p>
+<p class="transcript-line">editing UI or editing tools. So anything that you can add media to sort of canvas.</p>
+
+
+<p class="time-stamp">00:07:58.980 --> 00:08:04.580</p>
+<p class="transcript-line">For some reason, I had always been interested as a kind of experiment to just develop something</p>
+
+
+<p class="time-stamp">00:08:04.580 --> 00:08:11.300</p>
+<p class="transcript-line">like that. So I set out to make these two apps, put them on the iOS App Store. And</p>
+
+
+<p class="time-stamp">00:08:12.420 --> 00:08:19.620</p>
+<p class="transcript-line">I started also, you know, I got in contact with iOS marketing on the App Store.</p>
+
+
+<p class="time-stamp">00:08:19.620 --> 00:08:26.820</p>
+<p class="transcript-line">I got in contact with marketing on the App Store in the sense that, you know, ASO, knowing how to</p>
+
+
+<p class="time-stamp">00:08:26.820 --> 00:08:38.740</p>
+<p class="transcript-line">monetize any an app on the App Store and kind of just becoming more in sync with how to develop an</p>
+
+
+<p class="time-stamp">00:08:38.740 --> 00:08:39.740</p>
+<p class="transcript-line">an app store business.</p>
+
+
+<p class="time-stamp">00:08:39.740 --> 00:08:43.300</p>
+<p class="transcript-line">Like you were digging, you were digging into those and becoming interested in</p>
+
+
+<p class="time-stamp">00:08:43.300 --> 00:08:45.020</p>
+<p class="transcript-line">like growing that skill. Is that what you're saying?</p>
+
+
+<p class="time-stamp">00:08:45.020 --> 00:08:51.020</p>
+<p class="transcript-line">Exactly. So it's kind of a how to create products that delight me and others,</p>
+
+
+<p class="time-stamp">00:08:51.020 --> 00:08:53.140</p>
+<p class="transcript-line">but also how to create a business out of it.</p>
+
+
+<p class="time-stamp">00:08:53.140 --> 00:08:53.580</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:08:53.580 --> 00:08:57.740</p>
+<p class="transcript-line">And so I became more tied in with the with the app store business in general,</p>
+
+
+<p class="time-stamp">00:08:57.740 --> 00:09:01.900</p>
+<p class="transcript-line">right? It is its own ecosystem. And I thought that there was opportunity there.</p>
+
+
+<p class="time-stamp">00:09:01.900 --> 00:09:07.140</p>
+<p class="transcript-line">And so I just got into that. At that point, I started contracting for Mighty,</p>
+
+
+<p class="time-stamp">00:09:08.020 --> 00:09:12.820</p>
+<p class="transcript-line">which was a web browser that is based in the cloud,</p>
+
+
+<p class="time-stamp">00:09:12.820 --> 00:09:15.780</p>
+<p class="transcript-line">that is streamed onto your machine.</p>
+
+
+<p class="time-stamp">00:09:15.780 --> 00:09:20.020</p>
+<p class="transcript-line">So all the rendering, all the heavy lifting is done on the cloud for you.</p>
+
+
+<p class="time-stamp">00:09:20.020 --> 00:09:24.660</p>
+<p class="transcript-line">And then what you receive is just a video stream of that rendered content.</p>
+
+
+<p class="time-stamp">00:09:24.660 --> 00:09:30.020</p>
+<p class="transcript-line">I did a lot of prototyping and kind of ideating for what the browser of the future</p>
+
+
+<p class="time-stamp">00:09:30.020 --> 00:09:32.260</p>
+<p class="transcript-line">could look like at Mighty.</p>
+
+
+<p class="time-stamp">00:09:32.260 --> 00:09:34.500</p>
+<p class="transcript-line">And at some point, there was kind of a,</p>
+
+
+<p class="time-stamp">00:09:35.300 --> 00:09:41.300</p>
+<p class="transcript-line">you know, we had finished all of the prototyping tasks, we still had a few, but this generative AI</p>
+
+
+<p class="time-stamp">00:09:41.300 --> 00:09:47.540</p>
+<p class="transcript-line">thing started becoming, you know, more, let's say, present, right? We started seeing more of it on</p>
+
+
+<p class="time-stamp">00:09:47.540 --> 00:09:54.020</p>
+<p class="transcript-line">Twitter and tech circles, etc. And just playing around with these tools at the time, the CEO was</p>
+
+
+<p class="time-stamp">00:09:54.020 --> 00:10:00.740</p>
+<p class="transcript-line">like, it will be interesting to explore something in this space, because this tech is, it's something</p>
+
+
+<p class="time-stamp">00:10:00.740 --> 00:10:04.820</p>
+<p class="transcript-line">else. We haven't seen anything like that in such a long time, like this could be something big.</p>
+
+
+<p class="time-stamp">00:10:04.820 --> 00:10:12.240</p>
+<p class="transcript-line">And so from prototyping web browsers, we started prototyping, testing out these</p>
+
+
+<p class="time-stamp">00:10:12.240 --> 00:10:17.980</p>
+<p class="transcript-line">generative AI art APIs, call them, right? We started playing around with stable</p>
+
+
+<p class="time-stamp">00:10:17.980 --> 00:10:23.740</p>
+<p class="transcript-line">diffusion and thinking how can we make interesting tools based on that. And that</p>
+
+
+<p class="time-stamp">00:10:23.740 --> 00:10:30.420</p>
+<p class="transcript-line">became Playground AI, which you can visit at playgroundai.com. It is a bit of a</p>
+
+
+<p class="time-stamp">00:10:30.420 --> 00:10:35.980</p>
+<p class="transcript-line">generative AI tool slash social network where you can see other people's</p>
+
+
+<p class="time-stamp">00:10:35.980 --> 00:10:41.420</p>
+<p class="transcript-line">creations, can remix other people's generated AI work, etc.</p>
+
+
+<p class="time-stamp">00:10:41.420 --> 00:10:44.420</p>
+<p class="transcript-line">That's right. Okay, I have seen this before.</p>
+
+
+<p class="time-stamp">00:10:44.420 --> 00:10:48.020</p>
+<p class="transcript-line">And at that point I had felt like I had swallowed the red pill.</p>
+
+
+<p class="time-stamp">00:10:48.020 --> 00:10:52.820</p>
+<p class="transcript-line">I was bitten by the AI bug. I was all in on this. I was like,</p>
+
+
+<p class="time-stamp">00:10:52.820 --> 00:10:55.620</p>
+<p class="transcript-line">this is going to change everything.</p>
+
+
+<p class="time-stamp">00:10:55.620 --> 00:11:00.620</p>
+<p class="transcript-line">And at that point, I had finished or stopped my contract with Mighty.</p>
+
+
+<p class="time-stamp">00:11:00.620 --> 00:11:06.180</p>
+<p class="transcript-line">Just to kind of explore how I can solve problems using AI.</p>
+
+
+<p class="time-stamp">00:11:06.180 --> 00:11:09.780</p>
+<p class="transcript-line">It's kind of like everything became a nail</p>
+
+
+<p class="time-stamp">00:11:09.780 --> 00:11:13.540</p>
+<p class="transcript-line">and AI was the hammer that I was wielding.</p>
+
+
+<p class="time-stamp">00:11:13.540 --> 00:11:15.740</p>
+<p class="transcript-line">It kind of did.</p>
+
+
+<p class="time-stamp">00:11:15.740 --> 00:11:18.900</p>
+<p class="transcript-line">But I did feel like, oh my God, this is so transformative.</p>
+
+
+<p class="time-stamp">00:11:18.900 --> 00:11:23.460</p>
+<p class="transcript-line">This will change so many things that I better jump on the bandwagon.</p>
+
+
+<p class="time-stamp">00:11:23.460 --> 00:11:28.060</p>
+<p class="transcript-line">There is a hype around this, like, obviously, I won't hide this fact.</p>
+
+
+<p class="time-stamp">00:11:28.060 --> 00:11:30.860</p>
+<p class="transcript-line">But I was, yeah, so</p>
+
+
+<p class="time-stamp">00:11:30.860 --> 00:11:35.100</p>
+<p class="transcript-line">deep into this, I was like, OK, let's let's start making products around this.</p>
+
+
+<p class="time-stamp">00:11:35.100 --> 00:11:41.300</p>
+<p class="transcript-line">We've been living through a decade, I guess, of Web3 and crypto</p>
+
+
+<p class="time-stamp">00:11:41.300 --> 00:11:44.100</p>
+<p class="transcript-line">kind of being the.</p>
+
+
+<p class="time-stamp">00:11:44.100 --> 00:11:47.540</p>
+<p class="transcript-line">The red pill, like this is</p>
+
+
+<p class="time-stamp">00:11:47.540 --> 00:11:51.020</p>
+<p class="transcript-line">everything's a nail because I'm holding this hammer and everybody was searching</p>
+
+
+<p class="time-stamp">00:11:51.020 --> 00:11:54.980</p>
+<p class="transcript-line">for how do I use this tech that's cool on something and everybody's just</p>
+
+
+<p class="time-stamp">00:11:54.980 --> 00:12:00.220</p>
+<p class="transcript-line">trying to come up with products and the AI thing or generative AI thing feels</p>
+
+
+<p class="time-stamp">00:12:00.220 --> 00:12:06.120</p>
+<p class="transcript-line">like it started with obvious products, but then you can imagine a thousand</p>
+
+
+<p class="time-stamp">00:12:06.120 --> 00:12:11.720</p>
+<p class="transcript-line">more, like it just seems like there's a much more obvious fertile ground for</p>
+
+
+<p class="time-stamp">00:12:11.720 --> 00:12:15.580</p>
+<p class="transcript-line">actual products that people would want in this space.</p>
+
+
+<p class="time-stamp">00:12:15.580 --> 00:12:19.820</p>
+<p class="transcript-line">And I def I share a similar feeling as you, where I can just imagine like a</p>
+
+
+<p class="time-stamp">00:12:19.820 --> 00:12:21.100</p>
+<p class="transcript-line">thousand possibilities.</p>
+
+
+<p class="time-stamp">00:12:21.100 --> 00:12:23.820</p>
+<p class="transcript-line">Like if the tech gets a little bit better, imagine this and imagine that.</p>
+
+
+<p class="time-stamp">00:12:23.820 --> 00:12:29.260</p>
+<p class="transcript-line">I feel the interesting thing about the current state of generative AI is that</p>
+
+
+<p class="time-stamp">00:12:29.260 --> 00:12:37.180</p>
+<p class="transcript-line">what we got with DALI APIs, such as DALI stable diffusion, is like going from</p>
+
+
+<p class="time-stamp">00:12:37.180 --> 00:12:40.620</p>
+<p class="transcript-line">from nothing to something so fast.</p>
+
+
+<p class="time-stamp">00:12:40.620 --> 00:12:41.020</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:12:41.020 --> 00:12:42.340</p>
+<p class="transcript-line">It just felt like a shock.</p>
+
+
+<p class="time-stamp">00:12:42.340 --> 00:12:44.820</p>
+<p class="transcript-line">We immediately got good enough.</p>
+
+
+<p class="time-stamp">00:12:45.820 --> 00:12:50.020</p>
+<p class="transcript-line">Uh, instead of, and maybe that's why the whole world is still reacting to this.</p>
+
+
+<p class="time-stamp">00:12:50.020 --> 00:12:53.900</p>
+<p class="transcript-line">Like we got from zero to good enough so fast to compare it with.</p>
+
+
+<p class="time-stamp">00:12:53.900 --> 00:12:59.720</p>
+<p class="transcript-line">Web3 I kind of agree is like, I was never bitten by that bug.</p>
+
+
+<p class="time-stamp">00:12:59.720 --> 00:13:04.960</p>
+<p class="transcript-line">I, it just always felt like maybe it's my lack of imagination, but I could not</p>
+
+
+<p class="time-stamp">00:13:04.960 --> 00:13:10.660</p>
+<p class="transcript-line">conceive of an interesting application to make out of all of these web3 technologies.</p>
+
+
+<p class="time-stamp">00:13:10.660 --> 00:13:11.800</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:13:12.020 --> 00:13:18.100</p>
+<p class="transcript-line">somebody who doesn't live in the world of finance or investment vehicles or whatever,</p>
+
+
+<p class="time-stamp">00:13:18.100 --> 00:13:22.660</p>
+<p class="transcript-line">yeah, it wasn't like I looked at that and thought, "Oh my gosh, the possibilities."</p>
+
+
+<p class="time-stamp">00:13:22.660 --> 00:13:26.740</p>
+<p class="transcript-line">And so admittedly, I'm in the category of people that it's easy to dunk on.</p>
+
+
+<p class="time-stamp">00:13:26.740 --> 00:13:32.260</p>
+<p class="transcript-line">I know I'm in the space where I don't know it well enough to really make fun of it as much</p>
+
+
+<p class="time-stamp">00:13:32.260 --> 00:13:40.420</p>
+<p class="transcript-line">as maybe I do. But I do live in being bad at writing copy and being okay at illustrating</p>
+
+
+<p class="time-stamp">00:13:40.420 --> 00:13:46.340</p>
+<p class="transcript-line">things. And so these generative AI, you know, ideas that have come out so far,</p>
+
+
+<p class="time-stamp">00:13:46.340 --> 00:13:52.580</p>
+<p class="transcript-line">it's like, yes, I imagine this tool built into Photoshop and yes, I can</p>
+
+
+<p class="time-stamp">00:13:52.580 --> 00:13:55.300</p>
+<p class="transcript-line">immediately see where I would utilize this.</p>
+
+
+<p class="time-stamp">00:13:55.300 --> 00:13:58.020</p>
+<p class="transcript-line">And, you know, people are already doing that all over the place.</p>
+
+
+<p class="time-stamp">00:13:58.020 --> 00:14:04.220</p>
+<p class="transcript-line">A hundred percent. It's just so amazing that these tools, just one tool, right?</p>
+
+
+<p class="time-stamp">00:14:04.220 --> 00:14:08.500</p>
+<p class="transcript-line">Taking just stable diffusion, for example, it's like there's this one tool that</p>
+
+
+<p class="time-stamp">00:14:08.500 --> 00:14:15.700</p>
+<p class="transcript-line">you can prompt that has so many applications, whereas back in the day, you had to form a</p>
+
+
+<p class="time-stamp">00:14:15.700 --> 00:14:20.000</p>
+<p class="transcript-line">team to solve each of the problems that this thing could solve.</p>
+
+
+<p class="time-stamp">00:14:20.000 --> 00:14:26.060</p>
+<p class="transcript-line">For example, I don't know, remove a background or outpaint an image, like add, you know,</p>
+
+
+<p class="time-stamp">00:14:26.060 --> 00:14:29.140</p>
+<p class="transcript-line">around the borders, add more content, etc.</p>
+
+
+<p class="time-stamp">00:14:29.140 --> 00:14:32.980</p>
+<p class="transcript-line">Adobe had, you know, teams working around the clock just for each of these features.</p>
+
+
+<p class="time-stamp">00:14:32.980 --> 00:14:38.420</p>
+<p class="transcript-line">And then we, you know, one API lands that can do all of these and do them quite well.</p>
+
+
+<p class="time-stamp">00:14:38.420 --> 00:14:45.220</p>
+<p class="transcript-line">a good way of phrasing it. Because every Adobe Max has been somebody in basically a white lab</p>
+
+
+<p class="time-stamp">00:14:45.220 --> 00:14:52.980</p>
+<p class="transcript-line">coat coming up and showing off the latest content background removal that you can run in After</p>
+
+
+<p class="time-stamp">00:14:52.980 --> 00:14:57.620</p>
+<p class="transcript-line">Effects. And look, it can work on video. But it's like they're opening up a script and running a</p>
+
+
+<p class="time-stamp">00:14:57.620 --> 00:15:01.380</p>
+<p class="transcript-line">thing and you're just like, "Wow, in 10 years or 5 years, this is going to be amazing."</p>
+
+
+<p class="time-stamp">00:15:01.940 --> 00:15:09.700</p>
+<p class="transcript-line">And everything with stable diffusion in DALI, it feels like, "Wow, next week, we can now do XYZ."</p>
+
+
+<p class="time-stamp">00:15:09.700 --> 00:15:18.260</p>
+<p class="transcript-line">Like the pace of improvement has been ridiculous, which is I think part of what adds to that feeling</p>
+
+
+<p class="time-stamp">00:15:18.260 --> 00:15:25.300</p>
+<p class="transcript-line">of excitement. I feel like every time excitement, worldwide excitement starts waning, some new</p>
+
+
+<p class="time-stamp">00:15:25.300 --> 00:15:31.460</p>
+<p class="transcript-line">advancement in AI just lands and it just renews, gives everyone that dopamine rush.</p>
+
+
+<p class="time-stamp">00:15:31.460 --> 00:15:33.460</p>
+<p class="transcript-line">And it keeps on going.</p>
+
+
+<p class="time-stamp">00:15:33.460 --> 00:15:36.460</p>
+<p class="transcript-line">Yeah, that's a good comparison.</p>
+
+
+<p class="time-stamp">00:15:36.460 --> 00:15:41.460</p>
+<p class="transcript-line">Before we get into the product that you then built through this excitement,</p>
+
+
+<p class="time-stamp">00:15:41.460 --> 00:15:46.460</p>
+<p class="transcript-line">I think we should address some of the controversy around it in terms of</p>
+
+
+<p class="time-stamp">00:15:46.460 --> 00:15:50.460</p>
+<p class="transcript-line">legally, everything about this is still murky.</p>
+
+
+<p class="time-stamp">00:15:50.460 --> 00:15:54.460</p>
+<p class="transcript-line">And I don't mean that in a "is this shady or not?"</p>
+
+
+<p class="time-stamp">00:15:54.460 --> 00:15:57.460</p>
+<p class="transcript-line">I think everybody's pretty upfront with exactly what's going on.</p>
+
+
+<p class="time-stamp">00:15:57.460 --> 00:16:03.420</p>
+<p class="transcript-line">on. It's just that the laws in every country are still catching up because of how fast</p>
+
+
+<p class="time-stamp">00:16:03.420 --> 00:16:06.540</p>
+<p class="transcript-line">this is going and like what your take on that is. I know we've talked about this a little</p>
+
+
+<p class="time-stamp">00:16:06.540 --> 00:16:10.180</p>
+<p class="transcript-line">bit, but hey, that was a couple of weeks ago and like we talked about then everything will</p>
+
+
+<p class="time-stamp">00:16:10.180 --> 00:16:14.020</p>
+<p class="transcript-line">probably change by the time we record. So I don't want to like not address that though.</p>
+
+
+<p class="time-stamp">00:16:14.020 --> 00:16:21.060</p>
+<p class="transcript-line">Oh, for sure. The funny thing is like a month ago we had briefly discussed this and what</p>
+
+
+<p class="time-stamp">00:16:21.060 --> 00:16:26.840</p>
+<p class="transcript-line">I had said last month is like my view on this. And again, I am not a lawyer, so maybe I'd</p>
+
+
+<p class="time-stamp">00:16:26.840 --> 00:16:31.760</p>
+<p class="transcript-line">like to more talk about the ethics of things more than more than the legality.</p>
+
+
+<p class="time-stamp">00:16:31.760 --> 00:16:33.120</p>
+<p class="transcript-line">Right. Yes. Agreed.</p>
+
+
+<p class="time-stamp">00:16:33.120 --> 00:16:37.320</p>
+<p class="transcript-line">Yeah, it was back then it was still evolving on a weekly basis just to kind</p>
+
+
+<p class="time-stamp">00:16:37.320 --> 00:16:41.180</p>
+<p class="transcript-line">of also get as many data points as possible from smart people around the</p>
+
+
+<p class="time-stamp">00:16:41.180 --> 00:16:43.160</p>
+<p class="transcript-line">world. And it's still ongoing now.</p>
+
+
+<p class="time-stamp">00:16:43.160 --> 00:16:47.480</p>
+<p class="transcript-line">My viewpoint is really is still evolving.</p>
+
+
+<p class="time-stamp">00:16:47.480 --> 00:16:53.280</p>
+<p class="transcript-line">But one thing that I'm kind of still fixated on, to be honest, is</p>
+
+
+<p class="time-stamp">00:16:54.200 --> 00:16:57.840</p>
+<p class="transcript-line">How does a human being get inspiration?</p>
+
+
+<p class="time-stamp">00:16:57.840 --> 00:17:01.120</p>
+<p class="transcript-line">How does a human being learn how to create art?</p>
+
+
+<p class="time-stamp">00:17:01.120 --> 00:17:05.440</p>
+<p class="transcript-line">It is never created in a vac or in a bubble.</p>
+
+
+<p class="time-stamp">00:17:05.440 --> 00:17:10.320</p>
+<p class="transcript-line">It's always born out of inspiration from other artists.</p>
+
+
+<p class="time-stamp">00:17:10.320 --> 00:17:12.040</p>
+<p class="transcript-line">Obviously, and again,</p>
+
+
+<p class="time-stamp">00:17:12.040 --> 00:17:14.160</p>
+<p class="transcript-line">if we're just taking the human being example,</p>
+
+
+<p class="time-stamp">00:17:14.160 --> 00:17:16.960</p>
+<p class="transcript-line">like a human artist, if it looks copied,</p>
+
+
+<p class="time-stamp">00:17:16.960 --> 00:17:19.980</p>
+<p class="transcript-line">if it seems, if it's obvious that it's plagiarized,</p>
+
+
+<p class="time-stamp">00:17:19.980 --> 00:17:23.420</p>
+<p class="transcript-line">then that is considered unethical.</p>
+
+
+<p class="time-stamp">00:17:23.420 --> 00:17:28.820</p>
+<p class="transcript-line">But there's just no way that you can create art without having seen art.</p>
+
+
+<p class="time-stamp">00:17:28.820 --> 00:17:34.040</p>
+<p class="transcript-line">There's no way you can just, you know, create amazing masterpieces without</p>
+
+
+<p class="time-stamp">00:17:34.040 --> 00:17:38.180</p>
+<p class="transcript-line">seeing, without learning how art works from other great artists.</p>
+
+
+<p class="time-stamp">00:17:38.180 --> 00:17:38.760</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:17:38.760 --> 00:17:41.620</p>
+<p class="transcript-line">I still haven't fully formalized that because what, how do you</p>
+
+
+<p class="time-stamp">00:17:41.620 --> 00:17:43.040</p>
+<p class="transcript-line">translate that to a machine?</p>
+
+
+<p class="time-stamp">00:17:43.040 --> 00:17:49.640</p>
+<p class="transcript-line">Like how do you teach a machine to just be inspired by art, teach it what art is.</p>
+
+
+<p class="time-stamp">00:17:49.780 --> 00:17:54.220</p>
+<p class="transcript-line">and actually tell it, this is great art and this is not,</p>
+
+
+<p class="time-stamp">00:17:54.220 --> 00:17:57.500</p>
+<p class="transcript-line">and then expect it to produce some kind of art.</p>
+
+
+<p class="time-stamp">00:17:57.500 --> 00:17:59.860</p>
+<p class="transcript-line">My viewpoint has not fully matured on that.</p>
+
+
+<p class="time-stamp">00:17:59.860 --> 00:18:02.300</p>
+<p class="transcript-line">It's not black and white.</p>
+
+
+<p class="time-stamp">00:18:02.300 --> 00:18:04.780</p>
+<p class="transcript-line">If it were easy, then it would be more obvious</p>
+
+
+<p class="time-stamp">00:18:04.780 --> 00:18:07.580</p>
+<p class="transcript-line">in the sense that we do want,</p>
+
+
+<p class="time-stamp">00:18:07.580 --> 00:18:09.180</p>
+<p class="transcript-line">like technology is moving forward,</p>
+
+
+<p class="time-stamp">00:18:09.180 --> 00:18:10.900</p>
+<p class="transcript-line">we do want machines to be able</p>
+
+
+<p class="time-stamp">00:18:10.900 --> 00:18:13.180</p>
+<p class="transcript-line">to create illustrations and art,</p>
+
+
+<p class="time-stamp">00:18:13.180 --> 00:18:15.020</p>
+<p class="transcript-line">but we don't want machines</p>
+
+
+<p class="time-stamp">00:18:15.020 --> 00:18:18.980</p>
+<p class="transcript-line">to basically steal art from artists.</p>
+
+
+<p class="time-stamp">00:18:18.980 --> 00:18:20.580</p>
+<p class="transcript-line">And what is the healthy middle?</p>
+
+
+<p class="time-stamp">00:18:20.580 --> 00:18:22.480</p>
+<p class="transcript-line">I'm still not sure.</p>
+
+
+<p class="time-stamp">00:18:22.480 --> 00:18:23.540</p>
+<p class="transcript-line">This is evolving.</p>
+
+
+<p class="time-stamp">00:18:23.540 --> 00:18:28.040</p>
+<p class="transcript-line">This, this whole thing did not exist at least to me six months ago.</p>
+
+
+<p class="time-stamp">00:18:28.040 --> 00:18:31.540</p>
+<p class="transcript-line">Uh, so yeah, it's, it's, it's not an easy one.</p>
+
+
+<p class="time-stamp">00:18:31.540 --> 00:18:38.300</p>
+<p class="transcript-line">There's sort of explicitly not a fine line between like plagiarism and</p>
+
+
+<p class="time-stamp">00:18:38.300 --> 00:18:40.760</p>
+<p class="transcript-line">stealing something and inspiration.</p>
+
+
+<p class="time-stamp">00:18:40.760 --> 00:18:46.700</p>
+<p class="transcript-line">It is like very fuzzy and everybody's going to have a different impression</p>
+
+
+<p class="time-stamp">00:18:46.700 --> 00:18:48.060</p>
+<p class="transcript-line">of that, of where that line is.</p>
+
+
+<p class="time-stamp">00:18:48.060 --> 00:18:53.980</p>
+<p class="transcript-line">yeah, how do you define that at a machine level is difficult. The comparison I keep running to</p>
+
+
+<p class="time-stamp">00:18:53.980 --> 00:19:02.860</p>
+<p class="transcript-line">is it feels like we're in the same beginning era as the Napster days with MP3s.</p>
+
+
+<p class="time-stamp">00:19:02.860 --> 00:19:07.420</p>
+<p class="transcript-line">Another example of one that went the other way is the VHS days. When VHS first came out,</p>
+
+
+<p class="time-stamp">00:19:07.420 --> 00:19:11.580</p>
+<p class="transcript-line">it was like, "Yeah, people should be able to record whatever's on their TV." And it's like,</p>
+
+
+<p class="time-stamp">00:19:11.580 --> 00:19:17.260</p>
+<p class="transcript-line">You can imagine during that time, that seeming obviously wrong. Like, "Well, you don't own</p>
+
+
+<p class="time-stamp">00:19:17.260 --> 00:19:22.700</p>
+<p class="transcript-line">that. The corporation owns that." And now nobody gives a second thought to like,</p>
+
+
+<p class="time-stamp">00:19:22.700 --> 00:19:26.380</p>
+<p class="transcript-line">"Yes, of course, you should be able to record things with a VHS."</p>
+
+
+<p class="time-stamp">00:19:26.380 --> 00:19:29.900</p>
+<p class="transcript-line">Well, I guess maybe now that's a bad example because with Hulu and all those,</p>
+
+
+<p class="time-stamp">00:19:29.900 --> 00:19:34.540</p>
+<p class="transcript-line">it kind of reversed on us. But you get the idea. We kind of went a certain direction and the whole</p>
+
+
+<p class="time-stamp">00:19:34.540 --> 00:19:40.940</p>
+<p class="transcript-line">world and industry adapted to that. And then Napster with MP3s was the same thing. It was like,</p>
+
+
+<p class="time-stamp">00:19:40.940 --> 00:19:46.620</p>
+<p class="transcript-line">nobody knew this is illegal because it wasn't illegal. It was being figured out.</p>
+
+
+<p class="time-stamp">00:19:46.620 --> 00:19:51.900</p>
+<p class="transcript-line">And it sort of feels like we're in that phase again, where we have a tool that is obviously</p>
+
+
+<p class="time-stamp">00:19:51.900 --> 00:19:59.900</p>
+<p class="transcript-line">has an extremely high utility. And how do we manage that? And it's going to have to be figured</p>
+
+
+<p class="time-stamp">00:19:59.900 --> 00:20:06.460</p>
+<p class="transcript-line">out. At least that's where I'm landing with it. It could be interesting to give back to artists</p>
+
+
+<p class="time-stamp">00:20:07.660 --> 00:20:17.900</p>
+<p class="transcript-line">whose works have made it basically into the model, right? So, I'm guessing there's a few artists</p>
+
+
+<p class="time-stamp">00:20:17.900 --> 00:20:24.700</p>
+<p class="transcript-line">definitely gonna botch the name but I think it's Greg Rutkowski. That name has been seen in like</p>
+
+
+<p class="time-stamp">00:20:24.700 --> 00:20:33.740</p>
+<p class="transcript-line">every stable diffusion prompt available basically because he is an artist on ArtStation and his</p>
+
+
+<p class="time-stamp">00:20:33.740 --> 00:20:43.340</p>
+<p class="transcript-line">style is somehow, I don't know, sexy for stable diffusion, it just works. And so, "Buy Greg</p>
+
+
+<p class="time-stamp">00:20:43.340 --> 00:20:50.300</p>
+<p class="transcript-line">Rutkowski" just appears in so many prompts. And it would almost be unfair to have Greg Rutkowski</p>
+
+
+<p class="time-stamp">00:20:50.300 --> 00:20:55.180</p>
+<p class="transcript-line">producing art for the world being reused by every application based on stable diffusion</p>
+
+
+<p class="time-stamp">00:20:55.180 --> 00:21:01.980</p>
+<p class="transcript-line">and not having the artist, I'm guessing, maybe paid back, but at least getting some sort form</p>
+
+
+<p class="time-stamp">00:21:01.980 --> 00:21:06.220</p>
+<p class="transcript-line">of attribution, right? That's the minimum. And there are some platforms that already give</p>
+
+
+<p class="time-stamp">00:21:06.220 --> 00:21:12.300</p>
+<p class="transcript-line">attribution. If the prompt has the artist's name, they get attribution, they get a link back. I'm</p>
+
+
+<p class="time-stamp">00:21:12.300 --> 00:21:17.180</p>
+<p class="transcript-line">not saying this is enough, but this is a start. I don't know enough about it, but that's where</p>
+
+
+<p class="time-stamp">00:21:17.180 --> 00:21:22.860</p>
+<p class="transcript-line">it starts feeling weird is when it's like, it is explicitly from this one person that you're</p>
+
+
+<p class="time-stamp">00:21:22.860 --> 00:21:30.460</p>
+<p class="transcript-line">generating something, right? And I know, I don't want to go too far into this because I'm pretty</p>
+
+
+<p class="time-stamp">00:21:30.460 --> 00:21:35.900</p>
+<p class="transcript-line">ignorant of it, but like stable, was it stable diffusion to the added the, the feature where</p>
+
+
+<p class="time-stamp">00:21:35.900 --> 00:21:40.780</p>
+<p class="transcript-line">you can basically opt out of being included in the model, or is that the next model that</p>
+
+
+<p class="time-stamp">00:21:40.780 --> 00:21:47.500</p>
+<p class="transcript-line">they're going to build? I believe it was art station that added an option to be up to opt</p>
+
+
+<p class="time-stamp">00:21:47.500 --> 00:21:54.860</p>
+<p class="transcript-line">out of being included and stable diffusion. Oh, like it's specific, uh, databases basically.</p>
+
+
+<p class="time-stamp">00:21:54.860 --> 00:21:59.660</p>
+<p class="transcript-line">And artists are also angry at, uh, at this option because I think it's opt out. So I</p>
+
+
+<p class="time-stamp">00:21:59.660 --> 00:22:03.420</p>
+<p class="transcript-line">I think it's opt in by default and you have to opt out manually.</p>
+
+
+<p class="time-stamp">00:22:03.420 --> 00:22:09.920</p>
+<p class="transcript-line">It's also about understanding what solution kind of serves everyone equally,</p>
+
+
+<p class="time-stamp">00:22:09.920 --> 00:22:15.820</p>
+<p class="transcript-line">what feels fair. Is it a Spotify like model where if you actually use artwork</p>
+
+
+<p class="time-stamp">00:22:15.820 --> 00:22:21.420</p>
+<p class="transcript-line">from a specific artist, they get paid back somehow, they get some form of royalty?</p>
+
+
+<p class="time-stamp">00:22:21.420 --> 00:22:25.940</p>
+<p class="transcript-line">Interestingly, that would change the whole economics out of it.</p>
+
+
+<p class="time-stamp">00:22:25.940 --> 00:22:32.380</p>
+<p class="transcript-line">Because currently you might as well treat it as stolen art and it's all baked into this</p>
+
+
+<p class="time-stamp">00:22:32.380 --> 00:22:40.780</p>
+<p class="transcript-line">brain that is the stable diffusion V1.5 model and you can hash and rehash this art as much</p>
+
+
+<p class="time-stamp">00:22:40.780 --> 00:22:44.940</p>
+<p class="transcript-line">as you want and just make it your own, right?</p>
+
+
+<p class="time-stamp">00:22:44.940 --> 00:22:47.540</p>
+<p class="transcript-line">Into your own creations out of a prompt.</p>
+
+
+<p class="time-stamp">00:22:47.540 --> 00:22:52.140</p>
+<p class="transcript-line">It could feel unfair for sure, but currently it's almost for free, right?</p>
+
+
+<p class="time-stamp">00:22:52.140 --> 00:22:55.640</p>
+<p class="transcript-line">I mean, it's just a GPU cost.</p>
+
+
+<p class="time-stamp">00:22:55.640 --> 00:23:05.520</p>
+<p class="transcript-line">What would it become if you start having to pay a small fraction of royalty to every artist</p>
+
+
+<p class="time-stamp">00:23:05.520 --> 00:23:07.140</p>
+<p class="transcript-line">whenever you generate the prompt?</p>
+
+
+<p class="time-stamp">00:23:07.140 --> 00:23:10.280</p>
+<p class="transcript-line">And how do you distribute that fairly?</p>
+
+
+<p class="time-stamp">00:23:10.280 --> 00:23:12.560</p>
+<p class="transcript-line">Could be an interesting problem to solve.</p>
+
+
+<p class="time-stamp">00:23:12.560 --> 00:23:16.380</p>
+<p class="transcript-line">It's really, I don't know, the whole space, both on the product side, like we were sort</p>
+
+
+<p class="time-stamp">00:23:16.380 --> 00:23:21.960</p>
+<p class="transcript-line">of fawning over a second ago, and then from a sort of ethics legal side, I find it all</p>
+
+
+<p class="time-stamp">00:23:21.960 --> 00:23:24.120</p>
+<p class="transcript-line">really fascinating as an outside observer.</p>
+
+
+<p class="time-stamp">00:23:24.120 --> 00:23:31.040</p>
+<p class="transcript-line">I think we're in that phase where both technologically and I guess legally, everything's getting</p>
+
+
+<p class="time-stamp">00:23:31.040 --> 00:23:34.800</p>
+<p class="transcript-line">hashed out that feels like it's going to drive the next 10 years of what this space looks</p>
+
+
+<p class="time-stamp">00:23:34.800 --> 00:23:37.600</p>
+<p class="transcript-line">like, which is really fascinating too.</p>
+
+
+<p class="time-stamp">00:23:37.600 --> 00:23:41.980</p>
+<p class="transcript-line">I'll pull us off of this train because there's probably people way deeper in this than either</p>
+
+
+<p class="time-stamp">00:23:41.980 --> 00:23:50.220</p>
+<p class="transcript-line">of us having more maybe accurate conversations about this on other podcasts.</p>
+
+
+<p class="time-stamp">00:23:50.220 --> 00:23:54.460</p>
+<p class="transcript-line">This episode of Launched is sponsored by, well, maybe you.</p>
+
+
+<p class="time-stamp">00:23:54.460 --> 00:23:57.260</p>
+<p class="transcript-line">If you listened to the Christmas special, you'll know that I've committed to growing</p>
+
+
+<p class="time-stamp">00:23:57.260 --> 00:24:02.000</p>
+<p class="transcript-line">the podcast this year and that starts today with two new initiatives.</p>
+
+
+<p class="time-stamp">00:24:02.000 --> 00:24:06.500</p>
+<p class="transcript-line">The first is sponsorships, which will sound, well, a lot like this.</p>
+
+
+<p class="time-stamp">00:24:06.500 --> 00:24:09.740</p>
+<p class="transcript-line">If you're a company and interested in sponsoring the show, please reach out.</p>
+
+
+<p class="time-stamp">00:24:09.740 --> 00:24:13.540</p>
+<p class="transcript-line">There will be a link in the show notes to our new sponsor page, which will have more</p>
+
+
+<p class="time-stamp">00:24:13.540 --> 00:24:16.840</p>
+<p class="transcript-line">information and metrics about the show, all that kind of stuff.</p>
+
+
+<p class="time-stamp">00:24:16.840 --> 00:24:21.640</p>
+<p class="transcript-line">If you don't want to hear ads on this show, though, the second initiative is for you.</p>
+
+
+<p class="time-stamp">00:24:21.640 --> 00:24:23.840</p>
+<p class="transcript-line">Launched is now on Patreon.</p>
+
+
+<p class="time-stamp">00:24:23.840 --> 00:24:28.680</p>
+<p class="transcript-line">There are a few tiers with some different perks, but all of them will come with an ad-free</p>
+
+
+<p class="time-stamp">00:24:28.680 --> 00:24:30.360</p>
+<p class="transcript-line">feed of the show.</p>
+
+
+<p class="time-stamp">00:24:30.360 --> 00:24:33.760</p>
+<p class="transcript-line">I've got some ideas for special content I could add in the future as well, but for now</p>
+
+
+<p class="time-stamp">00:24:33.760 --> 00:24:37.620</p>
+<p class="transcript-line">I'm keeping it simple while providing a way for folks to support the show directly if</p>
+
+
+<p class="time-stamp">00:24:37.620 --> 00:24:39.080</p>
+<p class="transcript-line">they'd like to.</p>
+
+
+<p class="time-stamp">00:24:39.080 --> 00:24:42.440</p>
+<p class="transcript-line">Please don't feel any pressure to join in with this, though.</p>
+
+
+<p class="time-stamp">00:24:42.440 --> 00:24:47.160</p>
+<p class="transcript-line">This show is a passion project and the fact that so many of you all listen and give me</p>
+
+
+<p class="time-stamp">00:24:47.160 --> 00:24:51.660</p>
+<p class="transcript-line">the opportunity to talk to all these inspiring creators that I get to talk to on the show</p>
+
+
+<p class="time-stamp">00:24:51.660 --> 00:24:54.620</p>
+<p class="transcript-line">is the biggest support that you can provide at all.</p>
+
+
+<p class="time-stamp">00:24:54.620 --> 00:24:59.580</p>
+<p class="transcript-line">These two initiatives will allow me to pay my excellent editor Jonathan and to be completely</p>
+
+
+<p class="time-stamp">00:24:59.580 --> 00:25:03.980</p>
+<p class="transcript-line">transparent I'd love to make some money off the show if there's some extra to spare.</p>
+
+
+<p class="time-stamp">00:25:03.980 --> 00:25:09.800</p>
+<p class="transcript-line">So thank you all so much for listening and new patrons especially for the direct support.</p>
+
+
+<p class="time-stamp">00:25:09.800 --> 00:25:12.520</p>
+<p class="transcript-line">Now back to the show.</p>
+
+
+<p class="time-stamp">00:25:12.520 --> 00:25:16.160</p>
+<p class="transcript-line">Let's pull back out to the app you ended up building.</p>
+
+
+<p class="time-stamp">00:25:16.160 --> 00:25:20.640</p>
+<p class="transcript-line">So you're playing with this as part of the contract, that job that you're doing, the</p>
+
+
+<p class="time-stamp">00:25:20.640 --> 00:25:23.080</p>
+<p class="transcript-line">generative art, you know, sort of world.</p>
+
+
+<p class="time-stamp">00:25:23.080 --> 00:25:26.480</p>
+<p class="transcript-line">What led to the AI profile pick app?</p>
+
+
+<p class="time-stamp">00:25:26.480 --> 00:25:27.760</p>
+<p class="transcript-line">Was that like the first idea you had?</p>
+
+
+<p class="time-stamp">00:25:27.760 --> 00:25:31.400</p>
+<p class="transcript-line">Or were you trying to figure out, you know, what's a product that you can build around</p>
+
+
+<p class="time-stamp">00:25:31.400 --> 00:25:32.400</p>
+<p class="transcript-line">this?</p>
+
+
+<p class="time-stamp">00:25:32.400 --> 00:25:37.920</p>
+<p class="transcript-line">I was indeed trying to figure out what kind of product I could create in the space.</p>
+
+
+<p class="time-stamp">00:25:37.920 --> 00:25:47.600</p>
+<p class="transcript-line">And around that time, I was watching a YouTube channel that just tracks advances in AI.</p>
+
+
+<p class="time-stamp">00:25:47.600 --> 00:25:53.120</p>
+<p class="transcript-line">And it's this guy, Medved Pro, that just plays around with all of the new technologies coming</p>
+
+
+<p class="time-stamp">00:25:53.120 --> 00:25:54.120</p>
+<p class="transcript-line">out.</p>
+
+
+<p class="time-stamp">00:25:54.120 --> 00:25:58.800</p>
+<p class="transcript-line">If I remember correctly, he was using this tool called Astria back then, which is an</p>
+
+
+<p class="time-stamp">00:25:58.800 --> 00:26:04.640</p>
+<p class="transcript-line">API that is based on Dreambooth and stable diffusion.</p>
+
+
+<p class="time-stamp">00:26:04.640 --> 00:26:09.520</p>
+<p class="transcript-line">So what Dreambooth is, is you could consider it as a layer on top of Stable Diffusion,</p>
+
+
+<p class="time-stamp">00:26:09.520 --> 00:26:15.000</p>
+<p class="transcript-line">where you can fine tune the model based on some kind of input images.</p>
+
+
+<p class="time-stamp">00:26:15.000 --> 00:26:20.960</p>
+<p class="transcript-line">For my own understanding here, so Stable Diffusion is a giant model with, you know, millions</p>
+
+
+<p class="time-stamp">00:26:20.960 --> 00:26:28.020</p>
+<p class="transcript-line">of images and whatever magic sauce that they're doing to take text that you input, and it</p>
+
+
+<p class="time-stamp">00:26:28.020 --> 00:26:33.760</p>
+<p class="transcript-line">turns that into an image based on this massive library of images that it understands.</p>
+
+
+<p class="time-stamp">00:26:33.760 --> 00:26:40.840</p>
+<p class="transcript-line">And then Dreambooth, you're saying, is a layer on top of that that will let you combine your</p>
+
+
+<p class="time-stamp">00:26:40.840 --> 00:26:43.920</p>
+<p class="transcript-line">own images into that model, essentially?</p>
+
+
+<p class="time-stamp">00:26:43.920 --> 00:26:44.920</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:26:44.920 --> 00:26:54.200</p>
+<p class="transcript-line">So Dreambooth initially was a paper written at Google that basically takes diffusion-based</p>
+
+
+<p class="time-stamp">00:26:54.200 --> 00:26:59.840</p>
+<p class="transcript-line">models and fine-tunes them into being able to add a new subject.</p>
+
+
+<p class="time-stamp">00:26:59.840 --> 00:27:06.600</p>
+<p class="transcript-line">So stable diffusion currently does understand, if you will, what a chair means.</p>
+
+
+<p class="time-stamp">00:27:06.600 --> 00:27:13.100</p>
+<p class="transcript-line">So if you write in, type in a prompt with the word chair in it, it will pop out an image</p>
+
+
+<p class="time-stamp">00:27:13.100 --> 00:27:15.400</p>
+<p class="transcript-line">containing a chair, right?</p>
+
+
+<p class="time-stamp">00:27:15.400 --> 00:27:19.920</p>
+<p class="transcript-line">But it doesn't know who Charlie Chapman is.</p>
+
+
+<p class="time-stamp">00:27:19.920 --> 00:27:21.400</p>
+<p class="transcript-line">You're still not famous enough, Charlie.</p>
+
+
+<p class="time-stamp">00:27:21.400 --> 00:27:26.040</p>
+<p class="transcript-line">So it doesn't know who Brad Pitt is.</p>
+
+
+<p class="time-stamp">00:27:26.040 --> 00:27:30.440</p>
+<p class="transcript-line">As you know, BreadPit exists on the web and it's quite popular.</p>
+
+
+<p class="time-stamp">00:27:30.440 --> 00:27:32.700</p>
+<p class="transcript-line">It doesn't know who Charlie Chapman is yet.</p>
+
+
+<p class="time-stamp">00:27:32.700 --> 00:27:40.940</p>
+<p class="transcript-line">So what you can do using Dreambooth is fine-tune the model into teaching it a new subject.</p>
+
+
+<p class="time-stamp">00:27:40.940 --> 00:27:47.020</p>
+<p class="transcript-line">So you add in an identifier that Stable Diffusion doesn't know.</p>
+
+
+<p class="time-stamp">00:27:47.020 --> 00:27:52.300</p>
+<p class="transcript-line">So you can't use something like dog, cat, or chair, but some sort of random identifier.</p>
+
+
+<p class="time-stamp">00:27:52.300 --> 00:27:54.480</p>
+<p class="transcript-line">And then you teach it.</p>
+
+
+<p class="time-stamp">00:27:54.480 --> 00:27:57.660</p>
+<p class="transcript-line">These are the instances of this identifier.</p>
+
+
+<p class="time-stamp">00:27:57.660 --> 00:28:01.880</p>
+<p class="transcript-line">So it's pictures of you, let's say pictures of your face.</p>
+
+
+<p class="time-stamp">00:28:01.880 --> 00:28:10.280</p>
+<p class="transcript-line">So once you put in, let's say about 10 or 20 images of you with this instance name,</p>
+
+
+<p class="time-stamp">00:28:10.280 --> 00:28:16.340</p>
+<p class="transcript-line">that's enough for stable diffusion, the fine-tuned version of stable diffusion to learn what</p>
+
+
+<p class="time-stamp">00:28:16.340 --> 00:28:18.560</p>
+<p class="transcript-line">or who Charlie Chapman is.</p>
+
+
+<p class="time-stamp">00:28:18.560 --> 00:28:24.020</p>
+<p class="transcript-line">And so then I could say something like Charlie Chapman in a chair and it's combining, it's</p>
+
+
+<p class="time-stamp">00:28:24.020 --> 00:28:27.500</p>
+<p class="transcript-line">understanding of chair and understanding now new understanding of Charlie</p>
+
+
+<p class="time-stamp">00:28:27.500 --> 00:28:29.580</p>
+<p class="transcript-line">Chapman into a single image.</p>
+
+
+<p class="time-stamp">00:28:29.580 --> 00:28:30.220</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:28:30.220 --> 00:28:34.860</p>
+<p class="transcript-line">So that's generally what that's what dream booth is.</p>
+
+
+<p class="time-stamp">00:28:34.860 --> 00:28:38.180</p>
+<p class="transcript-line">You said dream booth was just a white paper that somebody wrote or Google,</p>
+
+
+<p class="time-stamp">00:28:38.180 --> 00:28:41.340</p>
+<p class="transcript-line">somebody at Google wrote, and then it was productized, I guess.</p>
+
+
+<p class="time-stamp">00:28:41.340 --> 00:28:43.720</p>
+<p class="transcript-line">So dream booth has this paper written at Google.</p>
+
+
+<p class="time-stamp">00:28:43.720 --> 00:28:44.220</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:28:44.220 --> 00:28:49.580</p>
+<p class="transcript-line">Um, and it's based on two parts, the fine tuning part and a diffusion based</p>
+
+
+<p class="time-stamp">00:28:49.580 --> 00:28:53.300</p>
+<p class="transcript-line">model that Google owns, uh, that is not public called image.</p>
+
+
+<p class="time-stamp">00:28:53.300 --> 00:29:05.300</p>
+<p class="transcript-line">So someone figured out how to re-implement Dreambooth, but not use Imogen as a way to generate images, but use Stable Diffusion.</p>
+
+
+<p class="time-stamp">00:29:05.300 --> 00:29:08.300</p>
+<p class="transcript-line">So that was released as open source.</p>
+
+
+<p class="time-stamp">00:29:08.300 --> 00:29:15.300</p>
+<p class="transcript-line">We haven't specified here, Stable Diffusion is one of these models, but importantly, it's open source, right?</p>
+
+
+<p class="time-stamp">00:29:15.300 --> 00:29:21.300</p>
+<p class="transcript-line">So anybody can download it, run it on their machines or on a virtual machine or whatever, right?</p>
+
+
+<p class="time-stamp">00:29:21.300 --> 00:29:29.540</p>
+<p class="transcript-line">right? Exactly. So the model itself can be used. The training data is not</p>
+
+
+<p class="time-stamp">00:29:29.540 --> 00:29:34.220</p>
+<p class="transcript-line">available and obviously, well maybe not obviously, but it would cost hundreds of</p>
+
+
+<p class="time-stamp">00:29:34.220 --> 00:29:39.620</p>
+<p class="transcript-line">thousands of dollars to train your own version of Sable Diffusion, meaning to</p>
+
+
+<p class="time-stamp">00:29:39.620 --> 00:29:44.360</p>
+<p class="transcript-line">train it from scratch. But the model is out there and the code that calls into</p>
+
+
+<p class="time-stamp">00:29:44.360 --> 00:29:48.140</p>
+<p class="transcript-line">that model is out there as well. So yes, you can run it on your machine to run</p>
+
+
+<p class="time-stamp">00:29:48.140 --> 00:29:52.440</p>
+<p class="transcript-line">on inferences, which means image generations based on a prompt.</p>
+
+
+<p class="time-stamp">00:29:52.440 --> 00:29:54.980</p>
+<p class="transcript-line">So that is out there.</p>
+
+
+<p class="time-stamp">00:29:54.980 --> 00:29:57.440</p>
+<p class="transcript-line">And the fine-tuning part of Dreambooth,</p>
+
+
+<p class="time-stamp">00:29:57.440 --> 00:30:01.320</p>
+<p class="transcript-line">off of that paper, was implemented and released as open source.</p>
+
+
+<p class="time-stamp">00:30:01.320 --> 00:30:06.920</p>
+<p class="transcript-line">And you just plug the two together, Dreambooth and Stable Diffusion,</p>
+
+
+<p class="time-stamp">00:30:06.920 --> 00:30:10.320</p>
+<p class="transcript-line">and you can start training any object or any person,</p>
+
+
+<p class="time-stamp">00:30:10.320 --> 00:30:16.600</p>
+<p class="transcript-line">have Stable Diffusion "understand" that concept,</p>
+
+
+<p class="time-stamp">00:30:16.660 --> 00:30:21.460</p>
+<p class="transcript-line">and then generate any variation of image</p>
+
+
+<p class="time-stamp">00:30:21.460 --> 00:30:23.440</p>
+<p class="transcript-line">containing that new subject.</p>
+
+
+<p class="time-stamp">00:30:23.440 --> 00:30:26.940</p>
+<p class="transcript-line">- We have stable diffusion, open source software,</p>
+
+
+<p class="time-stamp">00:30:26.940 --> 00:30:31.500</p>
+<p class="transcript-line">that, or at least the model itself is open source</p>
+
+
+<p class="time-stamp">00:30:31.500 --> 00:30:33.280</p>
+<p class="transcript-line">so that you could build software around it</p>
+
+
+<p class="time-stamp">00:30:33.280 --> 00:30:36.300</p>
+<p class="transcript-line">to generate images from a prompt.</p>
+
+
+<p class="time-stamp">00:30:36.300 --> 00:30:39.460</p>
+<p class="transcript-line">And now you have, I already forgot the name,</p>
+
+
+<p class="time-stamp">00:30:39.460 --> 00:30:43.460</p>
+<p class="transcript-line">but not Dream Booth, but an open source implementation</p>
+
+
+<p class="time-stamp">00:30:43.460 --> 00:30:46.580</p>
+<p class="transcript-line">of the Dream Booth paper that lets you</p>
+
+
+<p class="time-stamp">00:30:46.580 --> 00:30:52.980</p>
+<p class="transcript-line">basically add your own training to that stable diffusion model.</p>
+
+
+<p class="time-stamp">00:30:52.980 --> 00:30:54.940</p>
+<p class="transcript-line">And that is also open source.</p>
+
+
+<p class="time-stamp">00:30:54.940 --> 00:31:00.180</p>
+<p class="transcript-line">So now you have the ability to take, to add your own things to</p>
+
+
+<p class="time-stamp">00:31:00.180 --> 00:31:04.060</p>
+<p class="transcript-line">stable diffusions, understanding of the world, to make your prompts more specific.</p>
+
+
+<p class="time-stamp">00:31:04.060 --> 00:31:07.180</p>
+<p class="transcript-line">That's the sort of end result of these elements.</p>
+
+
+<p class="time-stamp">00:31:07.180 --> 00:31:08.460</p>
+<p class="transcript-line">That is correct.</p>
+
+
+<p class="time-stamp">00:31:08.460 --> 00:31:12.420</p>
+<p class="transcript-line">So you have these two, um, and even better.</p>
+
+
+<p class="time-stamp">00:31:12.420 --> 00:31:14.940</p>
+<p class="transcript-line">And that's why the, the, the bar was so low.</p>
+
+
+<p class="time-stamp">00:31:14.980 --> 00:31:17.340</p>
+<p class="transcript-line">And there was also an API.</p>
+
+
+<p class="time-stamp">00:31:17.340 --> 00:31:19.380</p>
+<p class="transcript-line">There was also someone, Astrea, who</p>
+
+
+<p class="time-stamp">00:31:19.380 --> 00:31:24.700</p>
+<p class="transcript-line">had made an API to do all of the ML work, et cetera, for you.</p>
+
+
+<p class="time-stamp">00:31:24.700 --> 00:31:26.180</p>
+<p class="transcript-line">It was implemented for you.</p>
+
+
+<p class="time-stamp">00:31:26.180 --> 00:31:28.780</p>
+<p class="transcript-line">And that's how-- and it was basically</p>
+
+
+<p class="time-stamp">00:31:28.780 --> 00:31:33.540</p>
+<p class="transcript-line">a service that cost $3 or $5, et cetera,</p>
+
+
+<p class="time-stamp">00:31:33.540 --> 00:31:38.620</p>
+<p class="transcript-line">to where you could just send off your own images,</p>
+
+
+<p class="time-stamp">00:31:38.620 --> 00:31:42.420</p>
+<p class="transcript-line">and you'd get a fine-tuned model ready-made for you.</p>
+
+
+<p class="time-stamp">00:31:42.420 --> 00:31:46.660</p>
+<p class="transcript-line">And then you can prompt it with whatever prompts you want, and it would generate</p>
+
+
+<p class="time-stamp">00:31:46.660 --> 00:31:47.740</p>
+<p class="transcript-line">these avatars for you.</p>
+
+
+<p class="time-stamp">00:31:47.740 --> 00:31:49.500</p>
+<p class="transcript-line">Okay, cool.</p>
+
+
+<p class="time-stamp">00:31:49.500 --> 00:31:54.340</p>
+<p class="transcript-line">So the bar, the bar, it was like the level of entry, it was, it was pretty easy.</p>
+
+
+<p class="time-stamp">00:31:54.340 --> 00:32:00.180</p>
+<p class="transcript-line">And at that point, it kind of started just clicking that there should be an app for</p>
+
+
+<p class="time-stamp">00:32:00.180 --> 00:32:00.540</p>
+<p class="transcript-line">that.</p>
+
+
+<p class="time-stamp">00:32:00.540 --> 00:32:06.100</p>
+<p class="transcript-line">Around the same point, like other indie devs had discovered Estrea as well.</p>
+
+
+<p class="time-stamp">00:32:06.100 --> 00:32:11.980</p>
+<p class="transcript-line">So, uh, Levels.io and Danny Postma started tweeting, you know, some, um, kind of</p>
+
+
+<p class="time-stamp">00:32:12.020 --> 00:32:17.700</p>
+<p class="transcript-line">thinly veiled tweets about a product that could leverage something like that or create</p>
+
+
+<p class="time-stamp">00:32:17.700 --> 00:32:19.780</p>
+<p class="transcript-line">your own maybe pictures or avatars.</p>
+
+
+<p class="time-stamp">00:32:19.780 --> 00:32:28.020</p>
+<p class="transcript-line">And around that point, knowing about Astria, I immediately knew like iOS is the place</p>
+
+
+<p class="time-stamp">00:32:28.020 --> 00:32:30.420</p>
+<p class="transcript-line">for this. This is where your photos live.</p>
+
+
+<p class="time-stamp">00:32:30.420 --> 00:32:36.620</p>
+<p class="transcript-line">Yeah. UI can be made very, very simple, very intuitive, and the result could feel</p>
+
+
+<p class="time-stamp">00:32:36.620 --> 00:32:41.540</p>
+<p class="transcript-line">magical. And at that point, I had decided like the web is not the way to go.</p>
+
+
+<p class="time-stamp">00:32:41.540 --> 00:32:45.500</p>
+<p class="transcript-line">And these two in the hackers or in the developers</p>
+
+
+<p class="time-stamp">00:32:45.500 --> 00:32:51.420</p>
+<p class="transcript-line">were primarily web developers and were making these hints</p>
+
+
+<p class="time-stamp">00:32:51.420 --> 00:32:54.340</p>
+<p class="transcript-line">that they were shipping something on the web.</p>
+
+
+<p class="time-stamp">00:32:54.340 --> 00:32:56.780</p>
+<p class="transcript-line">And yeah, I mean, I am an iOS dev.</p>
+
+
+<p class="time-stamp">00:32:56.780 --> 00:32:58.540</p>
+<p class="transcript-line">And I knew from the beginning, like, you'd</p>
+
+
+<p class="time-stamp">00:32:58.540 --> 00:33:01.340</p>
+<p class="transcript-line">get such a better user experience on iOS.</p>
+
+
+<p class="time-stamp">00:33:01.340 --> 00:33:04.420</p>
+<p class="transcript-line">And so I went like 100 miles per hour</p>
+
+
+<p class="time-stamp">00:33:04.420 --> 00:33:08.340</p>
+<p class="transcript-line">trying to implement this ASAP and release it on the App Store.</p>
+
+
+<p class="time-stamp">00:33:08.340 --> 00:33:14.020</p>
+<p class="transcript-line">Funnily enough, because of a lack of GPU computing scalability,</p>
+
+
+<p class="time-stamp">00:33:14.020 --> 00:33:18.140</p>
+<p class="transcript-line">Astrea had to move to another backend provider.</p>
+
+
+<p class="time-stamp">00:33:18.140 --> 00:33:20.580</p>
+<p class="transcript-line">So they were on AWS and they moved elsewhere.</p>
+
+
+<p class="time-stamp">00:33:20.580 --> 00:33:25.180</p>
+<p class="transcript-line">And overnight they moved from $3 per fine tune to $20.</p>
+
+
+<p class="time-stamp">00:33:25.180 --> 00:33:28.100</p>
+<p class="transcript-line">Was that while you were building this or after you released?</p>
+
+
+<p class="time-stamp">00:33:28.100 --> 00:33:31.180</p>
+<p class="transcript-line">It was the day I was releasing it, I think.</p>
+
+
+<p class="time-stamp">00:33:31.180 --> 00:33:32.260</p>
+<p class="transcript-line">Oh my gosh.</p>
+
+
+<p class="time-stamp">00:33:32.260 --> 00:33:32.780</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:33:32.780 --> 00:33:34.660</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:33:34.660 --> 00:33:37.060</p>
+<p class="transcript-line">And that was a good lesson to learn, right?</p>
+
+
+<p class="time-stamp">00:33:37.060 --> 00:33:42.700</p>
+<p class="transcript-line">like own your back end, own your info now for obvious reasons.</p>
+
+
+<p class="time-stamp">00:33:42.700 --> 00:33:49.700</p>
+<p class="transcript-line">Because I knew that, again, this would be a winner on iOS,</p>
+
+
+<p class="time-stamp">00:33:49.700 --> 00:33:53.500</p>
+<p class="transcript-line">but the pricing had to be very fair, especially that not a lot of people were</p>
+
+
+<p class="time-stamp">00:33:53.500 --> 00:33:58.460</p>
+<p class="transcript-line">familiar with the technology. So might as well seem like a scam app,</p>
+
+
+<p class="time-stamp">00:33:58.460 --> 00:34:01.100</p>
+<p class="transcript-line">that is asking for so much money up front.</p>
+
+
+<p class="time-stamp">00:34:01.100 --> 00:34:02.140</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:34:02.140 --> 00:34:06.380</p>
+<p class="transcript-line">So five dollars could have been OK, but charging,</p>
+
+
+<p class="time-stamp">00:34:06.620 --> 00:34:09.680</p>
+<p class="transcript-line">after Apple's tax and how much it costs to run on the back end,</p>
+
+
+<p class="time-stamp">00:34:09.680 --> 00:34:14.620</p>
+<p class="transcript-line">charging like 25 or $30, that would seem like a big investment.</p>
+
+
+<p class="time-stamp">00:34:14.620 --> 00:34:19.860</p>
+<p class="transcript-line">And so that would kind of stifle the app's initial popularity or launch.</p>
+
+
+<p class="time-stamp">00:34:19.860 --> 00:34:20.400</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:34:20.400 --> 00:34:25.460</p>
+<p class="transcript-line">But I had just decided like I needed to launch and you had to launch ASAP.</p>
+
+
+<p class="time-stamp">00:34:25.460 --> 00:34:29.220</p>
+<p class="transcript-line">And, uh, and I knew that compute would get cheaper.</p>
+
+
+<p class="time-stamp">00:34:29.220 --> 00:34:30.660</p>
+<p class="transcript-line">Like that's how it always works.</p>
+
+
+<p class="time-stamp">00:34:30.660 --> 00:34:31.160</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:34:31.160 --> 00:34:31.580</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:34:31.580 --> 00:34:34.620</p>
+<p class="transcript-line">It's going to get cheaper with time, but now's the time to just</p>
+
+
+<p class="time-stamp">00:34:34.620 --> 00:34:36.140</p>
+<p class="transcript-line">launch and get something out there.</p>
+
+
+<p class="time-stamp">00:34:36.500 --> 00:34:44.260</p>
+<p class="transcript-line">So it took about 48 or 72 hours of not much sleep to really get everyone running.</p>
+
+
+<p class="time-stamp">00:34:44.260 --> 00:34:48.100</p>
+<p class="transcript-line">And then, yeah, I just put it out into the world.</p>
+
+
+<p class="time-stamp">00:34:48.100 --> 00:34:49.180</p>
+<p class="transcript-line">Wait, wait, wait, wait, wait.</p>
+
+
+<p class="time-stamp">00:34:49.180 --> 00:34:51.380</p>
+<p class="transcript-line">Like that was how long it took you to build the app?</p>
+
+
+<p class="time-stamp">00:34:51.380 --> 00:34:52.460</p>
+<p class="transcript-line">To build the app.</p>
+
+
+<p class="time-stamp">00:34:52.460 --> 00:34:53.100</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:34:53.100 --> 00:34:55.660</p>
+<p class="transcript-line">Yeah, it was about 72 hours.</p>
+
+
+<p class="time-stamp">00:34:55.660 --> 00:34:57.460</p>
+<p class="transcript-line">It was a simple app.</p>
+
+
+<p class="time-stamp">00:34:57.460 --> 00:34:58.580</p>
+<p class="transcript-line">It was a simple app.</p>
+
+
+<p class="time-stamp">00:34:58.580 --> 00:35:03.420</p>
+<p class="transcript-line">Just calling into a backend and it was a B1 like bare bones.</p>
+
+
+<p class="time-stamp">00:35:03.420 --> 00:35:03.980</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:35:03.980 --> 00:35:04.700</p>
+<p class="transcript-line">Wow.</p>
+
+
+<p class="time-stamp">00:35:04.700 --> 00:35:05.380</p>
+<p class="transcript-line">Okay.</p>
+
+
+<p class="time-stamp">00:35:05.700 --> 00:35:09.460</p>
+<p class="transcript-line">So, so you had the idea and when you said you were off to the races, I mean, it's</p>
+
+
+<p class="time-stamp">00:35:09.460 --> 00:35:15.960</p>
+<p class="transcript-line">like zero to in the, or submitting to Apple in less than a week.</p>
+
+
+<p class="time-stamp">00:35:15.960 --> 00:35:17.560</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:35:17.560 --> 00:35:19.180</p>
+<p class="transcript-line">Um, something I did help.</p>
+
+
+<p class="time-stamp">00:35:19.180 --> 00:35:23.820</p>
+<p class="transcript-line">Firebase is, is honestly amazing.</p>
+
+
+<p class="time-stamp">00:35:23.820 --> 00:35:26.520</p>
+<p class="transcript-line">Like that's, that's my take on Firebase.</p>
+
+
+<p class="time-stamp">00:35:26.520 --> 00:35:28.660</p>
+<p class="transcript-line">Uh, like kudos to them.</p>
+
+
+<p class="time-stamp">00:35:28.660 --> 00:35:29.900</p>
+<p class="transcript-line">These guys really did the job.</p>
+
+
+<p class="time-stamp">00:35:29.900 --> 00:35:35.020</p>
+<p class="transcript-line">They really do help you go from, from zero to a hundred quite fast.</p>
+
+
+<p class="time-stamp">00:35:35.580 --> 00:35:40.920</p>
+<p class="transcript-line">Um, and thanks to my previous apps, I already had my kind of standard library,</p>
+
+
+<p class="time-stamp">00:35:40.920 --> 00:35:41.220</p>
+<p class="transcript-line">right?</p>
+
+
+<p class="time-stamp">00:35:41.220 --> 00:35:41.380</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:35:41.380 --> 00:35:45.120</p>
+<p class="transcript-line">Like UI components, all these helper methods, et cetera.</p>
+
+
+<p class="time-stamp">00:35:45.120 --> 00:35:49.140</p>
+<p class="transcript-line">So that also helped a lot into getting something done.</p>
+
+
+<p class="time-stamp">00:35:49.140 --> 00:35:50.200</p>
+<p class="transcript-line">Wow.</p>
+
+
+<p class="time-stamp">00:35:50.200 --> 00:35:50.540</p>
+<p class="transcript-line">Okay.</p>
+
+
+<p class="time-stamp">00:35:50.540 --> 00:35:52.840</p>
+<p class="transcript-line">So that's pretty crazy.</p>
+
+
+<p class="time-stamp">00:35:52.840 --> 00:35:58.680</p>
+<p class="transcript-line">And I assume part of you rushing through this is, you know, that other people are</p>
+
+
+<p class="time-stamp">00:35:58.680 --> 00:35:59.660</p>
+<p class="transcript-line">going to do the same thing.</p>
+
+
+<p class="time-stamp">00:35:59.660 --> 00:36:05.660</p>
+<p class="transcript-line">And it's it's sort of like a land grab, you know, type situation where you want</p>
+
+
+<p class="time-stamp">00:36:05.660 --> 00:36:08.900</p>
+<p class="transcript-line">to get that early press, you want to get that early set of reviews.</p>
+
+
+<p class="time-stamp">00:36:08.900 --> 00:36:11.660</p>
+<p class="transcript-line">So you're sort of the established, you know, version of this.</p>
+
+
+<p class="time-stamp">00:36:11.660 --> 00:36:12.860</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:36:12.860 --> 00:36:17.060</p>
+<p class="transcript-line">Were you, were you one of the first ones then to get out there with this?</p>
+
+
+<p class="time-stamp">00:36:17.060 --> 00:36:18.200</p>
+<p class="transcript-line">One of the first ones?</p>
+
+
+<p class="time-stamp">00:36:18.200 --> 00:36:18.780</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">00:36:18.780 --> 00:36:24.100</p>
+<p class="transcript-line">Um, either the first or the second, and it was almost a month ahead of the big</p>
+
+
+<p class="time-stamp">00:36:24.100 --> 00:36:29.740</p>
+<p class="transcript-line">players such as Lensa, Prequel, so like these heavy hitting</p>
+
+
+<p class="time-stamp">00:36:29.740 --> 00:36:33.740</p>
+<p class="transcript-line">companies with an existing user base of millions of users that</p>
+
+
+<p class="time-stamp">00:36:33.740 --> 00:36:36.540</p>
+<p class="transcript-line">they can just simply send a push notification to saying, hey,</p>
+
+
+<p class="time-stamp">00:36:36.540 --> 00:36:39.420</p>
+<p class="transcript-line">there's this new feature. Regarding your point about</p>
+
+
+<p class="time-stamp">00:36:39.420 --> 00:36:44.660</p>
+<p class="transcript-line">needing to go very fast and chipping and putting something</p>
+
+
+<p class="time-stamp">00:36:44.660 --> 00:36:49.060</p>
+<p class="transcript-line">out there, that is also related to this new generation of AI,</p>
+
+
+<p class="time-stamp">00:36:49.380 --> 00:36:52.180</p>
+<p class="transcript-line">where it's very hard to build a moat.</p>
+
+
+<p class="time-stamp">00:36:52.180 --> 00:36:56.940</p>
+<p class="transcript-line">So since this technology is open and it's so magical,</p>
+
+
+<p class="time-stamp">00:36:56.940 --> 00:37:01.340</p>
+<p class="transcript-line">it's so powerful, but accessible at an API call.</p>
+
+
+<p class="time-stamp">00:37:01.340 --> 00:37:06.300</p>
+<p class="transcript-line">So technology like GPT-3 or Sable Diffusion,</p>
+
+
+<p class="time-stamp">00:37:06.300 --> 00:37:11.660</p>
+<p class="transcript-line">well, now anyone can build these magical apps in days.</p>
+
+
+<p class="time-stamp">00:37:11.660 --> 00:37:13.140</p>
+<p class="transcript-line">So there is no moat.</p>
+
+
+<p class="time-stamp">00:37:13.140 --> 00:37:18.180</p>
+<p class="transcript-line">So the new kind of advantage that you need</p>
+
+
+<p class="time-stamp">00:37:18.260 --> 00:37:26.300</p>
+<p class="transcript-line">is possibly better marketing or maybe niche down on something, but the bar of</p>
+
+
+<p class="time-stamp">00:37:26.300 --> 00:37:32.120</p>
+<p class="transcript-line">entry has just become solo that this magical effect is basically one prompt</p>
+
+
+<p class="time-stamp">00:37:32.120 --> 00:37:34.260</p>
+<p class="transcript-line">away or one API call away.</p>
+
+
+<p class="time-stamp">00:37:34.260 --> 00:37:35.280</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:37:35.280 --> 00:37:38.580</p>
+<p class="transcript-line">And so, yeah, anyone can build something like that nowadays.</p>
+
+
+<p class="time-stamp">00:37:38.580 --> 00:37:42.420</p>
+<p class="transcript-line">You spent a couple of days building this thing.</p>
+
+
+<p class="time-stamp">00:37:42.420 --> 00:37:47.840</p>
+<p class="transcript-line">Um, although, I mean, we're saying it like it wasn't, it was the small amount</p>
+
+
+<p class="time-stamp">00:37:47.840 --> 00:37:52.400</p>
+<p class="transcript-line">of work, but you're building off of this amount of time that you had spent</p>
+
+
+<p class="time-stamp">00:37:52.400 --> 00:37:55.400</p>
+<p class="transcript-line">learning and understanding the whole space, right?</p>
+
+
+<p class="time-stamp">00:37:55.400 --> 00:37:59.960</p>
+<p class="transcript-line">Like knowing how to use all these models and these APIs, part of that is the</p>
+
+
+<p class="time-stamp">00:37:59.960 --> 00:38:03.160</p>
+<p class="transcript-line">experience that you had, but either way you spent this time getting it out</p>
+
+
+<p class="time-stamp">00:38:03.160 --> 00:38:03.560</p>
+<p class="transcript-line">there.</p>
+
+
+<p class="time-stamp">00:38:03.560 --> 00:38:09.160</p>
+<p class="transcript-line">You had to update your pricing, presumably on the fly day of, but you got</p>
+
+
+<p class="time-stamp">00:38:09.160 --> 00:38:09.600</p>
+<p class="transcript-line">it out there.</p>
+
+
+<p class="time-stamp">00:38:09.600 --> 00:38:10.400</p>
+<p class="transcript-line">So how was that?</p>
+
+
+<p class="time-stamp">00:38:10.400 --> 00:38:12.160</p>
+<p class="transcript-line">How was that launch itself?</p>
+
+
+<p class="time-stamp">00:38:13.120 --> 00:38:19.320</p>
+<p class="transcript-line">The launch was exciting because even at a price point of, I think it was around $30,</p>
+
+
+<p class="time-stamp">00:38:19.320 --> 00:38:28.920</p>
+<p class="transcript-line">$28 or $30, you still have these early adopters that just want to try new technology.</p>
+
+
+<p class="time-stamp">00:38:28.920 --> 00:38:35.840</p>
+<p class="transcript-line">That kind of, you forget about the price point for a minute because they know that it's still raw, it's still fresh.</p>
+
+
+<p class="time-stamp">00:38:35.840 --> 00:38:40.800</p>
+<p class="transcript-line">But they would want to try any new technology no matter what.</p>
+
+
+<p class="time-stamp">00:38:41.160 --> 00:38:44.800</p>
+<p class="transcript-line">Right. And and they love giving feedback as well.</p>
+
+
+<p class="time-stamp">00:38:44.800 --> 00:38:46.600</p>
+<p class="transcript-line">Like I love early adopters.</p>
+
+
+<p class="time-stamp">00:38:46.600 --> 00:38:50.120</p>
+<p class="transcript-line">They kind of put blind trust into into a product.</p>
+
+
+<p class="time-stamp">00:38:50.120 --> 00:38:54.800</p>
+<p class="transcript-line">A lot more willing to accept bugginess and stuff because what you're comparing</p>
+
+
+<p class="time-stamp">00:38:54.800 --> 00:38:58.760</p>
+<p class="transcript-line">to is running through what all the blog posts were doing a week before where</p>
+
+
+<p class="time-stamp">00:38:58.760 --> 00:39:03.360</p>
+<p class="transcript-line">they're like, all right, you can download all these little, you know, scripts</p>
+
+
+<p class="time-stamp">00:39:03.360 --> 00:39:08.080</p>
+<p class="transcript-line">that you run locally and then you need to like rent this space on some Google</p>
+
+
+<p class="time-stamp">00:39:08.080 --> 00:39:10.240</p>
+<p class="transcript-line">server somewhere. And it's like, yes.</p>
+
+
+<p class="time-stamp">00:39:10.440 --> 00:39:15.640</p>
+<p class="transcript-line">What if instead I just hit a button to send, you know, $30 over to this person on the app store</p>
+
+
+<p class="time-stamp">00:39:15.640 --> 00:39:20.680</p>
+<p class="transcript-line">and then it just did all that for me? Like, that's the comparison. Exactly. And it's also that</p>
+
+
+<p class="time-stamp">00:39:20.680 --> 00:39:28.360</p>
+<p class="transcript-line">if they do that on, you know, Google Colab, then they would have to also research into writing</p>
+
+
+<p class="time-stamp">00:39:28.360 --> 00:39:35.880</p>
+<p class="transcript-line">their own prompts, getting the effect that they desire, etc. So it is quite like time investment.</p>
+
+
+<p class="time-stamp">00:39:35.880 --> 00:39:41.400</p>
+<p class="transcript-line">I mean, the whole thing on Google could take one hour just to train, fine-tune, etc.</p>
+
+
+<p class="time-stamp">00:39:41.400 --> 00:39:46.680</p>
+<p class="transcript-line">And then you get into another interface where you have to get some kind of prompting magic going to</p>
+
+
+<p class="time-stamp">00:39:46.680 --> 00:39:52.760</p>
+<p class="transcript-line">be able to create these avatars. So it is true that all of this was productized for you,</p>
+
+
+<p class="time-stamp">00:39:52.760 --> 00:39:59.800</p>
+<p class="transcript-line">even though it was at a price of $30, which is quite high, right? So even if you do compare it to</p>
+
+
+<p class="time-stamp">00:40:01.160 --> 00:40:06.440</p>
+<p class="transcript-line">you know, paying an illustrator for one illustration of you and the back and forth,</p>
+
+
+<p class="time-stamp">00:40:06.440 --> 00:40:13.160</p>
+<p class="transcript-line">or getting, you know, similar images of decent quality from a photographer, still $30</p>
+
+
+<p class="time-stamp">00:40:13.160 --> 00:40:20.600</p>
+<p class="transcript-line">with that blind trust could seem like a high price point, right? Yeah.</p>
+
+
+<p class="time-stamp">00:40:20.600 --> 00:40:26.440</p>
+<p class="transcript-line">So that became a priority very early on. I knew that I had to reduce the price point somehow.</p>
+
+
+<p class="time-stamp">00:40:26.440 --> 00:40:31.440</p>
+<p class="transcript-line">So that essentially translates into reducing backend costs.</p>
+
+
+<p class="time-stamp">00:40:31.440 --> 00:40:34.440</p>
+<p class="transcript-line">And that became the priority is rolling out my own backend.</p>
+
+
+<p class="time-stamp">00:40:34.440 --> 00:40:36.840</p>
+<p class="transcript-line">So that's what happened.</p>
+
+
+<p class="time-stamp">00:40:36.840 --> 00:40:40.840</p>
+<p class="transcript-line">Eventually fully focused on rolling out the backend</p>
+
+
+<p class="time-stamp">00:40:40.840 --> 00:40:44.640</p>
+<p class="transcript-line">because all of the players in the space</p>
+
+
+<p class="time-stamp">00:40:44.640 --> 00:40:46.840</p>
+<p class="transcript-line">were using that same API, were using Astria.</p>
+
+
+<p class="time-stamp">00:40:46.840 --> 00:40:51.040</p>
+<p class="transcript-line">So Astria was free to choose their price point</p>
+
+
+<p class="time-stamp">00:40:51.040 --> 00:40:54.240</p>
+<p class="transcript-line">and essentially drive the whole market to,</p>
+
+
+<p class="time-stamp">00:40:54.240 --> 00:40:59.040</p>
+<p class="transcript-line">You know, they capped it at a minimum of, let's say, $20 or $15.</p>
+
+
+<p class="time-stamp">00:40:59.040 --> 00:41:02.400</p>
+<p class="transcript-line">So whatever SGS price was, everyone else followed along.</p>
+
+
+<p class="time-stamp">00:41:02.400 --> 00:41:03.680</p>
+<p class="transcript-line">Yup, exactly.</p>
+
+
+<p class="time-stamp">00:41:03.680 --> 00:41:09.720</p>
+<p class="transcript-line">And that's, yeah, when I had to put kind of my ML hacker hat, knowing almost nothing</p>
+
+
+<p class="time-stamp">00:41:09.720 --> 00:41:16.320</p>
+<p class="transcript-line">about machine learning and starting to have to learn how to use and tweak PyTorch and</p>
+
+
+<p class="time-stamp">00:41:16.320 --> 00:41:20.920</p>
+<p class="transcript-line">Stable Diffusion and Dreambooth and understand all of the bits there.</p>
+
+
+<p class="time-stamp">00:41:22.640 --> 00:41:29.920</p>
+<p class="transcript-line">And yeah, so since so at that point, I, I deployed my own backend and the cost went from</p>
+
+
+<p class="time-stamp">00:41:29.920 --> 00:41:36.480</p>
+<p class="transcript-line">think between 15 and $20 on Astria to it was like around $4, I think, at the time.</p>
+
+
+<p class="time-stamp">00:41:36.480 --> 00:41:37.200</p>
+<p class="transcript-line">Wow.</p>
+
+
+<p class="time-stamp">00:41:37.200 --> 00:41:38.320</p>
+<p class="transcript-line">Right? Yeah.</p>
+
+
+<p class="time-stamp">00:41:38.320 --> 00:41:38.960</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:41:38.960 --> 00:41:42.640</p>
+<p class="transcript-line">And that was the new unlock, right? That was the how to get the next</p>
+
+
+<p class="time-stamp">00:41:42.640 --> 00:41:50.000</p>
+<p class="transcript-line">thousand or 10,000 users is by charging $5 and not $30.</p>
+
+
+<p class="time-stamp">00:41:51.040 --> 00:41:57.360</p>
+<p class="transcript-line">something that I guess a lot of people know, but people do not like to pay for apps. People do not</p>
+
+
+<p class="time-stamp">00:41:57.360 --> 00:42:04.480</p>
+<p class="transcript-line">like to pay for... like a small minority of people are okay with paying for things, especially on the</p>
+
+
+<p class="time-stamp">00:42:04.480 --> 00:42:11.440</p>
+<p class="transcript-line">App Store. And so charging any amount, even one dollar up front, instead of having a freemium</p>
+
+
+<p class="time-stamp">00:42:11.440 --> 00:42:19.680</p>
+<p class="transcript-line">kind of model, rubs people off the wrong way. And I saw that in the reviews, right? So there were so</p>
+
+
+<p class="time-stamp">00:42:19.680 --> 00:42:25.040</p>
+<p class="transcript-line">many, unfortunately, but there were so many one-star reviews. I'm like, "Oh, there's no free</p>
+
+
+<p class="time-stamp">00:42:25.040 --> 00:42:31.440</p>
+<p class="transcript-line">trial." Even though you try to explain that this costs money on the back end and it's just the</p>
+
+
+<p class="time-stamp">00:42:31.440 --> 00:42:37.440</p>
+<p class="transcript-line">economics of it just don't work out where I can offer a free trial first. Most people aren't</p>
+
+
+<p class="time-stamp">00:42:37.440 --> 00:42:44.880</p>
+<p class="transcript-line">interacting with software that has that much of a unit cost, right? Like unit economics aren't</p>
+
+
+<p class="time-stamp">00:42:44.880 --> 00:42:51.680</p>
+<p class="transcript-line">really a thing in our world. So pricing is bonkers and backwards in software because</p>
+
+
+<p class="time-stamp">00:42:51.680 --> 00:42:58.160</p>
+<p class="transcript-line">per unit cost is like zero almost. But the actual cost to build everything costs money.</p>
+
+
+<p class="time-stamp">00:42:58.160 --> 00:43:02.560</p>
+<p class="transcript-line">And so you have to do weird things. But you actually had real unit economics to deal with.</p>
+
+
+<p class="time-stamp">00:43:02.560 --> 00:43:10.000</p>
+<p class="transcript-line">Yes. And there was an FAQ in the app. There was an explainer that just lays the whole thing out,</p>
+
+
+<p class="time-stamp">00:43:10.000 --> 00:43:18.000</p>
+<p class="transcript-line">explains why it costs up front. And it's because, well, you know, we have a GPU on the back end</p>
+
+
+<p class="time-stamp">00:43:18.000 --> 00:43:23.680</p>
+<p class="transcript-line">that we have to park for one hour just to fine tune your photos. And even then, the reviews were</p>
+
+
+<p class="time-stamp">00:43:23.680 --> 00:43:28.480</p>
+<p class="transcript-line">like, I know that there's an explainer, but I am still, I still don't buy the argument.</p>
+
+
+<p class="time-stamp">00:43:28.480 --> 00:43:36.720</p>
+<p class="transcript-line">It's like, just people don't want to take it. Yeah, that's funny. Man. Yeah. And like,</p>
+
+
+<p class="time-stamp">00:43:37.280 --> 00:43:44.000</p>
+<p class="transcript-line">And everything about it is unproven, right? There's not any norms built around this in</p>
+
+
+<p class="time-stamp">00:43:44.000 --> 00:43:48.240</p>
+<p class="transcript-line">terms of people's expectations. Like weather apps, you can get away... Not get away with.</p>
+
+
+<p class="time-stamp">00:43:48.240 --> 00:43:52.400</p>
+<p class="transcript-line">That's the wrong word. But people are kind of trained to understand like it costs money to</p>
+
+
+<p class="time-stamp">00:43:52.400 --> 00:43:58.400</p>
+<p class="transcript-line">figure all this out or to pay APIs to figure this out. But generating an image is something that</p>
+
+
+<p class="time-stamp">00:43:58.400 --> 00:44:03.440</p>
+<p class="transcript-line">you're used to happening on your device itself. So it doesn't feel like that should be costing</p>
+
+
+<p class="time-stamp">00:44:03.440 --> 00:44:07.520</p>
+<p class="transcript-line">the company money, even though it obviously really is in this case.</p>
+
+
+<p class="time-stamp">00:44:07.520 --> 00:44:10.880</p>
+<p class="transcript-line">Especially when you don't get a sample.</p>
+
+
+<p class="time-stamp">00:44:10.880 --> 00:44:14.080</p>
+<p class="transcript-line">I wish the technology worked that way.</p>
+
+
+<p class="time-stamp">00:44:14.080 --> 00:44:20.240</p>
+<p class="transcript-line">I wish we could sample a few images, but it's a bit of all or nothing.</p>
+
+
+<p class="time-stamp">00:44:20.240 --> 00:44:25.680</p>
+<p class="transcript-line">We got to fine tune the model first, and that's where most of the cost goes in.</p>
+
+
+<p class="time-stamp">00:44:25.680 --> 00:44:29.040</p>
+<p class="transcript-line">And then it's not that costly afterwards.</p>
+
+
+<p class="time-stamp">00:44:29.040 --> 00:44:36.040</p>
+<p class="transcript-line">Right. The actual prompts in each image, the cost is pretty low relative to generating that actual model, right?</p>
+
+
+<p class="time-stamp">00:44:36.040 --> 00:44:42.940</p>
+<p class="transcript-line">Yes. Interestingly, I had record sales when when Lenza came out.</p>
+
+
+<p class="time-stamp">00:44:42.940 --> 00:44:51.340</p>
+<p class="transcript-line">Lenza having millions of users and Lenza having millions of sales really did and a huge boom on social media,</p>
+
+
+<p class="time-stamp">00:44:51.340 --> 00:44:56.400</p>
+<p class="transcript-line">really that teach people about the AI avatar thing, call it.</p>
+
+
+<p class="time-stamp">00:44:56.700 --> 00:45:00.060</p>
+<p class="transcript-line">So people started understanding that, oh, this thing exists.</p>
+
+
+<p class="time-stamp">00:45:00.060 --> 00:45:01.420</p>
+<p class="transcript-line">I've seen it on other people.</p>
+
+
+<p class="time-stamp">00:45:01.420 --> 00:45:05.620</p>
+<p class="transcript-line">So it added a lot of social proof in the sense that, well, all of my friends have one.</p>
+
+
+<p class="time-stamp">00:45:05.620 --> 00:45:08.900</p>
+<p class="transcript-line">So this thing kind of works and these avatars look cool.</p>
+
+
+<p class="time-stamp">00:45:08.900 --> 00:45:10.980</p>
+<p class="transcript-line">And so I'm going to try this thing out.</p>
+
+
+<p class="time-stamp">00:45:10.980 --> 00:45:16.620</p>
+<p class="transcript-line">And I understand because my friends told me as well that this thing costs money upfront.</p>
+
+
+<p class="time-stamp">00:45:16.620 --> 00:45:19.300</p>
+<p class="transcript-line">They paid first and they got these results.</p>
+
+
+<p class="time-stamp">00:45:19.300 --> 00:45:21.500</p>
+<p class="transcript-line">Yeah, that's true.</p>
+
+
+<p class="time-stamp">00:45:21.500 --> 00:45:24.660</p>
+<p class="transcript-line">Then the trust, it started building trust, right?</p>
+
+
+<p class="time-stamp">00:45:24.900 --> 00:45:28.860</p>
+<p class="transcript-line">Interestingly, competitors, bigger players</p>
+
+
+<p class="time-stamp">00:45:28.860 --> 00:45:32.180</p>
+<p class="transcript-line">on the market or in the field,</p>
+
+
+<p class="time-stamp">00:45:32.180 --> 00:45:35.420</p>
+<p class="transcript-line">brought this into the mainstream,</p>
+
+
+<p class="time-stamp">00:45:35.420 --> 00:45:37.360</p>
+<p class="transcript-line">removed so much friction,</p>
+
+
+<p class="time-stamp">00:45:37.360 --> 00:45:40.980</p>
+<p class="transcript-line">and resulted in record sales for AI Pro Fat Pick.</p>
+
+
+<p class="time-stamp">00:45:40.980 --> 00:45:45.540</p>
+<p class="transcript-line">- I feel like also, this is where your naming for the app</p>
+
+
+<p class="time-stamp">00:45:45.540 --> 00:45:48.260</p>
+<p class="transcript-line">probably helped a significant amount.</p>
+
+
+<p class="time-stamp">00:45:48.260 --> 00:45:49.620</p>
+<p class="transcript-line">I feel like in our indie circles,</p>
+
+
+<p class="time-stamp">00:45:49.620 --> 00:45:51.440</p>
+<p class="transcript-line">especially people listening to this,</p>
+
+
+<p class="time-stamp">00:45:51.440 --> 00:45:52.740</p>
+<p class="transcript-line">or people that I've had on,</p>
+
+
+<p class="time-stamp">00:45:53.780 --> 00:45:58.020</p>
+<p class="transcript-line">would want the name... Most products you make, you want it to have this sort of</p>
+
+
+<p class="time-stamp">00:45:58.020 --> 00:46:05.620</p>
+<p class="transcript-line">cute name that you can slap on stickers and it's like a whole... It's a very different thing.</p>
+
+
+<p class="time-stamp">00:46:05.620 --> 00:46:09.540</p>
+<p class="transcript-line">But in your case, when you're in this rat race where it's like,</p>
+
+
+<p class="time-stamp">00:46:09.540 --> 00:46:15.940</p>
+<p class="transcript-line">there's 1000 competitors instantly, you have to play the ASO game.</p>
+
+
+<p class="time-stamp">00:46:15.940 --> 00:46:21.860</p>
+<p class="transcript-line">Having a name like AI Profile Pick, establish yourself so that when one of these giant</p>
+
+
+<p class="time-stamp">00:46:21.860 --> 00:46:27.460</p>
+<p class="transcript-line">players with all the marketing money and user bases, when they come out with something that</p>
+
+
+<p class="time-stamp">00:46:27.460 --> 00:46:32.260</p>
+<p class="transcript-line">goes viral, if you don't remember the name, what are you going to search in the App Store?</p>
+
+
+<p class="time-stamp">00:46:32.260 --> 00:46:36.500</p>
+<p class="transcript-line">You're probably going to put, "Well, it's an AI thing and I want a profile picture." And then</p>
+
+
+<p class="time-stamp">00:46:36.500 --> 00:46:44.340</p>
+<p class="transcript-line">boom, that's your app, right? Yes. To be honest, though, that is a side effect. Obviously, the ASO</p>
+
+
+<p class="time-stamp">00:46:45.620 --> 00:46:52.500</p>
+<p class="transcript-line">gains here are good, but it was, to be honest, a lack of imagination on my end, in the sense that</p>
+
+
+<p class="time-stamp">00:46:52.500 --> 00:46:59.380</p>
+<p class="transcript-line">it's more like, because this was quite rushed for V1, I didn't have the time to really</p>
+
+
+<p class="time-stamp">00:46:59.380 --> 00:47:08.980</p>
+<p class="transcript-line">give the app that much character, right? So, actually give it a cute name with identity,</p>
+
+
+<p class="time-stamp">00:47:08.980 --> 00:47:15.140</p>
+<p class="transcript-line">with a nice app icon that really fits</p>
+
+
+<p class="time-stamp">00:47:15.140 --> 00:47:19.820</p>
+<p class="transcript-line">to what kind of identity you want to give to the app.</p>
+
+
+<p class="time-stamp">00:47:19.820 --> 00:47:21.780</p>
+<p class="transcript-line">The app had to be generic on day one,</p>
+
+
+<p class="time-stamp">00:47:21.780 --> 00:47:23.660</p>
+<p class="transcript-line">because what does the app do?</p>
+
+
+<p class="time-stamp">00:47:23.660 --> 00:47:27.100</p>
+<p class="transcript-line">It creates AI avatars or profile pictures.</p>
+
+
+<p class="time-stamp">00:47:27.100 --> 00:47:29.700</p>
+<p class="transcript-line">This is AI profile pic.</p>
+
+
+<p class="time-stamp">00:47:29.700 --> 00:47:34.220</p>
+<p class="transcript-line">The actual app icon is someone who has actually used our app</p>
+
+
+<p class="time-stamp">00:47:34.220 --> 00:47:37.940</p>
+<p class="transcript-line">and just created a support ticket because they</p>
+
+
+<p class="time-stamp">00:47:37.940 --> 00:47:39.860</p>
+<p class="transcript-line">needed help.</p>
+
+
+<p class="time-stamp">00:47:39.860 --> 00:47:42.580</p>
+<p class="transcript-line">And they sent us the avatars they had created.</p>
+
+
+<p class="time-stamp">00:47:42.580 --> 00:47:44.580</p>
+<p class="transcript-line">And we're like, these actually look pretty good.</p>
+
+
+<p class="time-stamp">00:47:44.580 --> 00:47:45.740</p>
+<p class="transcript-line">Can we use them?</p>
+
+
+<p class="time-stamp">00:47:45.740 --> 00:47:48.660</p>
+<p class="transcript-line">I basically bought the rights to use it as an app icon.</p>
+
+
+<p class="time-stamp">00:47:48.660 --> 00:47:50.180</p>
+<p class="transcript-line">Ha, that's pretty cool.</p>
+
+
+<p class="time-stamp">00:47:50.180 --> 00:47:52.700</p>
+<p class="transcript-line">In exchange for free credits.</p>
+
+
+<p class="time-stamp">00:47:52.700 --> 00:47:54.140</p>
+<p class="transcript-line">That's awesome.</p>
+
+
+<p class="time-stamp">00:47:54.140 --> 00:47:56.580</p>
+<p class="transcript-line">It reminds me of Clubhouse.</p>
+
+
+<p class="time-stamp">00:47:56.580 --> 00:47:57.500</p>
+<p class="transcript-line">Well, I say remember.</p>
+
+
+<p class="time-stamp">00:47:57.500 --> 00:47:58.740</p>
+<p class="transcript-line">I guess they're still around.</p>
+
+
+<p class="time-stamp">00:47:58.740 --> 00:48:02.740</p>
+<p class="transcript-line">But how they would have a different picture every time</p>
+
+
+<p class="time-stamp">00:48:02.740 --> 00:48:03.260</p>
+<p class="transcript-line">of--</p>
+
+
+<p class="time-stamp">00:48:03.260 --> 00:48:04.340</p>
+<p class="transcript-line">I guess that was a real user.</p>
+
+
+<p class="time-stamp">00:48:04.340 --> 00:48:06.100</p>
+<p class="transcript-line">I don't remember what the story was there.</p>
+
+
+<p class="time-stamp">00:48:06.100 --> 00:48:07.380</p>
+<p class="transcript-line">But that's pretty cool.</p>
+
+
+<p class="time-stamp">00:48:07.380 --> 00:48:11.980</p>
+<p class="transcript-line">Yeah, exactly. So it kind of showcases what kind of results you could get from the app.</p>
+
+
+<p class="time-stamp">00:48:11.980 --> 00:48:15.480</p>
+<p class="transcript-line">But at the same time, well, V1 had my face on it,</p>
+
+
+<p class="time-stamp">00:48:15.480 --> 00:48:18.680</p>
+<p class="transcript-line">and I couldn't wait until, you know, removing my face from it.</p>
+
+
+<p class="time-stamp">00:48:18.680 --> 00:48:20.680</p>
+<p class="transcript-line">So that's kind of how it worked out.</p>
+
+
+<p class="time-stamp">00:48:20.680 --> 00:48:24.180</p>
+<p class="transcript-line">That makes sense. Yeah, I would not like that myself.</p>
+
+
+<p class="time-stamp">00:48:24.180 --> 00:48:25.180</p>
+<p class="transcript-line">[laughs]</p>
+
+
+<p class="time-stamp">00:48:25.180 --> 00:48:25.680</p>
+<p class="transcript-line">Nope.</p>
+
+
+<p class="time-stamp">00:48:25.680 --> 00:48:31.280</p>
+<p class="transcript-line">So we already talked about Lenza coming in, and in your case,</p>
+
+
+<p class="time-stamp">00:48:31.280 --> 00:48:37.280</p>
+<p class="transcript-line">they did a lot of the legwork, essentially, of helping build this as like a</p>
+
+
+<p class="time-stamp">00:48:37.280 --> 00:48:44.320</p>
+<p class="transcript-line">legitimate, trustworthy thing, I guess. So in your case, that was mostly helpful. What about</p>
+
+
+<p class="time-stamp">00:48:44.320 --> 00:48:53.120</p>
+<p class="transcript-line">like, because I have looked in the App Store recently, even since we talked like a month ago,</p>
+
+
+<p class="time-stamp">00:48:53.120 --> 00:48:58.880</p>
+<p class="transcript-line">and it seems like there are just 1000 of these apps. Now, how has that been? Like, have you</p>
+
+
+<p class="time-stamp">00:48:58.880 --> 00:49:03.280</p>
+<p class="transcript-line">have you felt the sort of land rush of a bunch of other people coming in? And how have you</p>
+
+
+<p class="time-stamp">00:49:03.280 --> 00:49:08.320</p>
+<p class="transcript-line">differentiated. I guess having a back end is probably a piece of that. I feel like the top</p>
+
+
+<p class="time-stamp">00:49:08.320 --> 00:49:16.800</p>
+<p class="transcript-line">five apps are getting 90 plus percent of the market and then it's just a long tail of these</p>
+
+
+<p class="time-stamp">00:49:16.800 --> 00:49:25.680</p>
+<p class="transcript-line">smaller apps making peanuts and getting almost no users etc. And are you in the top five apps?</p>
+
+
+<p class="time-stamp">00:49:26.480 --> 00:49:27.600</p>
+<p class="transcript-line">I'm not even sure.</p>
+
+
+<p class="time-stamp">00:49:27.600 --> 00:49:30.080</p>
+<p class="transcript-line">Like, the app is doing quite well,</p>
+
+
+<p class="time-stamp">00:49:30.080 --> 00:49:33.920</p>
+<p class="transcript-line">but it's far from making the millions.</p>
+
+
+<p class="time-stamp">00:49:33.920 --> 00:49:36.360</p>
+<p class="transcript-line">So the trend went down as well.</p>
+
+
+<p class="time-stamp">00:49:36.360 --> 00:49:38.080</p>
+<p class="transcript-line">Linza was making about--</p>
+
+
+<p class="time-stamp">00:49:38.080 --> 00:49:39.720</p>
+<p class="transcript-line">I imagine, like I saw that on Twitter,</p>
+
+
+<p class="time-stamp">00:49:39.720 --> 00:49:43.120</p>
+<p class="transcript-line">but they were making about $1 million a day</p>
+
+
+<p class="time-stamp">00:49:43.120 --> 00:49:46.200</p>
+<p class="transcript-line">for about 20 days straight, right?</p>
+
+
+<p class="time-stamp">00:49:46.200 --> 00:49:51.560</p>
+<p class="transcript-line">AI Profile Big did not make $1 million a day any day.</p>
+
+
+<p class="time-stamp">00:49:51.560 --> 00:49:55.800</p>
+<p class="transcript-line">So it is a smaller app, but it's making decent income.</p>
+
+
+<p class="time-stamp">00:49:55.800 --> 00:49:57.960</p>
+<p class="transcript-line">But yeah, the big players came in.</p>
+
+
+<p class="time-stamp">00:49:57.960 --> 00:50:04.720</p>
+<p class="transcript-line">It was such like this Dreamboost and stable diffusion technology was such a good way to</p>
+
+
+<p class="time-stamp">00:50:04.720 --> 00:50:08.000</p>
+<p class="transcript-line">revamp apps that have existed on the App Store.</p>
+
+
+<p class="time-stamp">00:50:08.000 --> 00:50:12.800</p>
+<p class="transcript-line">They're like face tuning apps or removing backgrounds or blemishes.</p>
+
+
+<p class="time-stamp">00:50:12.800 --> 00:50:15.240</p>
+<p class="transcript-line">Which is a whole category on its own.</p>
+
+
+<p class="time-stamp">00:50:15.240 --> 00:50:20.680</p>
+<p class="transcript-line">Yes. And it was such a good way for them to revamp their product and add these magical</p>
+
+
+<p class="time-stamp">00:50:20.680 --> 00:50:23.040</p>
+<p class="transcript-line">new features, right? These magic avatars.</p>
+
+
+<p class="time-stamp">00:50:23.240 --> 00:50:30.680</p>
+<p class="transcript-line">And then it is true that the App Store now is crowded with this kind of app, with avatar apps.</p>
+
+
+<p class="time-stamp">00:50:30.680 --> 00:50:36.520</p>
+<p class="transcript-line">That's why it was quite important to be there very early on, because having had a one-month</p>
+
+
+<p class="time-stamp">00:50:36.520 --> 00:50:44.440</p>
+<p class="transcript-line">head start has also meant that the app has had, AI Profile Pick has had a lot of App Store inertia.</p>
+
+
+<p class="time-stamp">00:50:44.440 --> 00:50:49.720</p>
+<p class="transcript-line">So it's got a lot of reviews, ratings, downloads,</p>
+
+
+<p class="time-stamp">00:50:49.720 --> 00:50:53.560</p>
+<p class="transcript-line">so it just boosts the app on the App Store.</p>
+
+
+<p class="time-stamp">00:50:53.560 --> 00:50:58.680</p>
+<p class="transcript-line">And right now, the name of the game is ASO,</p>
+
+
+<p class="time-stamp">00:50:58.680 --> 00:51:00.360</p>
+<p class="transcript-line">and adding interesting features.</p>
+
+
+<p class="time-stamp">00:51:00.360 --> 00:51:03.160</p>
+<p class="transcript-line">So I'm working on a few new features.</p>
+
+
+<p class="time-stamp">00:51:03.160 --> 00:51:05.240</p>
+<p class="transcript-line">There's a few in the pipeline.</p>
+
+
+<p class="time-stamp">00:51:05.240 --> 00:51:07.560</p>
+<p class="transcript-line">Once your model has been fine-tuned,</p>
+
+
+<p class="time-stamp">00:51:07.560 --> 00:51:11.400</p>
+<p class="transcript-line">since it doesn't cost that much to do extra generations,</p>
+
+
+<p class="time-stamp">00:51:11.400 --> 00:51:13.160</p>
+<p class="transcript-line">it's to do interesting things with that,</p>
+
+
+<p class="time-stamp">00:51:13.160 --> 00:51:14.720</p>
+<p class="transcript-line">be it being able to do.</p>
+
+
+<p class="time-stamp">00:51:14.720 --> 00:51:19.960</p>
+<p class="transcript-line">So with this app store in inertia, it's also about how to keep the ball</p>
+
+
+<p class="time-stamp">00:51:19.960 --> 00:51:23.240</p>
+<p class="transcript-line">rolling because there's still an influx of users.</p>
+
+
+<p class="time-stamp">00:51:23.240 --> 00:51:27.120</p>
+<p class="transcript-line">There's still an influx of shares of generations on the app.</p>
+
+
+<p class="time-stamp">00:51:27.120 --> 00:51:34.240</p>
+<p class="transcript-line">And the idea is to how how to keep the ball rolling for for the long</p>
+
+
+<p class="time-stamp">00:51:34.240 --> 00:51:35.240</p>
+<p class="transcript-line">while to come.</p>
+
+
+<p class="time-stamp">00:51:35.240 --> 00:51:42.720</p>
+<p class="transcript-line">One of the things we talked about a while ago was like how fast the whole</p>
+
+
+<p class="time-stamp">00:51:42.720 --> 00:51:48.640</p>
+<p class="transcript-line">space is moving. And I think when we were talking last month, you were like, some new paper came out</p>
+
+
+<p class="time-stamp">00:51:48.640 --> 00:51:53.760</p>
+<p class="transcript-line">this morning that I'm trying to figure out somebody's in the process of trying to implement</p>
+
+
+<p class="time-stamp">00:51:53.760 --> 00:52:02.480</p>
+<p class="transcript-line">that paper now. Does that pace of change in that space? Is that coming into play with this area?</p>
+
+
+<p class="time-stamp">00:52:02.480 --> 00:52:07.280</p>
+<p class="transcript-line">Or is it kind of like those are kind of moved in a different direction than what would affect</p>
+
+
+<p class="time-stamp">00:52:07.280 --> 00:52:16.960</p>
+<p class="transcript-line">like your app and business now? I feel like stable diffusion v1.4 or 1.5 was really the mother load.</p>
+
+
+<p class="time-stamp">00:52:16.960 --> 00:52:25.280</p>
+<p class="transcript-line">That was kind of the big thing that shook up the industry and just gave so much</p>
+
+
+<p class="time-stamp">00:52:25.280 --> 00:52:33.680</p>
+<p class="transcript-line">to product makers. I do feel that it's slowed down a bit since then. So interestingly,</p>
+
+
+<p class="time-stamp">00:52:33.680 --> 00:52:39.840</p>
+<p class="transcript-line">it comes in waves. It doesn't feel like it comes on a daily or weekly basis. This kind of unlock</p>
+
+
+<p class="time-stamp">00:52:39.840 --> 00:52:49.760</p>
+<p class="transcript-line">that this technology or AI in general creates, it does come in waves. I don't think that the wave</p>
+
+
+<p class="time-stamp">00:52:49.760 --> 00:52:56.320</p>
+<p class="transcript-line">has been as... The few waves of recent times have been as big as the stable diffusion release,</p>
+
+
+<p class="time-stamp">00:52:56.320 --> 00:53:03.280</p>
+<p class="transcript-line">but I do think that there will be other medium-sized or bigger waves to come.</p>
+
+
+<p class="time-stamp">00:53:03.280 --> 00:53:09.440</p>
+<p class="transcript-line">Do you feel like you have to kind of be on top of that so that when one of those comes through</p>
+
+
+<p class="time-stamp">00:53:09.440 --> 00:53:14.240</p>
+<p class="transcript-line">that could have an impact, you know, you're one of the people that's jumping on that quickly?</p>
+
+
+<p class="time-stamp">00:53:14.240 --> 00:53:20.880</p>
+<p class="transcript-line">Thinking forward, it definitely is stressful to be on the lookout for something and then</p>
+
+
+<p class="time-stamp">00:53:20.880 --> 00:53:26.960</p>
+<p class="transcript-line">to ride that wave. So I don't think I would want to ride every wave.</p>
+
+
+<p class="time-stamp">00:53:26.960 --> 00:53:30.160</p>
+<p class="transcript-line">Well, right. Because most of them, you know, once things get going,</p>
+
+
+<p class="time-stamp">00:53:30.160 --> 00:53:36.160</p>
+<p class="transcript-line">most of them probably won't produce, you know, actual results for your business specifically.</p>
+
+
+<p class="time-stamp">00:53:36.160 --> 00:53:39.360</p>
+<p class="transcript-line">So that would start getting really overwhelming.</p>
+
+
+<p class="time-stamp">00:53:39.360 --> 00:53:46.240</p>
+<p class="transcript-line">Yes. So there's the aspect. And there's also the aspect of lessons learned from shipping AI</p>
+
+
+<p class="time-stamp">00:53:46.240 --> 00:53:53.440</p>
+<p class="transcript-line">profile pic. It's understanding the value of a mode, the value of not wanting to go</p>
+
+
+<p class="time-stamp">00:53:54.000 --> 00:54:02.320</p>
+<p class="transcript-line">head-to-head with the big players with no mode that can outspend you when it comes to ad spend,</p>
+
+
+<p class="time-stamp">00:54:02.320 --> 00:54:08.560</p>
+<p class="transcript-line">for example, or have a bigger marketing team or have these big influencer collabs, right?</p>
+
+
+<p class="time-stamp">00:54:08.560 --> 00:54:09.120</p>
+<p class="transcript-line">Mm-hmm.</p>
+
+
+<p class="time-stamp">00:54:09.120 --> 00:54:09.280</p>
+<p class="transcript-line">Yeah.</p>
+
+
+<p class="time-stamp">00:54:09.280 --> 00:54:15.280</p>
+<p class="transcript-line">So going head-to-hand with Lenza is impossible. It just dictates a lot when it comes to doing</p>
+
+
+<p class="time-stamp">00:54:15.280 --> 00:54:18.640</p>
+<p class="transcript-line">business, which is quite an interesting challenge as well. So it's still fun.</p>
+
+
+<p class="time-stamp">00:54:18.640 --> 00:54:22.960</p>
+<p class="transcript-line">Do you feel like you were going head-to-head with the big players? It sounded like when</p>
+
+
+<p class="time-stamp">00:54:22.960 --> 00:54:27.360</p>
+<p class="transcript-line">when you're describing it earlier that them entering the market was helpful</p>
+
+
+<p class="time-stamp">00:54:27.360 --> 00:54:30.320</p>
+<p class="transcript-line">for you? Or was it, do you think that was helpful for you in the short term,</p>
+
+
+<p class="time-stamp">00:54:30.320 --> 00:54:33.360</p>
+<p class="transcript-line">but then long-term that becomes more of a challenge?</p>
+
+
+<p class="time-stamp">00:54:33.360 --> 00:54:38.840</p>
+<p class="transcript-line">It never felt like I was going head to head with Lenza or the other players</p>
+
+
+<p class="time-stamp">00:54:38.840 --> 00:54:42.720</p>
+<p class="transcript-line">because I just do not have the user base.</p>
+
+
+<p class="time-stamp">00:54:42.720 --> 00:54:45.200</p>
+<p class="transcript-line">They have user bases with millions of users,</p>
+
+
+<p class="time-stamp">00:54:45.200 --> 00:54:50.280</p>
+<p class="transcript-line">meaning they can shoot up to the top of the store within a</p>
+
+
+<p class="time-stamp">00:54:50.280 --> 00:54:51.640</p>
+<p class="transcript-line">sending a push notification.</p>
+
+
+<p class="time-stamp">00:54:51.640 --> 00:54:57.360</p>
+<p class="transcript-line">Like this is the actual value that they can propose that I do not have.</p>
+
+
+<p class="time-stamp">00:54:57.360 --> 00:55:03.520</p>
+<p class="transcript-line">So I was just glad that the interesting thing is like Lenza as a player, so big</p>
+
+
+<p class="time-stamp">00:55:03.520 --> 00:55:07.800</p>
+<p class="transcript-line">that they created a small way for me to surf on, so they're a whale.</p>
+
+
+<p class="time-stamp">00:55:07.800 --> 00:55:12.520</p>
+<p class="transcript-line">Lenza's tail just hit the water and it created this ripple for</p>
+
+
+<p class="time-stamp">00:55:12.520 --> 00:55:14.000</p>
+<p class="transcript-line">everyone to, to write off of.</p>
+
+
+<p class="time-stamp">00:55:14.000 --> 00:55:16.520</p>
+<p class="transcript-line">Well, it's, I mean, it's kind of like what, how a lot of people</p>
+
+
+<p class="time-stamp">00:55:16.520 --> 00:55:22.080</p>
+<p class="transcript-line">describe getting Sherlocked by a platform owner like Apple or Google or</p>
+
+
+<p class="time-stamp">00:55:22.080 --> 00:55:27.240</p>
+<p class="transcript-line">whatever, where it's like, when they enter that space that you have had an</p>
+
+
+<p class="time-stamp">00:55:27.240 --> 00:55:32.440</p>
+<p class="transcript-line">app for a while and they implement it as a native feature in the platform, it</p>
+
+
+<p class="time-stamp">00:55:32.440 --> 00:55:36.680</p>
+<p class="transcript-line">can sometimes be beneficial for you because it like highlights this as a</p>
+
+
+<p class="time-stamp">00:55:36.680 --> 00:55:40.160</p>
+<p class="transcript-line">thing that people might want and legitimizes a business.</p>
+
+
+<p class="time-stamp">00:55:40.160 --> 00:55:43.160</p>
+<p class="transcript-line">And then more people end up seeking you out because you're the more, you know,</p>
+
+
+<p class="time-stamp">00:55:43.160 --> 00:55:44.680</p>
+<p class="transcript-line">advanced version or whatever in that case.</p>
+
+
+<p class="time-stamp">00:55:45.560 --> 00:55:47.560</p>
+<p class="transcript-line">It works quite well when</p>
+
+
+<p class="time-stamp">00:55:47.560 --> 00:55:52.840</p>
+<p class="transcript-line">Lenza, for example, launched the Magic Avatars feature,</p>
+
+
+<p class="time-stamp">00:55:52.840 --> 00:55:54.720</p>
+<p class="transcript-line">but it was paid, right?</p>
+
+
+<p class="time-stamp">00:55:54.720 --> 00:55:59.240</p>
+<p class="transcript-line">And we were almost offering it at the same price or even cheaper.</p>
+
+
+<p class="time-stamp">00:55:59.240 --> 00:56:03.280</p>
+<p class="transcript-line">So it kind of made sense, like a lot of people wanted to try both, right?</p>
+
+
+<p class="time-stamp">00:56:03.280 --> 00:56:05.560</p>
+<p class="transcript-line">Because the avatars are not the same, right?</p>
+
+
+<p class="time-stamp">00:56:05.560 --> 00:56:10.760</p>
+<p class="transcript-line">We produce more photorealistic avatars,</p>
+
+
+<p class="time-stamp">00:56:10.760 --> 00:56:13.240</p>
+<p class="transcript-line">and we just have a different value proposition.</p>
+
+
+<p class="time-stamp">00:56:14.560 --> 00:56:20.480</p>
+<p class="transcript-line">Contrasting that with getting Sherlocked is I would imagine it to hurt when Apple</p>
+
+
+<p class="time-stamp">00:56:20.480 --> 00:56:26.680</p>
+<p class="transcript-line">Sherlock's a feature and offers it for free and installed by default on the OS.</p>
+
+
+<p class="time-stamp">00:56:26.680 --> 00:56:27.720</p>
+<p class="transcript-line">Yeah, that's true.</p>
+
+
+<p class="time-stamp">00:56:27.720 --> 00:56:28.200</p>
+<p class="transcript-line">Right.</p>
+
+
+<p class="time-stamp">00:56:28.200 --> 00:56:32.120</p>
+<p class="transcript-line">It's like I already have this feature and it doesn't cost anything.</p>
+
+
+<p class="time-stamp">00:56:32.120 --> 00:56:38.000</p>
+<p class="transcript-line">So, so now the value proposition of the existing product has to be so much higher</p>
+
+
+<p class="time-stamp">00:56:38.000 --> 00:56:42.840</p>
+<p class="transcript-line">for people to download it, install it, launch it and, and pay for it.</p>
+
+
+<p class="time-stamp">00:56:43.640 --> 00:56:48.840</p>
+<p class="transcript-line">The last kind of big thing I wanted to hit on was, and you sort of mentioned this, but like,</p>
+
+
+<p class="time-stamp">00:56:48.840 --> 00:56:58.360</p>
+<p class="transcript-line">clearly this was a big wave situation. That wasn't going to last forever in terms of the</p>
+
+
+<p class="time-stamp">00:56:58.360 --> 00:57:03.160</p>
+<p class="transcript-line">height of how popular it was. But hopefully it has a long tail. How has that played out?</p>
+
+
+<p class="time-stamp">00:57:03.160 --> 00:57:07.880</p>
+<p class="transcript-line">And did you realize it was like a big wave and you didn't know what it would end or when it</p>
+
+
+<p class="time-stamp">00:57:07.880 --> 00:57:11.640</p>
+<p class="transcript-line">would end while it was happening? How did that kind of go through in your mind?</p>
+
+
+<p class="time-stamp">00:57:13.480 --> 00:57:18.840</p>
+<p class="transcript-line">The whole thing so far, and even from the beginning, even though in monetary terms,</p>
+
+
+<p class="time-stamp">00:57:18.840 --> 00:57:26.200</p>
+<p class="transcript-line">it could be a cash grab or land grab, it was also just an experiment, right? It was</p>
+
+
+<p class="time-stamp">00:57:26.200 --> 00:57:31.480</p>
+<p class="transcript-line">even in part just to have fun. It's like, this seems pretty cool, like the technology is pretty</p>
+
+
+<p class="time-stamp">00:57:31.480 --> 00:57:36.600</p>
+<p class="transcript-line">magical, so let's just launch something in the space and learn as much as possible, right?</p>
+
+
+<p class="time-stamp">00:57:36.600 --> 00:57:41.560</p>
+<p class="transcript-line">So there was always that aspect involved. One other aspect of it is</p>
+
+
+<p class="time-stamp">00:57:41.560 --> 00:57:46.560</p>
+<p class="transcript-line">is learning how to launch viral products.</p>
+
+
+<p class="time-stamp">00:57:46.560 --> 00:57:50.680</p>
+<p class="transcript-line">And this is where it leaves me.</p>
+
+
+<p class="time-stamp">00:57:50.680 --> 00:57:52.700</p>
+<p class="transcript-line">It leaves me into thinking</p>
+
+
+<p class="time-stamp">00:57:52.700 --> 00:57:55.820</p>
+<p class="transcript-line">what my next product would be, right?</p>
+
+
+<p class="time-stamp">00:57:55.820 --> 00:57:59.240</p>
+<p class="transcript-line">And it's always quite fun and interesting</p>
+
+
+<p class="time-stamp">00:57:59.240 --> 00:58:02.560</p>
+<p class="transcript-line">to learn about marketing on one end,</p>
+
+
+<p class="time-stamp">00:58:02.560 --> 00:58:05.600</p>
+<p class="transcript-line">but also how social networks are born</p>
+
+
+<p class="time-stamp">00:58:05.600 --> 00:58:07.560</p>
+<p class="transcript-line">or how virality works.</p>
+
+
+<p class="time-stamp">00:58:07.560 --> 00:58:08.400</p>
+<p class="transcript-line">- Yeah.</p>
+
+
+<p class="time-stamp">00:58:08.400 --> 00:58:11.120</p>
+<p class="transcript-line">- So I just consider it as kind of a V1</p>
+
+
+<p class="time-stamp">00:58:11.120 --> 00:58:15.200</p>
+<p class="transcript-line">or experiment number one in a series of experiments</p>
+
+
+<p class="time-stamp">00:58:15.200 --> 00:58:16.920</p>
+<p class="transcript-line">in launching viral products.</p>
+
+
+<p class="time-stamp">00:58:16.920 --> 00:58:20.000</p>
+<p class="transcript-line">- Right, not necessarily a V1 just of this product itself,</p>
+
+
+<p class="time-stamp">00:58:20.000 --> 00:58:25.000</p>
+<p class="transcript-line">but in terms of your sort of career of launching products</p>
+
+
+<p class="time-stamp">00:58:25.000 --> 00:58:27.360</p>
+<p class="transcript-line">sort of in this area.</p>
+
+
+<p class="time-stamp">00:58:27.360 --> 00:58:28.840</p>
+<p class="transcript-line">- Yes, exactly.</p>
+
+
+<p class="time-stamp">00:58:28.840 --> 00:58:33.560</p>
+<p class="transcript-line">And that is also very much related to</p>
+
+
+<p class="time-stamp">00:58:33.560 --> 00:58:35.040</p>
+<p class="transcript-line">how to create products where</p>
+
+
+<p class="time-stamp">00:58:35.040 --> 00:58:38.960</p>
+<p class="transcript-line">users do the marketing for you, right?</p>
+
+
+<p class="time-stamp">00:58:38.960 --> 00:58:42.680</p>
+<p class="transcript-line">So product-led growth or product-led marketing,</p>
+
+
+<p class="time-stamp">00:58:42.680 --> 00:58:47.080</p>
+<p class="transcript-line">instead of having to force product onto users</p>
+
+
+<p class="time-stamp">00:58:47.080 --> 00:58:49.640</p>
+<p class="transcript-line">by spending hundreds of thousands of dollars</p>
+
+
+<p class="time-stamp">00:58:49.640 --> 00:58:56.840</p>
+<p class="transcript-line">in ad spend, and once you turn that spend off,</p>
+
+
+<p class="time-stamp">00:58:56.840 --> 00:58:58.880</p>
+<p class="transcript-line">the product dies off, right?</p>
+
+
+<p class="time-stamp">00:58:58.880 --> 00:59:02.120</p>
+<p class="transcript-line">So as an indie developer, it's always</p>
+
+
+<p class="time-stamp">00:59:02.120 --> 00:59:05.600</p>
+<p class="transcript-line">interesting to seek out these kind of alternative ways</p>
+
+
+<p class="time-stamp">00:59:05.600 --> 00:59:11.640</p>
+<p class="transcript-line">of marketing products, just to see if you can create something that can sustain itself</p>
+
+
+<p class="time-stamp">00:59:11.640 --> 00:59:16.400</p>
+<p class="transcript-line">without having to push it onto users.</p>
+
+
+<p class="time-stamp">00:59:16.400 --> 00:59:26.000</p>
+<p class="transcript-line">So I treat it as experiment number one in this overarching, in this arch of potential</p>
+
+
+<p class="time-stamp">00:59:26.000 --> 00:59:27.440</p>
+<p class="transcript-line">products in the future.</p>
+
+
+<p class="time-stamp">00:59:27.440 --> 00:59:33.240</p>
+<p class="transcript-line">I'm excited to see, you know, where this app itself goes, but also, yeah, what you have</p>
+
+
+<p class="time-stamp">00:59:33.240 --> 00:59:41.320</p>
+<p class="transcript-line">in store for the future. With the AI advances, just the landscape is so bright. It's just</p>
+
+
+<p class="time-stamp">00:59:41.320 --> 00:59:48.800</p>
+<p class="transcript-line">such an exciting time to be alive, to be honest. I wonder if we're getting close to some kind</p>
+
+
+<p class="time-stamp">00:59:48.800 --> 00:59:54.200</p>
+<p class="transcript-line">of inflection point. A lot of people are, and a lot of smart people are talking about</p>
+
+
+<p class="time-stamp">00:59:54.200 --> 01:00:02.440</p>
+<p class="transcript-line">AGI and that it could happen within our lifespan. Actual artificial intelligence, but the singularity</p>
+
+
+<p class="time-stamp">01:00:02.440 --> 01:00:03.720</p>
+<p class="transcript-line">basically. Is that what you're talking about?</p>
+
+
+<p class="time-stamp">01:00:03.720 --> 01:00:04.720</p>
+<p class="transcript-line">The singularity.</p>
+
+
+<p class="time-stamp">01:00:04.720 --> 01:00:05.720</p>
+<p class="transcript-line">Yes. So.</p>
+
+
+<p class="time-stamp">01:00:05.720 --> 01:00:06.720</p>
+<p class="transcript-line">OK. Yes.</p>
+
+
+<p class="time-stamp">01:00:06.720 --> 01:00:09.480</p>
+<p class="transcript-line">So general intelligence, right?</p>
+
+
+<p class="time-stamp">01:00:09.480 --> 01:00:10.720</p>
+<p class="transcript-line">Yeah. OK. That's the word.</p>
+
+
+<p class="time-stamp">01:00:10.720 --> 01:00:15.320</p>
+<p class="transcript-line">To have a kind of a sentient machine that is</p>
+
+
+<p class="time-stamp">01:00:15.320 --> 01:00:17.640</p>
+<p class="transcript-line">as intelligent or more intelligent than humans.</p>
+
+
+<p class="time-stamp">01:00:17.640 --> 01:00:20.760</p>
+<p class="transcript-line">And a lot of smart people are betting on it.</p>
+
+
+<p class="time-stamp">01:00:20.760 --> 01:00:24.720</p>
+<p class="transcript-line">So that is it's just interesting.</p>
+
+
+<p class="time-stamp">01:00:24.720 --> 01:00:28.880</p>
+<p class="transcript-line">Right. And on the way to get there, if we do ever get</p>
+
+
+<p class="time-stamp">01:00:28.880 --> 01:00:31.840</p>
+<p class="transcript-line">there. But it doesn't matter because on the way, there's just</p>
+
+
+<p class="time-stamp">01:00:31.840 --> 01:00:34.640</p>
+<p class="transcript-line">so many interesting advances happening. And the pace is so</p>
+
+
+<p class="time-stamp">01:00:34.640 --> 01:00:37.720</p>
+<p class="transcript-line">fast that as a technologist, it's just so exciting.</p>
+
+
+<p class="time-stamp">01:00:37.720 --> 01:00:42.880</p>
+<p class="transcript-line">Yeah, there's it's constantly spawning new opportunities, new</p>
+
+
+<p class="time-stamp">01:00:42.880 --> 01:00:47.960</p>
+<p class="transcript-line">ideas for, you know, interesting products, right? It's like the</p>
+
+
+<p class="time-stamp">01:00:47.960 --> 01:00:51.640</p>
+<p class="transcript-line">space race. We're not an interplanetary species, like we</p>
+
+
+<p class="time-stamp">01:00:51.640 --> 01:00:54.840</p>
+<p class="transcript-line">thought we would be in a decade in like the 70s. But we sure</p>
+
+
+<p class="time-stamp">01:00:54.840 --> 01:00:58.200</p>
+<p class="transcript-line">got a lot of cool stuff out of, you know, lots of big money</p>
+
+
+<p class="time-stamp">01:00:58.200 --> 01:01:02.040</p>
+<p class="transcript-line">spenders coming up with new technology at a rapid pace?</p>
+
+
+<p class="time-stamp">01:01:02.040 --> 01:01:03.720</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">01:01:03.720 --> 01:01:09.840</p>
+<p class="transcript-line">Well, that's, that's a good note to sort of leave off on. So I'll,</p>
+
+
+<p class="time-stamp">01:01:09.840 --> 01:01:12.840</p>
+<p class="transcript-line">I'll ask you the question that I always try to wrap the show up with,</p>
+
+
+<p class="time-stamp">01:01:12.840 --> 01:01:17.760</p>
+<p class="transcript-line">which is what's like a person or people out there that have inspired you that</p>
+
+
+<p class="time-stamp">01:01:17.760 --> 01:01:19.360</p>
+<p class="transcript-line">you'd recommend other people check out.</p>
+
+
+<p class="time-stamp">01:01:19.360 --> 01:01:24.560</p>
+<p class="transcript-line">Someone that appeared on your podcast previously is Christian Salig,</p>
+
+
+<p class="time-stamp">01:01:24.560 --> 01:01:25.520</p>
+<p class="transcript-line">the maker of Apollo.</p>
+
+
+<p class="time-stamp">01:01:25.520 --> 01:01:27.000</p>
+<p class="transcript-line">Yes.</p>
+
+
+<p class="time-stamp">01:01:27.040 --> 01:01:32.040</p>
+<p class="transcript-line">I just love his spirit, his wholesomeness, uh, and the product he creates.</p>
+
+
+<p class="time-stamp">01:01:32.040 --> 01:01:35.780</p>
+<p class="transcript-line">So overall, yeah, he's definitely an inspiration on my indie journey.</p>
+
+
+<p class="time-stamp">01:01:35.780 --> 01:01:38.280</p>
+<p class="transcript-line">Cannot agree more on that.</p>
+
+
+<p class="time-stamp">01:01:38.280 --> 01:01:43.160</p>
+<p class="transcript-line">Uh, got a chance to hang out with him in person, uh, over the summer at WWDC.</p>
+
+
+<p class="time-stamp">01:01:43.160 --> 01:01:44.680</p>
+<p class="transcript-line">And he is.</p>
+
+
+<p class="time-stamp">01:01:44.680 --> 01:01:50.220</p>
+<p class="transcript-line">As he is online in exceptionally kind human being, and also makes something</p>
+
+
+<p class="time-stamp">01:01:50.220 --> 01:01:53.800</p>
+<p class="transcript-line">that's a massive source of inspiration just as a dev and designer.</p>
+
+
+<p class="time-stamp">01:01:53.800 --> 01:01:56.040</p>
+<p class="transcript-line">So, uh, yeah, hard agree on that one.</p>
+
+
+<p class="time-stamp">01:01:56.040 --> 01:01:56.960</p>
+<p class="transcript-line">Awesome.</p>
+
+
+<p class="time-stamp">01:01:56.960 --> 01:02:02.760</p>
+<p class="transcript-line">Cool. Well, I guess we can go ahead and wrap this up. So where can people find you and</p>
+
+
+<p class="time-stamp">01:02:02.760 --> 01:02:03.760</p>
+<p class="transcript-line">your work?</p>
+
+
+<p class="time-stamp">01:02:03.760 --> 01:02:13.620</p>
+<p class="transcript-line">People can find me mostly on Twitter. So it's twitter.com/ronyfadel. And they can find my</p>
+
+
+<p class="time-stamp">01:02:13.620 --> 01:02:15.980</p>
+<p class="transcript-line">apps on fadel.io.</p>
+
+
+<p class="time-stamp">01:02:15.980 --> 01:02:21.860</p>
+<p class="transcript-line">Thank you so much for coming on this first episode of the 2023. Yeah, this is a fun one.</p>
+
+
+<p class="time-stamp">01:02:21.860 --> 01:02:24.100</p>
+<p class="transcript-line">Charlie, this was a pleasure. Thank you for having me.</p>
+
+
+<p class="time-stamp">01:02:24.100 --> 01:02:25.540</p>
+<p class="transcript-line">Yeah, no, the pleasure's all mine.</p>
+
+
+<p class="time-stamp">01:02:25.540 --> 01:02:32.340</p>
+<p class="transcript-line">Thanks for listening. This episode was edited by Jonathan Ruiz. If you'd like to discuss</p>
+
+
+<p class="time-stamp">01:02:32.340 --> 01:02:36.880</p>
+<p class="transcript-line">the show, you can find me on Twitter at underscore Chuckie C, or you can reach the show directly</p>
+
+
+<p class="time-stamp">01:02:36.880 --> 01:02:43.100</p>
+<p class="transcript-line">at Launched FM. You can also find me at Mastodon.social as Charlie M Chapman or the show at Launched,</p>
+
+
+<p class="time-stamp">01:02:43.100 --> 01:02:47.060</p>
+<p class="transcript-line">and you can find show notes and more at LaunchedFM.com.</p>
+
+
+<p class="time-stamp">01:02:47.060 --> 01:02:49.640</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:02:49.640 --> 01:02:52.220</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:02:52.220 --> 01:02:54.800</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:02:54.800 --> 01:02:57.380</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:02:57.380 --> 01:02:59.960</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:02:59.960 --> 01:03:02.540</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:03:02.540 --> 01:03:05.120</p>
+<p class="transcript-line">(upbeat music)</p>
+
+
+<p class="time-stamp">01:03:05.120 --> 01:03:07.360</p>
+<p class="transcript-line">(gunshots)</p>
+

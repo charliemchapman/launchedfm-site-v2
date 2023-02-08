@@ -4,6 +4,7 @@ description: "Productivity expert Rosemary Orchard joins the show to talk about 
 duration: "56:42"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/8ff7a0e4-1a08-4514-83ee-31fa4fe16525.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8ff7a0e4-1a08-4514-83ee-31fa4fe16525/cover.jpg"
+slug: "9-RosemaryOrchard"
 ---
 
 <p>Productivity expert Rosemary Orchard joins the show to talk about the launch of her books and podcasts.</p>

@@ -4,6 +4,7 @@ description: "Curtis Herbert joins the show to talk about his skiing and snowboa
 duration: "1:18:11"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/c8e9720a-5b6a-4ecd-a053-01690bd8d1d2.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/c/c8e9720a-5b6a-4ecd-a053-01690bd8d1d2/cover.jpg"
+slug: "14-Slopes-CurtisHerbert"
 ---
 
 <p>Curtis Herbert joins the show to talk about his skiing and snowboarding app Slopes.</p>

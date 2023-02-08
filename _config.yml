@@ -19,6 +19,8 @@ social:
 collections:
   authors:
     output: true
+  transcripts:
+    output: true
 
 defaults:
   - scope:

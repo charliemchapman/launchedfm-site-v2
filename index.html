@@ -18,6 +18,12 @@ title: "Launched"
         </h2>
         <p class="post-summary-meta">
           {{ post.date | date: "%B %-d, %Y" }} · {{ post.duration }}
+
+          {% for transcript in site.transcripts %}
+              {% if transcript.slug == post.slug %}
+                  · <a href="{{ transcript.url }}">Transcript</a>
+              {% endif %}
+          {% endfor %}
         </p>
         <div class="post-summary-player">
           <img src="{{ post.image }}"/>
@@ -44,6 +50,12 @@ title: "Launched"
           </h3>
           <p class="post-summary-meta">
             {{ post.date | date: "%B %-d, %Y" }} · {{ post.duration }}
+
+            {% for transcript in site.transcripts %}
+              {% if transcript.slug == post.slug %}
+                  · <a href="{{ transcript.url }}">Transcript</a>
+              {% endif %}
+            {% endfor %}
           </p>
           <p class="post-summary-description">
             {{ post.description }}

@@ -4,6 +4,7 @@ description: "James Thomson, creator of PCalc, DragThing, and Dice by PCalc, joi
 duration: "1:39:48"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/e78d3405-8392-4106-821f-23a7f1fe9585.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e78d3405-8392-4106-821f-23a7f1fe9585/cover.jpg"
+slug: "4-JamesThomson"
 ---
 
 <p>James Thomson, creator of PCalc, DragThing, and Dice by PCalc, joins the show to talk about his long history building software in the Apple ecosystem.</p>

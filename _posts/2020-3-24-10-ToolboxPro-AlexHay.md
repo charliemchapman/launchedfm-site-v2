@@ -4,6 +4,7 @@ description: "Alex Hay joins the show to talk about the launch of his Shortcuts 
 duration: "56:35"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d89abbe7-c940-489f-9187-3e31ad010f33.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d89abbe7-c940-489f-9187-3e31ad010f33/cover.jpg"
+slug: "10-ToolboxPro-AlexHay"
 ---
 
 <p>Alex Hay joins the show to talk about the launch of his Shortcuts utility app Toolbox Pro.</p>

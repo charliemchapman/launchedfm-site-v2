@@ -4,6 +4,7 @@ description: "Rony Fadel joins the show to talk about building AI Profile Pic an
 duration: "1:03:06"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d72b626d-5c0d-4564-97d8-60cc9e4743b4.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d72b626d-5c0d-4564-97d8-60cc9e4743b4/cover.jpg"
+slug: "53-AIProfilePic-RonyFadel"
 ---
 
 <p>Rony Fadel joins the show to talk about building AI Profile Pic and riding the generative AI wave.</p>

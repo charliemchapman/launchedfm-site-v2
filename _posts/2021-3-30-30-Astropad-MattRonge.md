@@ -4,6 +4,7 @@ description: "Matt Ronge joins the show to talk about co-founding Astro HQ, buil
 duration: "1:20:25"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/55612b66-bd95-4603-86a9-902964ab5f78.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/55612b66-bd95-4603-86a9-902964ab5f78/cover.jpg"
+slug: "30-Astropad-MattRonge"
 ---
 
 <p>Matt Ronge joins the show to talk about co-founding Astro HQ, building Astropad and Luna Display, and dealing with fallout of being sherlocked by Apple.</p>

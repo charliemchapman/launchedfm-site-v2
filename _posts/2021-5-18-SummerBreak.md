@@ -4,6 +4,7 @@ description: "Launched is taking a break for the summer. See you next fall!"
 duration: "1:04"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/18a6d2f1-27fd-487d-ae4b-26203ee89120.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/18a6d2f1-27fd-487d-ae4b-26203ee89120/cover.jpg"
+slug: "SummerBreak"
 ---
 
 <p>Launched is taking a break for the summer. See you next fall!</p>

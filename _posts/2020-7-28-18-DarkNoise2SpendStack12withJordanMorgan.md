@@ -4,6 +4,7 @@ description: "After releasing his big Dark Noise 2 update, Charlie takes a littl
 duration: "1:16:04"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/bdff583f-4c73-4f02-a69d-5886b9825bbc.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/bdff583f-4c73-4f02-a69d-5886b9825bbc/cover.jpg"
+slug: "18-DarkNoise2SpendStack12withJordanMorgan"
 ---
 
 <p>After releasing his big Dark Noise 2 update, Charlie takes a little break and hangs out with Jordan Morgan, who recently released Spend Stack 1.2, to talk about launching and marketing a major update to an existing app on the store.</p>

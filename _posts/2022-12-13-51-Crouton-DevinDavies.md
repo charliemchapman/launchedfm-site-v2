@@ -4,6 +4,7 @@ description: "Devin Davies joins the show to talk about building his excellent r
 duration: "56:14"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d38c5573-5b7b-464e-8a26-842e3fc542f5.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d38c5573-5b7b-464e-8a26-842e3fc542f5/cover.jpg"
+slug: "51-Crouton-DevinDavies"
 ---
 
 <p>Devin Davies joins the show to talk about building his excellent recipe app Crouton.</p>

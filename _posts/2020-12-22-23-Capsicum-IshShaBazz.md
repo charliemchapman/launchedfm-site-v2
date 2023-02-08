@@ -4,6 +4,7 @@ description: "Ish Shabazz joins the show to talk about his iOS developer origin 
 duration: "1:07:23"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/77f7e248-cc9f-42ee-83f6-c8560f76ce0a.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/7/77f7e248-cc9f-42ee-83f6-c8560f76ce0a/cover.jpg"
+slug: "23-Capsicum-IshShaBazz"
 ---
 
 <p>Ish Shabazz joins the show to talk about his iOS developer origin story and launching his daily-planning app Capsicum.</p>

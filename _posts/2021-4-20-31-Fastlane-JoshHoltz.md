@@ -4,6 +4,7 @@ description: "Josh Holtz joins the show to talk about what it's like being lead 
 duration: "1:16:13"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/93d7613f-989b-42ec-bf8b-9ab98710a9a0.mp3"
 image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/93d7613f-989b-42ec-bf8b-9ab98710a9a0/cover.jpg"
+slug: "31-Fastlane-JoshHoltz"
 ---
 
 <p>Josh Holtz joins the show to talk about what it&#39;s like being lead maintainer of Fastlane, and joining the iOS indie dev community with An Otter RSS Reader and ConnectKit.</p>
