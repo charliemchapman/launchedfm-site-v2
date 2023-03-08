@@ -20,7 +20,7 @@ slug: "57-PosturePal-JordiBruin"
 <h3>Links &amp; Show Notes</h3>
 
 <ul>
-<li><a href="https://app.fireside.fm/podcasts/launched/episodes/ec63a342-65b3-4815-a294-e9bf4b37e3c5/edit" rel="nofollow">Jordi&#39;s Twitter</a></li>
+<li><a href="https://twitter.com/jordibruin" rel="nofollow">Jordi&#39;s Twitter</a></li>
 <li><a href="https://mastodon.online/@jordibruin" rel="nofollow">Jordi on Mastodon</a></li>
 <li><a href="https://bento.me/jordi" rel="nofollow">Jordi&#39;s Website</a></li>
 <li><a href="https://jordibruin.github.io/food-scanner/" rel="nofollow">Soosee App</a></li>
