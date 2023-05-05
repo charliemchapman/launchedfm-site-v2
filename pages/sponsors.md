@@ -4,7 +4,7 @@ title: Sponsors
 ---
 # Sponsors
 
-Launched currently reaches an average of **2,500** unique downloads per episode, and our current sponsorship rate is **$250**. You can find more detailed stats on the [Metrics page](./metrics).
+Launched currently reaches an average of **3,000** unique downloads per episode, and our current sponsorship rate is **$250**.
 
 Each sponsorship will include:
 - A live read by the host Charlie Chapman between 1-3 minutes with either your prepared script or an outline of bullet points that you want to cover.
