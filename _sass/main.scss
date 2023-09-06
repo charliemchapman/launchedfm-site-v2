@@ -238,11 +238,15 @@ body {
             margin-top: 0;
         }
 
-        img {
+        .post-summary-content-image {
             margin-right: 20px;
             width: 100px;
             height: 100px;
-            max-width: 100%;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
         }
 
         a {
