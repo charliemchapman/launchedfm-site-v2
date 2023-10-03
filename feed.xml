@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2023-09-19T08:21:15-05:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">66: Structured - Leo Mehlig</title><link href="https://launchedfm.com/episodes/66-Structured-LeoMehlig" rel="alternate" type="text/html" title="66: Structured - Leo Mehlig" /><published>2023-09-19T00:00:00-05:00</published><updated>2023-09-19T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/66-Structured-LeoMehlig</id><content type="html" xml:base="https://launchedfm.com/episodes/66-Structured-LeoMehlig">&lt;p&gt;Leo Mehlig joins the show to talk about building and growing his day planner app Structured.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2023-10-03T08:14:10-05:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">67: Chronicling - Rebecca Owen</title><link href="https://launchedfm.com/episodes/67-Chronicling-RebeccaOwen" rel="alternate" type="text/html" title="67: Chronicling - Rebecca Owen" /><published>2023-10-03T00:00:00-05:00</published><updated>2023-10-03T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/67-Chronicling-RebeccaOwen</id><content type="html" xml:base="https://launchedfm.com/episodes/67-Chronicling-RebeccaOwen">&lt;p&gt;Rebecca Owen joins the show about launching her new event tracking app Chronicling.&lt;/p&gt;
+
+&lt;h4&gt;Edited by&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.online/@refactoredd&quot; rel=&quot;nofollow&quot;&gt;Jonathan Ruiz&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Episode Sponsors&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/app/apple-store/id532430574?pt=257449&amp;amp;ct=launched-oct-23&amp;amp;mt=8&quot; rel=&quot;nofollow&quot;&gt;Happy Scale&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@beccaowen&quot; rel=&quot;nofollow&quot;&gt;Rebecca on Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/chronicling/id6445992145&quot; rel=&quot;nofollow&quot;&gt;Chronicling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/MATLAB&quot; rel=&quot;nofollow&quot;&gt;MATLAB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/&quot; rel=&quot;nofollow&quot;&gt;Hacking with Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Quantified_self&quot; rel=&quot;nofollow&quot;&gt;Quantified self&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/data-jar/id1453273600&quot; rel=&quot;nofollow&quot;&gt;Data Jar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/charty-for-shortcuts/id1494386093?ls=1&quot; rel=&quot;nofollow&quot;&gt;Charty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCBaafb8-FGr__EL-pKixJBQ&quot; rel=&quot;nofollow&quot;&gt;Shawn Hickman (Youtube Channel)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.macstories.net/stories/apple-frames-3-1-extending-screenshot-automation-with-the-new-apple-frames-api/&quot; rel=&quot;nofollow&quot;&gt;Apple Frames&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.macstories.net/reviews/chronicling-a-flexible-event-tracker-with-modern-features-and-a-top-notch-design/&quot; rel=&quot;nofollow&quot;&gt;Chronicling review on MacStories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://appdocumentary.com/&quot; rel=&quot;nofollow&quot;&gt;App: The Human Story (Documentary)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/&quot; rel=&quot;nofollow&quot;&gt;Julia Evans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.relay.fm/people/mykehurley&quot; rel=&quot;nofollow&quot;&gt;Myke Hurley&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cabel.com/&quot; rel=&quot;nofollow&quot;&gt;Cabel Sasser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Support Launched&lt;/h3&gt;
+
+&lt;p&gt;⭐️ &lt;a href=&quot;http://membership.launchedfm.com/&quot; rel=&quot;nofollow&quot;&gt;Become a member&lt;/a&gt; to support the show and get ad-free episodes!&lt;/p&gt;
+
+&lt;h3&gt;🚀 Rocket Patrons&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@cameronmcefee&quot; rel=&quot;nofollow&quot;&gt;Cameron McEfee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;More Launched&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Threads - &lt;a href=&quot;https://www.threads.net/@launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Rebecca Owen joins the show about launching her new event tracking app Chronicling.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/2ed0ec7c-a178-4273-a1eb-03888e835972/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/2ed0ec7c-a178-4273-a1eb-03888e835972/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">66: Structured - Leo Mehlig</title><link href="https://launchedfm.com/episodes/66-Structured-LeoMehlig" rel="alternate" type="text/html" title="66: Structured - Leo Mehlig" /><published>2023-09-19T00:00:00-05:00</published><updated>2023-09-19T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/66-Structured-LeoMehlig</id><content type="html" xml:base="https://launchedfm.com/episodes/66-Structured-LeoMehlig">&lt;p&gt;Leo Mehlig joins the show to talk about building and growing his day planner app Structured.&lt;/p&gt;
 
 &lt;h4&gt;Edited by&lt;/h4&gt;
 
@@ -367,48 +414,4 @@
 &lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Rafael K. Streit joins the show to tell us his story about building and growing the outstanding travel planning app Tripsy.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">57: Posture Pal - Jordi Bruin</title><link href="https://launchedfm.com/episodes/57-PosturePal-JordiBruin" rel="alternate" type="text/html" title="57: Posture Pal - Jordi Bruin" /><published>2023-03-07T00:00:00-06:00</published><updated>2023-03-07T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/57-PosturePal-JordiBruin</id><content type="html" xml:base="https://launchedfm.com/episodes/57-PosturePal-JordiBruin">&lt;p&gt;Jordi Bruin joins the show to talk about his large library of iOS and macOS apps and his 2-2-2 approach to building apps quickly.&lt;/p&gt;
-
-&lt;h4&gt;Edited by&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mastodon.online/@refactoredd&quot; rel=&quot;nofollow&quot;&gt;Jonathan Ruiz&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Episode Sponsors&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.revenuecat.com/&quot; rel=&quot;nofollow&quot;&gt;RevenueCat&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/jordibruin&quot; rel=&quot;nofollow&quot;&gt;Jordi&amp;#39;s Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mastodon.online/@jordibruin&quot; rel=&quot;nofollow&quot;&gt;Jordi on Mastodon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://bento.me/jordi&quot; rel=&quot;nofollow&quot;&gt;Jordi&amp;#39;s Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://jordibruin.github.io/food-scanner/&quot; rel=&quot;nofollow&quot;&gt;Soosee App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.getnavi.app/&quot; rel=&quot;nofollow&quot;&gt;Navi App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://goodsnooze.gumroad.com/l/nASbe&quot; rel=&quot;nofollow&quot;&gt;Forehead App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.getvivid.app/&quot; rel=&quot;nofollow&quot;&gt;Vivid App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://impresskit.net/d3e4bea7-fdd2-465a-af7f-7d763e1a9250&quot; rel=&quot;nofollow&quot;&gt;Posture Pal App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://gumroad.com/&quot; rel=&quot;nofollow&quot;&gt;Gumroad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/benlumendigital?lang=en&quot; rel=&quot;nofollow&quot;&gt;Ben Harraway&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://lumen-digital.com/news-articles/noisy-book.html&quot; rel=&quot;nofollow&quot;&gt;Ben Harraway onstage at WWDC 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/noisy-book/id1474786858&quot; rel=&quot;nofollow&quot;&gt;Noisy Book&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://developer.apple.com/design/awards/&quot; rel=&quot;nofollow&quot;&gt;Navi nomindated for Apple Design Award&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://goodsnooze.gumroad.com/l/2-2-2-easy-steps&quot; rel=&quot;nofollow&quot;&gt;Jordi&amp;#39;s 2-2-2 Course on Gumroad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sindresorhus.com/&quot; rel=&quot;nofollow&quot;&gt;Sindre Sorhus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/hiddevdploeg&quot; rel=&quot;nofollow&quot;&gt;Hidde van der Ploeg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.avanderlee.com/&quot; rel=&quot;nofollow&quot;&gt;Antoine van der Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/stewartlynch&quot; rel=&quot;nofollow&quot;&gt;Stewart Lynch on Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Support Launched&lt;/h3&gt;
-
-&lt;p&gt;⭐️ &lt;a href=&quot;http://membership.launchedfm.com/&quot; rel=&quot;nofollow&quot;&gt;Become a member&lt;/a&gt; to support the show and get ad-free episodes!&lt;/p&gt;
-
-&lt;h3&gt;More Launched&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Jordi Bruin joins the show to talk about his large library of iOS and macOS apps and his 2-2-2 approach to building apps quickly.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ec63a342-65b3-4815-a294-e9bf4b37e3c5/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ec63a342-65b3-4815-a294-e9bf4b37e3c5/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Rafael K. Streit joins the show to tell us his story about building and growing the outstanding travel planning app Tripsy.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
