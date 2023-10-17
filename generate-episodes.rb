@@ -31,6 +31,7 @@ episodes.each { |episode|
         .gsub("í", "i")
         .gsub("ı", "i")
         .gsub("ç", "c")
+        .gsub("ö", "o")
 
 
     charactersToRemove = ['’', '', '.', '(', ')', '?', '&', ' ']
