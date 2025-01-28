@@ -10,11 +10,12 @@ I recently went through this process myself with the launch of my iOS app Dark N
 
 This is where I need your help. If you are an app developer or creator who has a launch story to tell (or a future launch coming up) I'd love to hear from you! I've created a form to collect applications for coming on the show here.
 
-If this podcast sounds interesting to you, give us a follow on Twitter at @LaunchedFM or my personal account at @_chuckyc. And if you have any ideas or feedback, my DMs are always open!
+If this podcast sounds interesting to you, give us a follow on Bluesky, Mastodon, Twitter at the link below or my personal accounts you can find at [charliemchapman.me](https://charliemchapman.me). And if you have any ideas or feedback, my DMs are always open!
 
 ### Official Accounts
-* Twitter: [@launchedfm](https://twitter.com/launchedfm)
+* Bluesky: [@launchedfm.com](https://bsky.app/profile/launchedfm.com)
 * Mastodon: [@launched@mastodon.social](https://mastodon.social/@launched/)
+* Twitter: [@launchedfm](https://twitter.com/launchedfm)
 * Email: [charliemchapman@gmail.com](mailto:charliemchapman@gmail.com)
 
 

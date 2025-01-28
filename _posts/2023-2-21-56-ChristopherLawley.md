@@ -3,7 +3,7 @@ title: "56: Christopher Lawley"
 description: "Christopher Lawley joins the show to talk about his fantastic tech Youtube channel The Untitled Site."
 duration: "1:08:23"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/a39136c9-bedf-414a-a683-9890198e6309.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a39136c9-bedf-414a-a683-9890198e6309/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/a39136c9-bedf-414a-a683-9890198e6309/cover.jpg?v=1"
 slug: "56-ChristopherLawley"
 ---
 

@@ -3,7 +3,7 @@ title: "27: Relay FM - Stephen Hackett"
 description: "Stephen Hackett joins the show to talk about starting his blog 512 Pixels and co-founding the Relay FM podcast network."
 duration: "1:17:09"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/faa8e1b5-8533-4e9f-b7bc-a5d8400c0482.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/f/faa8e1b5-8533-4e9f-b7bc-a5d8400c0482/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/f/faa8e1b5-8533-4e9f-b7bc-a5d8400c0482/cover.jpg?v=1"
 slug: "27-RelayFM-StephenHackett"
 ---
 

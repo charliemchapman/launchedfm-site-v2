@@ -3,7 +3,7 @@ title: "68: Söka - Roddy Munro"
 description: "Roddy Munro joins the show to talk about his career and launching the AI powered bucket list app Söka."
 duration: "55:39"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/ed6919d3-393d-476b-b580-ac1720852bbe.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed6919d3-393d-476b-b580-ac1720852bbe/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed6919d3-393d-476b-b580-ac1720852bbe/cover.jpg?v=1"
 slug: "68-Soka-RoddyMunro"
 ---
 

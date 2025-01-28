@@ -3,7 +3,7 @@ title: "49: Up Ahead - Daniel Gauthier"
 description: "Daniel Gauthier joins the show to talk about his delightful countdown app Up Ahead."
 duration: "1:39:10"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/63010c80-758c-49e4-b741-9f2a5a4e5532.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/6/63010c80-758c-49e4-b741-9f2a5a4e5532/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/6/63010c80-758c-49e4-b741-9f2a5a4e5532/cover.jpg?v=1"
 slug: "49-UpAhead-DanielGauthier"
 ---
 

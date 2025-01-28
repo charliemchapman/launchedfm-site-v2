@@ -3,7 +3,7 @@ title: "32: Overcast - Marco Arment"
 description: "Marco Arment joins the show to talk about his indie iOS developer career from Instapaper to The Magazine to Overcast... with a few fun rabbit trails into podcasting itself!"
 duration: "2:02:06"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/0e461a91-941d-4cf2-bdce-f26a3c30b52c.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0e461a91-941d-4cf2-bdce-f26a3c30b52c/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0e461a91-941d-4cf2-bdce-f26a3c30b52c/cover.jpg?v=1"
 slug: "32-Overcast-MarcoArment"
 ---
 

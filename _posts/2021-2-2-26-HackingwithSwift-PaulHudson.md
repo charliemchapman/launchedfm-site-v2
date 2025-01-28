@@ -3,7 +3,7 @@ title: "26: Hacking with Swift - Paul Hudson"
 description: "Paul Hudson joins the show to tell us his origin story that led to running one of the best Swift learning resources in Hacking with Swift."
 duration: "1:20:45"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d11384ea-69b5-4e33-bd0e-5d33fdba8a0d.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d11384ea-69b5-4e33-bd0e-5d33fdba8a0d/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d11384ea-69b5-4e33-bd0e-5d33fdba8a0d/cover.jpg?v=1"
 slug: "26-HackingwithSwift-PaulHudson"
 ---
 

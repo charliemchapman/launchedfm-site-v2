@@ -3,7 +3,7 @@ title: "37: Orbit - Malin Sundberg & Kai Dombrowski"
 description: "Malin & Kai join the show to talk about their careers and building their excellent time based invoicing app Orbit for Mac and iOS!"
 duration: "1:24:20"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/e5407d54-8af7-4f9b-bc34-ea5ec29c8f60.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e5407d54-8af7-4f9b-bc34-ea5ec29c8f60/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e5407d54-8af7-4f9b-bc34-ea5ec29c8f60/cover.jpg?v=1"
 slug: "37-Orbit-MalinSundbergKaiDombrowski"
 ---
 

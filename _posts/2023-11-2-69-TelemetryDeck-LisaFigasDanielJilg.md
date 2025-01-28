@@ -3,7 +3,7 @@ title: "69: TelemetryDeck - Lisa Figas & Daniel Jilg"
 description: "Lisa Figas & Daniel Jilg join the show to talk about launching and building the privacy focused analytics service TelemetryDeck."
 duration: "1:23:31"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/8a858197-f5ab-4014-b160-8f8d3e60d311.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg?v=1"
 slug: "69-TelemetryDeck-LisaFigasDanielJilg"
 ---
 

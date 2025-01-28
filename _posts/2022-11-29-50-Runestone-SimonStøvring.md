@@ -3,7 +3,7 @@ title: "50: Runestone - Simon Støvring"
 description: "Simon Støvring joins the show to talk about his career and prolific indie app catalogue including Scriptable, Data Jar, Jayson, and Runestone."
 duration: "59:33"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/5f877d95-cb7a-4613-a34c-17acca397cac.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5f877d95-cb7a-4613-a34c-17acca397cac/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5f877d95-cb7a-4613-a34c-17acca397cac/cover.jpg?v=1"
 slug: "50-Runestone-SimonStøvring"
 ---
 

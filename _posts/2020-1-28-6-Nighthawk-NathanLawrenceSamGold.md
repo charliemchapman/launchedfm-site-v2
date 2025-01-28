@@ -3,7 +3,7 @@ title: "6: Nighthawk - Nathan Lawrence & Sam Gold"
 description: "Nathan Lawrence and Sam Gold join the show to talk about the launch of their new app Nighthawk."
 duration: "1:15:56"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/28541bf3-048b-492b-9c7a-1b306b47ebf8.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/28541bf3-048b-492b-9c7a-1b306b47ebf8/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/28541bf3-048b-492b-9c7a-1b306b47ebf8/cover.jpg?v=1"
 slug: "6-Nighthawk-NathanLawrenceSamGold"
 ---
 

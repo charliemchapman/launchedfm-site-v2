@@ -3,7 +3,7 @@ title: "13: Cosmicast - Shihab Mehboob"
 description: "Shihab Mehboob joins the show to talk about his new podcast app Cosmicast."
 duration: "1:31:24"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/1fc6e0ec-5cf1-4f7e-9adf-d3eb5e3b41ed.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1fc6e0ec-5cf1-4f7e-9adf-d3eb5e3b41ed/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1fc6e0ec-5cf1-4f7e-9adf-d3eb5e3b41ed/cover.jpg?v=1"
 slug: "13-Cosmicast-ShihabMehboob"
 ---
 

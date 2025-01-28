@@ -3,7 +3,7 @@ title: "8: Spend Stack - Jordan Morgan"
 description: "Jordan Morgan joins the show to talk about the launch of his smart list app Spend Stack."
 duration: "1:21:26"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/47cc2b57-c99a-4ced-8609-74270d651bb9.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/47cc2b57-c99a-4ced-8609-74270d651bb9/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/47cc2b57-c99a-4ced-8609-74270d651bb9/cover.jpg?v=1"
 slug: "8-SpendStack-JordanMorgan"
 ---
 

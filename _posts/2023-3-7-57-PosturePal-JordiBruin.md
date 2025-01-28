@@ -3,7 +3,7 @@ title: "57: Posture Pal - Jordi Bruin"
 description: "Jordi Bruin joins the show to talk about his large library of iOS and macOS apps and his 2-2-2 approach to building apps quickly."
 duration: "1:44:33"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/ec63a342-65b3-4815-a294-e9bf4b37e3c5.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ec63a342-65b3-4815-a294-e9bf4b37e3c5/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ec63a342-65b3-4815-a294-e9bf4b37e3c5/cover.jpg?v=1"
 slug: "57-PosturePal-JordiBruin"
 ---
 

@@ -3,7 +3,7 @@ title: "41: Fantastical - Michael Simmons"
 description: "Michael Simmons joins the show to talk about co-founding Flexibits and creating the wonderful calendar app Fantastical and contacts app Cardhop."
 duration: "1:25:49"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/5d1bd530-833c-4316-b25a-43a4db0a878c.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5d1bd530-833c-4316-b25a-43a4db0a878c/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5d1bd530-833c-4316-b25a-43a4db0a878c/cover.jpg?v=1"
 slug: "41-Fantastical-MichaelSimmons"
 ---
 

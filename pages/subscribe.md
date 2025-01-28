@@ -14,4 +14,3 @@ You can also subscribe directly below:
 * [Overcast](https://overcast.fm/itunes1491582246)
 * [Castro](https://castro.fm/itunes/1491582246)
 * [Pocket Casts](https://pca.st/launched)
-* [Stitcher](https://www.stitcher.com/s?fid=491180)

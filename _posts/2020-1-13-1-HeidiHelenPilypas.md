@@ -3,7 +3,7 @@ title: "1: Heidi Helen Pilypas"
 description: "We're kicking off the show with Heidi Helen Pilypas, the co-creator of indie iOS apps When Did I? and Capsicum."
 duration: "1:03:27"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/0f62c1a1-952d-4131-9bbf-1c75022d9053.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0f62c1a1-952d-4131-9bbf-1c75022d9053/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0f62c1a1-952d-4131-9bbf-1c75022d9053/cover.jpg?v=1"
 slug: "1-HeidiHelenPilypas"
 ---
 

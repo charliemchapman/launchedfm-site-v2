@@ -3,7 +3,7 @@ title: "62: Pok Pok - Melissa Cash"
 description: "Melissa Cash, co-founder and CEO of Pok Pok, joins the show to discuss the award winning children's app company."
 duration: "51:13"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/1342daaa-d3ee-41af-b122-84af3a7b01bf.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1342daaa-d3ee-41af-b122-84af3a7b01bf/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/1/1342daaa-d3ee-41af-b122-84af3a7b01bf/cover.jpg?v=1"
 slug: "62-PokPok-MelissaCash"
 ---
 

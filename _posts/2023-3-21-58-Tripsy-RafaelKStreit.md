@@ -3,7 +3,7 @@ title: "58: Tripsy - Rafael K. Streit"
 description: "Rafael K. Streit joins the show to tell us his story about building and growing the outstanding travel planning app Tripsy."
 duration: "1:14:38"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8b3e7d2b-c1ca-48bf-8193-822ae4f8101b/cover.jpg?v=1"
 slug: "58-Tripsy-RafaelKStreit"
 ---
 

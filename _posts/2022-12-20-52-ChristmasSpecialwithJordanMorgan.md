@@ -3,7 +3,7 @@ title: "52: Christmas Special with Jordan Morgan"
 description: "Jordan Morgan joins the show for the 2nd annual Launched Christmas Special! 🎄 We catch up on our indie lives over the last year, thoughts on sponsorships, Jordan's secret project, subscriptions, and of course... Twitter."
 duration: "1:46:47"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d53f8eb1-f0ab-4d79-8c03-800eccd842de.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d53f8eb1-f0ab-4d79-8c03-800eccd842de/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d53f8eb1-f0ab-4d79-8c03-800eccd842de/cover.jpg?v=1"
 slug: "52-ChristmasSpecialwithJordanMorgan"
 ---
 

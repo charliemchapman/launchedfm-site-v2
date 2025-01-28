@@ -3,7 +3,7 @@ title: "40: CardPointers - Emmanuel Crouvisier"
 description: "Emmanuel Crouvisier joins the show to talk about creating and growing the credit card rewards tracking app CardPointers."
 duration: "1:01:45"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d12a3b23-fed6-47ca-a999-9094a582405f.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d12a3b23-fed6-47ca-a999-9094a582405f/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d12a3b23-fed6-47ca-a999-9094a582405f/cover.jpg?v=1"
 slug: "40-CardPointers-EmmanuelCrouvisier"
 ---
 

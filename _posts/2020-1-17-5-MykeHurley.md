@@ -3,7 +3,7 @@ title: "5: Myke Hurley"
 description: "We're capping off launch week with the one and only Myke Hurley, co-founder of Relay FM, host of countless podcasts, and co-creator of The Theme System Journal."
 duration: "1:12:22"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/b2f81545-dfc2-45c8-9232-2ca08c468df5.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b2f81545-dfc2-45c8-9232-2ca08c468df5/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/b/b2f81545-dfc2-45c8-9232-2ca08c468df5/cover.jpg?v=1"
 slug: "5-MykeHurley"
 ---
 

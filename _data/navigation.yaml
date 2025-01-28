@@ -4,9 +4,9 @@
   link: /contact
 - name: Store
   link: https://cottonbureau.com/products/launched-podcast
-- name: Sponsors
-  link: /sponsors
-- name: Membership
-  link: /membership
+# - name: Sponsors
+#   link: /sponsors
+# - name: Membership
+#   link: /membership
 - name: Subscribe
   link: /subscribe

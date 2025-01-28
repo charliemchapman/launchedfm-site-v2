@@ -3,7 +3,7 @@ title: "66: Structured - Leo Mehlig"
 description: "Leo Mehlig joins the show to talk about building and growing his day planner app Structured."
 duration: "1:16:53"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/5c67a04f-f1f0-4553-a511-5cf4e029c534.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5c67a04f-f1f0-4553-a511-5cf4e029c534/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/5/5c67a04f-f1f0-4553-a511-5cf4e029c534/cover.jpg?v=1"
 slug: "66-Structured-LeoMehlig"
 ---
 

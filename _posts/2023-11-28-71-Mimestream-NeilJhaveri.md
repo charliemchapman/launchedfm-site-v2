@@ -3,7 +3,7 @@ title: "71: Mimestream - Neil Jhaveri"
 description: "Neil Jhaveri joins the show to talk about building and launching the outstanding Mac email client Mimestream."
 duration: "1:50:30"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/e25678ac-f6f4-42be-a6f3-0817b72af71b.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e25678ac-f6f4-42be-a6f3-0817b72af71b/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/e25678ac-f6f4-42be-a6f3-0817b72af71b/cover.jpg?v=1"
 slug: "71-Mimestream-NeilJhaveri"
 ---
 

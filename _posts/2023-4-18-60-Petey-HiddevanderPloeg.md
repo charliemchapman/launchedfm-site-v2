@@ -3,7 +3,7 @@ title: "60: Petey - Hidde van der Ploeg"
 description: "Hidde van der Ploeg joins the show to talk about creating the watchOS AI assistant app Petey."
 duration: "1:06:31"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/ab73f3cc-91a2-4330-a264-87932f764096.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/ab73f3cc-91a2-4330-a264-87932f764096/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/a/ab73f3cc-91a2-4330-a264-87932f764096/cover.jpg?v=1"
 slug: "60-Petey-HiddevanderPloeg"
 ---
 

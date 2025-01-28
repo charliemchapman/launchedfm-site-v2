@@ -3,7 +3,7 @@ title: "55: Hand Mirror - Rafa Conde"
 description: "Rafa joins the show to discuss his career and building the amazing Mac utility app Hand Mirror."
 duration: "1:50:04"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/9cd801ef-ff43-4a1d-827c-a4f732c8055f.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9cd801ef-ff43-4a1d-827c-a4f732c8055f/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/9/9cd801ef-ff43-4a1d-827c-a4f732c8055f/cover.jpg?v=1"
 slug: "55-HandMirror-RafaConde"
 ---
 

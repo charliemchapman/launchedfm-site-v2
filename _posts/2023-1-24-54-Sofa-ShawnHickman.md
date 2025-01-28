@@ -3,7 +3,7 @@ title: "54: Sofa - Shawn Hickman"
 description: "Shawn Hickman joins the show to talk about building the downtime organizer app Sofa."
 duration: "1:26:14"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/86becdad-3950-4a5a-a8f3-c4c635a4775f.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/86becdad-3950-4a5a-a8f3-c4c635a4775f/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/86becdad-3950-4a5a-a8f3-c4c635a4775f/cover.jpg?v=1"
 slug: "54-Sofa-ShawnHickman"
 ---
 

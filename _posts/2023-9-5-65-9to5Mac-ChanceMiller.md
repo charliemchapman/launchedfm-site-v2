@@ -3,7 +3,7 @@ title: "65: 9to5Mac - Chance Miller"
 description: "Chance Miller joins the show to talk about what it means to be Editor-in-Chief at 9to5Mac."
 duration: "1:25:08"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/0dd378ee-a861-4173-ab37-e44ec3b67183.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0dd378ee-a861-4173-ab37-e44ec3b67183/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/0/0dd378ee-a861-4173-ab37-e44ec3b67183/cover.jpg?v=1"
 slug: "65-9to5Mac-ChanceMiller"
 ---
 

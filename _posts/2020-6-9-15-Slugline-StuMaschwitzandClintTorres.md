@@ -3,7 +3,7 @@ title: "15: Slugline - Stu Maschwitz and Clint Torres"
 description: "Stu Maschwitz and Clint Torres join the show to talk about their Mac and iOS screenwriting app Slugline."
 duration: "1:21:20"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/dc2990e8-0b7f-4fb9-bcaa-f53e84501051.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/dc2990e8-0b7f-4fb9-bcaa-f53e84501051/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/dc2990e8-0b7f-4fb9-bcaa-f53e84501051/cover.jpg?v=1"
 slug: "15-Slugline-StuMaschwitzandClintTorres"
 ---
 

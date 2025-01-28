@@ -3,7 +3,7 @@ title: "67: Chronicling - Rebecca Owen"
 description: "Rebecca Owen joins the show about launching her new event tracking app Chronicling."
 duration: "1:11:54"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/2ed0ec7c-a178-4273-a1eb-03888e835972.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/2ed0ec7c-a178-4273-a1eb-03888e835972/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/2/2ed0ec7c-a178-4273-a1eb-03888e835972/cover.jpg?v=1"
 slug: "67-Chronicling-RebeccaOwen"
 ---
 

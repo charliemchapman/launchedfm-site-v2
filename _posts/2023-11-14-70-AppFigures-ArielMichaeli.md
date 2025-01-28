@@ -3,7 +3,7 @@ title: "70: AppFigures - Ariel Michaeli"
 description: "Ariel Michaeli, co-founder and CEO of AppFigures, joins the show to talk about his career and building and launching the popular mobile app intelligence and ASO service."
 duration: "1:44:31"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d7b905e6-245c-4cc9-846c-0e9fa77a59df.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d7b905e6-245c-4cc9-846c-0e9fa77a59df/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d7b905e6-245c-4cc9-846c-0e9fa77a59df/cover.jpg?v=1"
 slug: "70-AppFigures-ArielMichaeli"
 ---
 

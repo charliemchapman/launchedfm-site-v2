@@ -3,7 +3,7 @@ title: "63: Nihongo - Chris Vasselli"
 description: "Chris Vasselli joins the show to talk about his Japanese dictionary study app Nihongo."
 duration: "1:40:12"
 audioUrl: "https://aphid.fireside.fm/d/1437767933/65632ad5-59b2-4e30-82d1-13845dce07dd/d0d2ce64-6057-427d-b5b6-48b513054fbf.mp3"
-image: "https://assets.fireside.fm/file/fireside-images/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d0d2ce64-6057-427d-b5b6-48b513054fbf/cover.jpg"
+image: "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/d/d0d2ce64-6057-427d-b5b6-48b513054fbf/cover.jpg?v=1"
 slug: "63-Nihongo-ChrisVasselli"
 ---
 
