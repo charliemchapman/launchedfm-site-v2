@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2025-02-12T08:40:03-06:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">77: AltStore - Riley Testut</title><link href="https://launchedfm.com/episodes/77-AltStore-RileyTestut" rel="alternate" type="text/html" title="77: AltStore - Riley Testut" /><published>2025-02-12T00:00:00-06:00</published><updated>2025-02-12T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/77-AltStore-RileyTestut</id><content type="html" xml:base="https://launchedfm.com/episodes/77-AltStore-RileyTestut">&lt;p&gt;Riley Testut joins the show to talk about his history in iOS emulators and the wild story behind the creation of AltStore, one of the first alternative app stores for iOS.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://launchedfm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://launchedfm.com/" rel="alternate" type="text/html" /><updated>2025-04-22T08:39:19-05:00</updated><id>https://launchedfm.com/feed.xml</id><title type="html">Launched FM</title><subtitle>The stories behind your favorite apps.</subtitle><entry><title type="html">78: The Art of Fauna - Klemens Strasser</title><link href="https://launchedfm.com/episodes/78-TheArtofFauna-KlemensStrasser" rel="alternate" type="text/html" title="78: The Art of Fauna - Klemens Strasser" /><published>2025-04-22T00:00:00-05:00</published><updated>2025-04-22T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/78-TheArtofFauna-KlemensStrasser</id><content type="html" xml:base="https://launchedfm.com/episodes/78-TheArtofFauna-KlemensStrasser">&lt;p&gt;Klemens Strasser joins the show to talk about his indie iOS game development career, winning an Apple Design Award, and how he built and launched his latest game The Art of Fauna.&lt;/p&gt;
+
+&lt;h3&gt;Video Version&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/xdb6OEHDOFs&quot; rel=&quot;nofollow&quot;&gt;Watch the video version on YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bsky.app/profile/strasser.bsky.social&quot; rel=&quot;nofollow&quot;&gt;Klemens on Bluesky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@klemensstrasser&quot; rel=&quot;nofollow&quot;&gt;Klemens on Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/klemensstrasser&quot; rel=&quot;nofollow&quot;&gt;Klemens on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://strasser.app/&quot; rel=&quot;nofollow&quot;&gt;Klemens website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/app/apple-store/id1630468596&quot; rel=&quot;nofollow&quot;&gt;The Art of Fauna&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://flexibits.com/&quot; rel=&quot;nofollow&quot;&gt;Flexibits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bsky.app/profile/warpling.bsky.social&quot; rel=&quot;nofollow&quot;&gt;Ryan McLeod&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://viditb.com/&quot; rel=&quot;nofollow&quot;&gt;Vidit Bhargava&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/patterned/id1451427298&quot; rel=&quot;nofollow&quot;&gt;Patterned&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/alba-a-wildlife-adventure/id1528014682&quot; rel=&quot;nofollow&quot;&gt;Alba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://arcticonference.com/&quot; rel=&quot;nofollow&quot;&gt;ARCtic Conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.applevis.com/&quot; rel=&quot;nofollow&quot;&gt;AppleVis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/video-effects-editor-riveo/id1546053158&quot; rel=&quot;nofollow&quot;&gt;Riveo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.joshmobley.com/&quot; rel=&quot;nofollow&quot;&gt;Josh Mobley Music&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@leomehlig&quot; rel=&quot;nofollow&quot;&gt;Leo Mehlig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/jordibruin&quot; rel=&quot;nofollow&quot;&gt;Jordi Bruin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/hiddevdploeg&quot; rel=&quot;nofollow&quot;&gt;Hidde van der Ploeg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/asallen&quot; rel=&quot;nofollow&quot;&gt;Andy Allen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/frederikriedel?lang=en&quot; rel=&quot;nofollow&quot;&gt;Frederik Riedel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;More Launched&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCHBZvDkQfz4A_fi-QbsY_lw&quot; rel=&quot;nofollow&quot;&gt;Youtube Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bluesky - &lt;a href=&quot;https://bsky.app/profile/launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;@launchedfm.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Threads - &lt;a href=&quot;https://www.threads.net/@launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Klemens Strasser joins the show to talk about his indie iOS game development career, winning an Apple Design Award, and how he built and launched his latest game The Art of Fauna.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/46203da5-55c8-4381-b3d6-4a95708f0ffe/cover.jpg?v=1" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/4/46203da5-55c8-4381-b3d6-4a95708f0ffe/cover.jpg?v=1" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">77: AltStore - Riley Testut</title><link href="https://launchedfm.com/episodes/77-AltStore-RileyTestut" rel="alternate" type="text/html" title="77: AltStore - Riley Testut" /><published>2025-02-12T00:00:00-06:00</published><updated>2025-02-12T00:00:00-06:00</updated><id>https://launchedfm.com/episodes/77-AltStore-RileyTestut</id><content type="html" xml:base="https://launchedfm.com/episodes/77-AltStore-RileyTestut">&lt;p&gt;Riley Testut joins the show to talk about his history in iOS emulators and the wild story behind the creation of AltStore, one of the first alternative app stores for iOS.&lt;/p&gt;
 
 &lt;h3&gt;Video Version&lt;/h3&gt;
 
@@ -7,9 +46,9 @@
 &lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;&quot; rel=&quot;nofollow&quot;&gt;Riley on Mastodon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot; rel=&quot;nofollow&quot;&gt;Riley on Bluesky&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot; rel=&quot;nofollow&quot;&gt;Riley on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@rileytestut&quot; rel=&quot;nofollow&quot;&gt;Riley on Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bsky.app/profile/riley.social&quot; rel=&quot;nofollow&quot;&gt;Riley on Bluesky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/rileytestut&quot; rel=&quot;nofollow&quot;&gt;Riley on Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://altstore.io/&quot; rel=&quot;nofollow&quot;&gt;AltStore&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://faq.deltaemulator.com/&quot; rel=&quot;nofollow&quot;&gt;Delta&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://rileytestut.com/&quot; rel=&quot;nofollow&quot;&gt;Riley&amp;#39;s personal website&lt;/a&gt;&lt;/li&gt;
@@ -288,45 +327,4 @@
 &lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Threads - &lt;a href=&quot;https://www.threads.net/@launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Lisa Figas &amp;amp; Daniel Jilg join the show to talk about launching and building the privacy focused analytics service TelemetryDeck.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg?v=1" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg?v=1" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">68: Söka - Roddy Munro</title><link href="https://launchedfm.com/episodes/68-Soka-RoddyMunro" rel="alternate" type="text/html" title="68: Söka - Roddy Munro" /><published>2023-10-17T00:00:00-05:00</published><updated>2023-10-17T00:00:00-05:00</updated><id>https://launchedfm.com/episodes/68-Soka-RoddyMunro</id><content type="html" xml:base="https://launchedfm.com/episodes/68-Soka-RoddyMunro">&lt;p&gt;Roddy Munro joins the show to talk about his career and launching the AI powered bucket list app Söka.&lt;/p&gt;
-
-&lt;h4&gt;Edited by&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mastodon.online/@refactoredd&quot; rel=&quot;nofollow&quot;&gt;Jonathan Ruiz&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Episode Sponsors&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.apple.com/us/app/kolibri-for-swiftui/id6447380792&quot; rel=&quot;nofollow&quot;&gt;Kolibri for SwiftUI&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;Links &amp;amp; Show Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://iosdev.space/@podomunro&quot; rel=&quot;nofollow&quot;&gt;Roddy on Mastodon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://trysoka.app/&quot; rel=&quot;nofollow&quot;&gt;Söka&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://getclassifier.app/&quot; rel=&quot;nofollow&quot;&gt;Classifier&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ceramispace.app/&quot; rel=&quot;nofollow&quot;&gt;Ceramispace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.macstories.net/reviews/soka-an-ai-assisted-app-to-track-your-bucket-lists/&quot; rel=&quot;nofollow&quot;&gt;Söka Macstories Article&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@MuseumShuffle&quot; rel=&quot;nofollow&quot;&gt;Chris Wu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mstdn.social/@chrisvasselli&quot; rel=&quot;nofollow&quot;&gt;Chris Vasselli&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://substack.com/@roddymunro&quot; rel=&quot;nofollow&quot;&gt;Roddy on Substack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Support Launched&lt;/h3&gt;
-
-&lt;p&gt;⭐️ &lt;a href=&quot;http://membership.launchedfm.com/&quot; rel=&quot;nofollow&quot;&gt;Become a member&lt;/a&gt; to support the show and get ad-free episodes!&lt;/p&gt;
-
-&lt;h3&gt;🚀 Rocket Patrons&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://mastodon.social/@cameronmcefee&quot; rel=&quot;nofollow&quot;&gt;Cameron McEfee&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;More Launched&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Website - &lt;a href=&quot;https://launchedfm.com&quot; rel=&quot;nofollow&quot;&gt;launchedfm.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitter - &lt;a href=&quot;https://twitter.com/launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mastodon - &lt;a href=&quot;https://mastodon.social/@Launched&quot; rel=&quot;nofollow&quot;&gt;@Launched@mastodon.social&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Threads - &lt;a href=&quot;https://www.threads.net/@launchedfm&quot; rel=&quot;nofollow&quot;&gt;@LaunchedFM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://launchedfm.com/sponsors&quot; rel=&quot;nofollow&quot;&gt;Become a sponsor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Roddy Munro joins the show to talk about his career and launching the AI powered bucket list app Söka.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed6919d3-393d-476b-b580-ac1720852bbe/cover.jpg?v=1" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/e/ed6919d3-393d-476b-b580-ac1720852bbe/cover.jpg?v=1" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Lisa Figas &amp;amp; Daniel Jilg join the show to talk about launching and building the privacy focused analytics service TelemetryDeck.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg?v=1" /><media:content medium="image" url="https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/6/65632ad5-59b2-4e30-82d1-13845dce07dd/episodes/8/8a858197-f5ab-4014-b160-8f8d3e60d311/cover.jpg?v=1" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
